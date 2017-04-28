@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="aeea65dc-1058-4786-9a16-edb58718a23c" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions for the "Export Active Frames as GIF" sub-menu.</para>
+      <mediaLink>
+        <image xlink:href="Export-Active-Frames-as-GIF"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>100%</legacyBold>: Export the active animation sequence as a GIF at its normal size.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>200%</legacyBold>: Export the active animation sequence as a GIF at two times its normal size.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Custom %</legacyBold>: Export the active animation sequence as a GIF at the manually specified size.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="a3af74a5-7c62-4d5d-abd7-abda6643d22e" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available options of the "Constructed Palette" window.</para>
+    </introduction>
+    <section address="CompressedView">
+      <title>Compressed View</title>
+      <content>
+        <para>This view provides one color swatch per distinct color in the loaded image.</para>
+        <mediaLink>
+          <image xlink:href="Constructed-Palette-Compressed"/>
+        </mediaLink>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Mouse-Over Swatch</legacyBold>: Displays the hue, saturation, and brightness of the color in the swatch.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Use Count for Size Cloud</legacyBold> (checkbox): While active, the color swatch's rectangle reflects its relative importance to the image. Otherwise, all the colors share the same size.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="ExtendedView">
+      <title>Extended View</title>
+      <content>
+        <para>This view provides one color row per distinct color in the loaded image.</para>
+        <mediaLink>
+          <image xlink:href="Constructed-Palette"/>
+        </mediaLink>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

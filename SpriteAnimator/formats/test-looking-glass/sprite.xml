@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format name="TEST: Looking Glass -I-" target-rows="2" target-columns="6" base-width="500" base-height="500" frame-width="480" frame-height="300" no-sampling="true" target-start="1" target-end="12" target-ms="80" status="Demonstration only." on-load-zoom=".4">
+  <reference>
+    <protected-colors>
+      <color r="255" g="255" b="255" />
+    </protected-colors>
+  </reference>
+  <frames>
+    <frame id="999" s="0" t="0" w="1" h="1" />
+    <frame id="1" s="1" t="1" w="93" h="403" />
+    <frame id="4" s="331" t="1" w="71" h="72" />
+    <frame id="5" s="403" t="1" w="71" h="72" />
+  </frames>
+  <guides>
+    <guide type="horizontal" value="150" />
+    <guide type="vertical" value="240" />
+  </guides>
+  <colors>
+    <color name="red"    r="1"   g="0"   b="0"   a="1" />
+    <color name="green"  r="0"   g="1"   b="0"   a="1" />
+    <color name="blue"   r="0"   g="0"   b="1"   a="1" />
+    <color name="purple" r="1"   g="0"   b="1"   a="1" />
+    <color name="black"  r="0"   g="0"   b="0"   a="1" />
+    <color name="yellow" r="1"   g="1"   b="0"   a="1" />
+    <color name="gray"   r=".98" g=".98" b=".98" a="1" />
+  </colors>
+  <motion-tweens>
+    <motion-tween id="1" length-in-frames="7">
+      <!-- 1 -->
+      <color-state name="red" />
+      <!-- 2 -->
+      <color-state name="blue" />
+      <!-- 3 -->
+      <color-state name="green" />
+      <!-- 4 -->
+      <color-state name="purple" />
+      <!-- 5 -->
+      <color-state name="black" />
+      <!-- 6 -->
+      <color-state name="yellow" />
+      <!-- 7 -->
+      <color-state name="gray" />
+    </motion-tween>
+  </motion-tweens>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="4" offset-x="-40" offset-y="-74" tween="1" frame-in-tween="1" blend="color-dodge" />
+      <frame id="5" offset-x="-40" offset-y="-74" blend="color-dodge" />
+      <frame id="1" offset-x="-52" offset-y="-101" />
+      <frame id="4" offset-x="-222" offset-y="-20" tween="1" frame-in-tween="2" blend="color-dodge" rotation-z="-33" />
+      <frame id="4" offset-x="-346" offset-y="121" tween="1" frame-in-tween="3" blend="color-dodge" rotation-z="-69" />
+      <frame id="4" offset-x="-373" offset-y="261" tween="1" frame-in-tween="4" blend="color-dodge" rotation-z="-72" />
+      <frame id="4" offset-x="-345" offset-y="397" tween="1" frame-in-tween="5" blend="color-dodge" rotation-z="-120" />
+      <frame id="4" offset-x="-237" offset-y="529" tween="1" frame-in-tween="6" blend="color-dodge" rotation-z="-117" />
+      <frame id="4" offset-x="-40" offset-y="597" tween="1" frame-in-tween="7" blend="color-dodge" rotation-z="-171" />
+      <frame id="1" offset-x="-159" offset-y="-70" rotation-z="-33" />
+      <frame id="1" offset-x="-232" offset-y="12" rotation-z="-66" />
+      <frame id="1" offset-x="-248" offset-y="95" rotation-z="-90" />
+      <frame id="1" offset-x="-230" offset-y="175" rotation-z="-114" />
+      <frame id="1" offset-x="-167" offset-y="254" rotation-z="-144" />
+      <frame id="1" offset-x="-52" offset-y="293" rotation-z="-180" />
+    </composite-frame>
+  </composite-frames>
+</format>

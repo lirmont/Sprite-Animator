@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="baeb4850-e00b-4b70-be36-5d11aac4e003" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions in the context of the "Available Attachments" window.</para>
+      <mediaLink>
+        <image xlink:href="Available-Attachments"/>
+      </mediaLink>
+    </introduction>
+    <section address="MouseActions">
+      <title>Attachment Row Mouse Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold> (image box): Clicking the image box control opens a file selection dialog. Selecting an image within this dialog attaches the image to the name, reloading the appropriate composite frames to reflect this.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click Eye</legacyBold> (image box): Clicking the eye's image box control sets the visibility of the attached image, reloading the appropriate composite frames to reflect this.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click "X"</legacyBold> (image box): Clicking the row's "X" image box control removes the attached image, reloading the appropriate composite frames to reflect this.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

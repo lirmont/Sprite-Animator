@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format base-width="256" base-height="488" name="FFT: CYOKO" status="Demonstration only." frame-width="56" frame-height="56" target-rows="10" target-columns="21" target-start="2" target-end="9" target-ms="143" on-load-zoom="1.00" no-sampling="True">
+  <frames>
+    <frame id="1" s="240" t="0" w="8" h="8" />
+    <frame id="2" s="240" t="200" w="8" h="8" />
+    <frame id="3" s="112" t="0" w="16" h="16" />
+    <frame id="4" s="0" t="24" w="24" h="8" />
+    <frame id="5" s="0" t="0" w="32" h="24" />
+    <frame id="6" s="96" t="0" w="16" h="24" />
+    <frame id="7" s="200" t="64" w="24" h="24" />
+    <frame id="8" s="32" t="48" w="24" h="16" />
+    <frame id="9" s="32" t="32" w="24" h="16" />
+    <frame id="10" s="216" t="0" w="16" h="16" />
+    <frame id="11" s="64" t="64" w="24" h="16" />
+    <frame id="12" s="224" t="184" w="24" h="16" />
+    <frame id="13" s="232" t="0" w="16" h="16" />
+    <frame id="14" s="64" t="0" w="32" h="24" />
+    <frame id="15" s="224" t="32" w="24" h="16" />
+    <frame id="16" s="0" t="200" w="24" h="16" />
+    <frame id="17" s="0" t="216" w="24" h="16" />
+    <frame id="18" s="64" t="112" w="24" h="16" />
+    <frame id="19" s="160" t="136" w="16" h="24" />
+    <frame id="20" s="0" t="152" w="24" h="16" />
+    <frame id="21" s="32" t="96" w="16" h="8" />
+    <frame id="22" s="24" t="24" w="24" h="8" />
+    <frame id="23" s="200" t="0" w="16" h="16" />
+    <frame id="24" s="32" t="0" w="32" h="24" />
+    <frame id="25" s="200" t="88" w="24" h="24" />
+    <frame id="26" s="56" t="32" w="24" h="16" />
+    <frame id="27" s="0" t="56" w="32" h="24" />
+    <frame id="28" s="88" t="64" w="24" h="24" />
+    <frame id="29" s="200" t="112" w="24" h="24" />
+    <frame id="30" s="0" t="32" w="32" h="24" />
+    <frame id="31" s="112" t="64" w="24" h="24" />
+    <frame id="32" s="80" t="48" w="24" h="16" />
+    <frame id="33" s="80" t="32" w="24" h="16" />
+    <frame id="34" s="64" t="88" w="24" h="24" />
+    <frame id="35" s="56" t="200" w="24" h="16" />
+    <frame id="36" s="144" t="136" w="16" h="24" />
+    <frame id="37" s="56" t="216" w="24" h="16" />
+    <frame id="38" s="24" t="152" w="24" h="16" />
+    <frame id="39" s="88" t="168" w="32" h="32" />
+    <frame id="40" s="176" t="136" w="16" h="24" />
+    <frame id="41" s="48" t="144" w="24" h="24" />
+    <frame id="42" s="128" t="200" w="16" h="16" />
+    <frame id="43" s="128" t="216" w="24" h="16" />
+    <frame id="44" s="160" t="64" w="8" h="8" />
+    <frame id="45" s="176" t="0" w="24" h="24" />
+    <frame id="46" s="136" t="72" w="24" h="16" />
+    <frame id="47" s="160" t="80" w="16" h="16" />
+    <frame id="48" s="112" t="88" w="24" h="16" />
+    <frame id="49" s="160" t="96" w="16" h="16" />
+    <frame id="50" s="136" t="48" w="24" h="24" />
+    <frame id="51" s="168" t="176" w="24" h="24" />
+    <frame id="52" s="176" t="96" w="24" h="16" />
+    <frame id="53" s="72" t="144" w="24" h="24" />
+    <frame id="54" s="128" t="24" w="8" h="8" />
+    <frame id="55" s="160" t="168" w="32" h="32" />
+    <frame id="56" s="24" t="136" w="24" h="16" />
+    <frame id="57" s="224" t="16" w="16" h="16" />
+    <frame id="58" s="0" t="80" w="32" h="24" />
+    <frame id="59" s="224" t="48" w="16" h="24" />
+    <frame id="60" s="88" t="112" w="24" h="16" />
+    <frame id="61" s="0" t="168" w="32" h="32" />
+    <frame id="62" s="224" t="120" w="24" h="16" />
+    <frame id="63" s="96" t="144" w="32" h="24" />
+    <frame id="64" s="24" t="120" w="24" h="16" />
+    <frame id="65" s="24" t="104" w="24" h="16" />
+    <frame id="66" s="88" t="88" w="24" h="16" />
+    <frame id="67" s="128" t="168" w="32" h="32" />
+    <frame id="68" s="200" t="16" w="24" h="24" />
+    <frame id="69" s="32" t="64" w="32" h="32" />
+    <frame id="70" s="136" t="88" w="24" h="24" />
+    <frame id="71" s="24" t="200" w="32" h="32" />
+    <frame id="72" s="128" t="136" w="16" h="16" />
+    <frame id="73" s="56" t="232" w="24" h="16" />
+    <frame id="74" s="80" t="232" w="24" h="16" />
+    <frame id="75" s="152" t="112" w="24" h="24" />
+    <frame id="76" s="128" t="152" w="16" h="16" />
+    <frame id="77" s="104" t="32" w="32" h="32" />
+    <frame id="78" s="152" t="200" w="32" h="32" />
+    <frame id="79" s="0" t="136" w="24" h="16" />
+    <frame id="80" s="112" t="104" w="24" h="16" />
+    <frame id="81" s="176" t="80" w="16" h="16" />
+    <frame id="82" s="88" t="128" w="24" h="16" />
+    <frame id="83" s="240" t="16" w="8" h="8" />
+    <frame id="84" s="32" t="168" w="24" h="16" />
+    <frame id="85" s="0" t="232" w="32" h="16" />
+    <frame id="86" s="32" t="232" w="24" h="16" />
+    <frame id="87" s="32" t="184" w="24" h="8" />
+    <frame id="88" s="240" t="24" w="8" h="8" />
+    <frame id="89" s="48" t="128" w="16" h="16" />
+    <frame id="90" s="200" t="40" w="24" h="24" />
+    <frame id="91" s="224" t="96" w="24" h="24" />
+    <frame id="92" s="112" t="16" w="16" h="16" />
+    <frame id="93" s="176" t="112" w="24" h="16" />
+    <frame id="94" s="48" t="112" w="16" h="16" />
+    <frame id="95" s="224" t="72" w="24" h="24" />
+    <frame id="96" s="224" t="160" w="24" h="24" />
+    <frame id="97" s="184" t="200" w="32" h="32" />
+    <frame id="98" s="216" t="200" w="32" h="32" />
+    <frame id="99" s="200" t="320" w="24" h="24" />
+    <frame id="100" s="0" t="376" w="24" h="16" />
+    <frame id="101" s="240" t="256" w="8" h="8" />
+    <frame id="102" s="0" t="360" w="24" h="16" />
+    <frame id="103" s="216" t="256" w="16" h="16" />
+    <frame id="104" s="88" t="344" w="24" h="16" />
+    <frame id="105" s="200" t="368" w="24" h="24" />
+    <frame id="106" s="24" t="376" w="24" h="16" />
+    <frame id="107" s="24" t="360" w="24" h="16" />
+    <frame id="108" s="112" t="360" w="24" h="16" />
+    <frame id="109" s="224" t="272" w="16" h="16" />
+    <frame id="110" s="200" t="344" w="24" h="24" />
+    <frame id="111" s="0" t="336" w="32" h="24" />
+    <frame id="112" s="112" t="320" w="24" h="24" />
+    <frame id="113" s="32" t="304" w="24" h="16" />
+    <frame id="114" s="32" t="288" w="24" h="16" />
+    <frame id="115" s="224" t="304" w="16" h="24" />
+    <frame id="116" s="88" t="320" w="24" h="24" />
+    <frame id="117" s="56" t="304" w="24" h="16" />
+    <frame id="118" s="224" t="328" w="24" h="24" />
+    <frame id="119" s="0" t="456" w="24" h="16" />
+    <frame id="120" s="32" t="424" w="24" h="16" />
+    <frame id="121" s="88" t="368" w="24" h="16" />
+    <frame id="122" s="160" t="392" w="16" h="24" />
+    <frame id="123" s="0" t="408" w="24" h="16" />
+    <frame id="124" s="240" t="456" w="8" h="8" />
+    <frame id="125" s="128" t="424" w="32" h="32" />
+    <frame id="126" s="0" t="424" w="32" h="32" />
+    <frame id="127" s="224" t="392" w="24" h="24" />
+    <frame id="128" s="144" t="392" w="16" h="24" />
+    <frame id="129" s="48" t="400" w="24" h="24" />
+    <frame id="130" s="32" t="440" w="24" h="16" />
+    <frame id="131" s="176" t="392" w="16" h="24" />
+    <frame id="132" s="224" t="376" w="24" h="16" />
+    <frame id="133" s="224" t="416" w="24" h="24" />
+    <frame id="134" s="176" t="320" w="24" h="16" />
+    <frame id="135" s="224" t="352" w="24" h="24" />
+    <frame id="136" s="64" t="384" w="24" h="16" />
+    <frame id="137" s="176" t="368" w="24" h="24" />
+    <frame id="138" s="200" t="272" w="24" h="24" />
+    <frame id="139" s="32" t="320" w="32" h="32" />
+    <frame id="140" s="200" t="296" w="24" h="24" />
+    <frame id="141" s="184" t="288" w="16" h="16" />
+    <frame id="142" s="184" t="304" w="16" h="16" />
+    <frame id="143" s="136" t="344" w="24" h="24" />
+    <frame id="144" s="112" t="256" w="16" h="16" />
+    <frame id="145" s="0" t="280" w="24" h="8" />
+    <frame id="146" s="0" t="256" w="32" h="24" />
+    <frame id="147" s="160" t="352" w="16" h="16" />
+    <frame id="148" s="24" t="456" w="32" h="32" />
+    <frame id="149" s="136" t="328" w="24" h="16" />
+    <frame id="150" s="64" t="368" w="24" h="16" />
+    <frame id="151" s="72" t="400" w="24" h="24" />
+    <frame id="152" s="136" t="368" w="16" h="24" />
+    <frame id="153" s="128" t="392" w="16" h="16" />
+    <frame id="154" s="104" t="288" w="32" h="32" />
+    <frame id="155" s="152" t="456" w="32" h="32" />
+    <frame id="156" s="48" t="24" w="32" h="8" />
+    <frame id="157" s="112" t="120" w="24" h="16" />
+    <frame id="158" s="136" t="24" w="24" h="24" />
+    <frame id="159" s="160" t="48" w="24" h="16" />
+    <frame id="160" s="160" t="24" w="24" h="24" />
+    <frame id="161" s="192" t="136" w="24" h="16" />
+    <frame id="162" s="192" t="152" w="32" h="16" />
+    <frame id="163" s="192" t="168" w="32" h="16" />
+    <frame id="164" s="112" t="136" w="16" h="8" />
+    <frame id="165" s="64" t="128" w="16" h="16" />
+    <frame id="166" s="160" t="304" w="24" h="16" />
+    <frame id="167" s="112" t="376" w="24" h="16" />
+    <frame id="168" s="136" t="280" w="24" h="24" />
+    <frame id="169" s="160" t="280" w="24" h="24" />
+    <frame id="170" s="192" t="392" w="24" h="16" />
+    <frame id="171" s="48" t="280" w="32" h="8" />
+    <frame id="172" s="192" t="408" w="32" h="16" />
+    <frame id="173" s="112" t="392" w="16" h="8" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="2">
+      <frame id="3" flip-x="False" offset-x="13" offset-y="8" />
+      <frame id="3" flip-x="True" offset-x="29" offset-y="8" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="4" flip-x="False" offset-x="14" offset-y="44" />
+      <frame id="5" flip-x="False" offset-x="12" offset-y="22" />
+      <frame id="6" flip-x="False" offset-x="20" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="8" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="9" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="16" />
+      <frame id="11" flip-x="False" offset-x="22" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="12" flip-x="False" offset-x="14" offset-y="36" />
+      <frame id="13" flip-x="False" offset-x="26" offset-y="5" />
+      <frame id="14" flip-x="False" offset-x="14" offset-y="20" />
+      <frame id="15" flip-x="False" offset-x="11" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="17" flip-x="False" offset-x="11" offset-y="37" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="11" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="20" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="21" flip-x="False" offset-x="19" offset-y="37" />
+      <frame id="22" flip-x="False" offset-x="15" offset-y="43" />
+      <frame id="23" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="24" flip-x="False" offset-x="11" offset-y="19" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="16" flip-x="True" offset-x="17" offset-y="23" />
+      <frame id="17" flip-x="True" offset-x="18" offset-y="37" />
+      <frame id="18" flip-x="True" offset-x="20" offset-y="11" />
+      <frame id="19" flip-x="True" offset-x="8" offset-y="15" />
+      <frame id="20" flip-x="True" offset-x="17" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="12" flip-x="True" offset-x="16" offset-y="38" />
+      <frame id="13" flip-x="True" offset-x="8" offset-y="7" />
+      <frame id="14" flip-x="True" offset-x="8" offset-y="22" />
+      <frame id="15" flip-x="True" offset-x="19" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="7" flip-x="True" offset-x="10" offset-y="12" />
+      <frame id="8" flip-x="True" offset-x="18" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="9" flip-x="True" offset-x="18" offset-y="29" />
+      <frame id="10" flip-x="True" offset-x="26" offset-y="16" />
+      <frame id="11" flip-x="True" offset-x="7" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="10">
+      <frame id="25" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="26" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="9" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="10" flip-x="False" offset-x="12" offset-y="16" />
+      <frame id="11" flip-x="False" offset-x="22" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="11">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="27" flip-x="False" offset-x="8" offset-y="29" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="17" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="12">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="30" flip-x="False" offset-x="8" offset-y="30" />
+      <frame id="10" flip-x="False" offset-x="10" offset-y="18" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="13">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="32" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="33" flip-x="False" offset-x="9" offset-y="25" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="17" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="14">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="34" flip-x="False" offset-x="11" offset-y="30" />
+      <frame id="10" flip-x="False" offset-x="10" offset-y="18" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="15">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="35" flip-x="False" offset-x="12" offset-y="38" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="12" />
+      <frame id="36" flip-x="False" offset-x="29" offset-y="16" />
+      <frame id="20" flip-x="False" offset-x="12" offset-y="26" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="16">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="37" flip-x="False" offset-x="12" offset-y="37" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="13" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="17" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="17">
+      <frame id="39" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="18" />
+      <frame id="41" flip-x="False" offset-x="12" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="18">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="42" flip-x="False" offset-x="16" offset-y="37" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="13" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="17" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="19">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="43" flip-x="False" offset-x="12" offset-y="38" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="14" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="18" />
+      <frame id="41" flip-x="False" offset-x="12" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="20">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="44" flip-x="False" offset-x="5" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="26" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="16" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="21">
+      <frame id="47" flip-x="False" offset-x="5" offset-y="10" />
+      <frame id="29" flip-x="False" offset-x="20" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="26" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="17" />
+      <frame id="48" flip-x="False" offset-x="21" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="22">
+      <frame id="49" flip-x="False" offset-x="3" offset-y="16" />
+      <frame id="25" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="26" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="15" />
+      <frame id="50" flip-x="False" offset-x="17" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="23">
+      <frame id="44" flip-x="True" offset-x="24" offset-y="13" />
+      <frame id="51" flip-x="False" offset-x="8" offset-y="31" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="12" />
+      <frame id="19" flip-x="False" offset-x="26" offset-y="16" />
+      <frame id="52" flip-x="False" offset-x="6" offset-y="23" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="24">
+      <frame id="47" flip-x="True" offset-x="25" offset-y="11" />
+      <frame id="51" flip-x="False" offset-x="8" offset-y="31" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="13" />
+      <frame id="36" flip-x="False" offset-x="26" offset-y="16" />
+      <frame id="53" flip-x="False" offset-x="5" offset-y="13" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="25">
+      <frame id="54" flip-x="False" offset-x="24" offset-y="19" />
+      <frame id="55" flip-x="False" offset-y="23" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="11" />
+      <frame id="40" flip-x="False" offset-x="26" offset-y="16" />
+      <frame id="56" flip-x="False" offset-x="5" offset-y="24" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="26">
+      <frame id="7" flip-x="False" offset-x="19" offset-y="12" />
+      <frame id="8" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="9" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="57" flip-x="False" offset-x="10" offset-y="17" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="27">
+      <frame id="25" flip-x="False" offset-x="17" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="58" flip-x="False" offset-x="10" offset-y="29" />
+      <frame id="59" flip-x="False" offset-x="7" offset-y="20" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="28">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="17" flip-x="False" offset-x="11" offset-y="37" />
+      <frame id="60" flip-x="False" offset-x="9" offset-y="13" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="16" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="26" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="29">
+      <frame id="61" flip-x="False" offset-x="7" offset-y="21" />
+      <frame id="62" flip-x="False" offset-x="10" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="63" flip-x="False" offset-x="17" offset-y="19" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="30">
+      <frame id="29" flip-x="False" offset-x="24" offset-y="21" />
+      <frame id="64" flip-x="False" offset-x="14" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="65" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="57" flip-x="False" offset-x="19" offset-y="14" />
+      <frame id="66" flip-x="False" offset-x="23" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="31">
+      <frame id="67" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="60" flip-x="False" offset-x="16" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="19" flip-x="False" offset-x="24" offset-y="19" />
+      <frame id="20" flip-x="False" offset-x="17" offset-y="29" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="32">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="46" flip-x="True" offset-x="-1" offset-y="20" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="33">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="48" flip-x="True" offset-x="1" offset-y="19" />
+      <frame id="10" flip-x="False" offset-x="17" offset-y="16" />
+    </composite-frame>
+    <composite-frame id="34">
+      <frame id="49" flip-x="True" offset-x="25" offset-y="21" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="70" flip-x="True" offset-x="4" offset-y="25" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="35">
+      <frame id="44" flip-x="False" offset-x="4" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="12" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="36">
+      <frame id="47" flip-x="False" offset-x="7" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="12" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="37">
+      <frame id="72" flip-x="False" offset-x="4" offset-y="25" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="38">
+      <frame id="73" flip-x="False" offset-x="13" offset-y="38" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="39">
+      <frame id="74" flip-x="False" offset-x="18" offset-y="38" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="40">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="75" flip-x="False" offset-x="5" offset-y="26" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="41">
+      <frame id="76" flip-x="False" offset-y="26" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="22" offset-y="19" />
+      <frame id="60" flip-x="False" offset-x="8" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="42">
+      <frame id="7" flip-x="False" offset-x="22" offset-y="18" />
+      <frame id="44" flip-x="False" offset-x="5" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="77" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="10" flip-x="False" offset-x="13" offset-y="15" />
+      <frame id="46" flip-x="False" offset-x="24" offset-y="20" />
+    </composite-frame>
+    <composite-frame id="43">
+      <frame id="7" flip-x="False" offset-x="23" offset-y="20" />
+      <frame id="44" flip-x="False" offset-x="7" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="77" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="10" flip-x="False" offset-x="14" offset-y="14" />
+      <frame id="48" flip-x="False" offset-x="23" offset-y="20" />
+    </composite-frame>
+    <composite-frame id="44">
+      <frame id="7" flip-x="False" offset-x="23" offset-y="16" />
+      <frame id="49" flip-x="False" offset-x="8" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="77" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="10" flip-x="False" offset-x="12" offset-y="16" />
+      <frame id="70" flip-x="False" offset-x="19" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="45">
+      <frame id="78" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="44" flip-x="True" offset-x="25" offset-y="15" />
+      <frame id="18" flip-x="False" offset-x="13" offset-y="13" />
+      <frame id="19" flip-x="False" offset-x="27" offset-y="16" />
+      <frame id="79" flip-x="False" offset-x="8" offset-y="19" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="46">
+      <frame id="47" flip-x="True" offset-x="27" offset-y="11" />
+      <frame id="78" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="18" flip-x="False" offset-x="13" offset-y="14" />
+      <frame id="36" flip-x="False" offset-x="27" offset-y="16" />
+      <frame id="53" flip-x="False" offset-x="9" offset-y="11" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="47">
+      <frame id="49" flip-x="True" offset-x="26" offset-y="15" />
+      <frame id="78" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="18" flip-x="False" offset-x="12" offset-y="12" />
+      <frame id="40" flip-x="False" offset-x="27" offset-y="16" />
+      <frame id="56" flip-x="False" offset-x="7" offset-y="23" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="48">
+      <frame id="29" flip-x="False" offset-x="21" offset-y="16" />
+      <frame id="8" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="9" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="80" flip-x="False" offset-x="18" offset-y="27" />
+      <frame id="81" flip-x="False" offset-x="10" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="49">
+      <frame id="16" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="17" flip-x="False" offset-x="10" offset-y="37" />
+      <frame id="82" flip-x="False" offset-x="6" offset-y="15" />
+      <frame id="40" flip-x="False" offset-x="25" offset-y="17" />
+      <frame id="20" flip-x="False" offset-x="11" offset-y="26" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="50">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="22" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="83" flip-x="False" offset-x="9" offset-y="34" />
+      <frame id="84" flip-x="False" offset-x="16" offset-y="32" />
+      <frame id="85" flip-x="False" offset-x="9" offset-y="39" />
+      <frame id="81" flip-x="False" offset-x="15" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="51">
+      <frame id="86" flip-x="False" offset-x="10" offset-y="38" />
+      <frame id="87" flip-x="False" offset-x="18" offset-y="31" />
+      <frame id="82" flip-x="False" offset-x="16" offset-y="21" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="88" flip-x="False" offset-x="10" offset-y="31" />
+      <frame id="40" flip-x="False" offset-x="26" offset-y="28" />
+    </composite-frame>
+    <composite-frame id="52">
+      <frame id="89" flip-x="False" offset-x="29" offset-y="20" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="16" />
+      <frame id="70" flip-x="False" offset-x="9" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="53">
+      <frame id="89" flip-x="True" offset-x="-3" offset-y="18" />
+      <frame id="68" flip-x="True" offset-x="4" offset-y="25" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="19" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="54">
+      <frame id="89" flip-x="False" offset-x="29" offset-y="18" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="69" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="90" flip-x="False" offset-x="5" offset-y="10" />
+      <frame id="91" flip-x="False" offset-x="14" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="55">
+      <frame id="92" flip-x="False" offset-x="12" offset-y="7" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="71" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="93" flip-x="False" offset-x="6" offset-y="14" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="12" />
+    </composite-frame>
+    <composite-frame id="56">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="14" />
+      <frame id="32" flip-x="False" offset-x="11" offset-y="41" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="33" flip-x="False" offset-x="9" offset-y="26" />
+      <frame id="57" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="57">
+      <frame id="61" flip-x="False" offset-x="7" offset-y="23" />
+      <frame id="60" flip-x="False" offset-x="13" offset-y="16" />
+      <frame id="19" flip-x="False" offset-x="28" offset-y="19" />
+      <frame id="20" flip-x="False" offset-x="14" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="58">
+      <frame id="29" flip-x="False" offset-x="18" offset-y="19" />
+      <frame id="94" flip-x="False" offset-x="19" offset-y="40" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="34" flip-x="False" offset-x="10" offset-y="25" />
+      <frame id="95" flip-x="False" offset-x="4" offset-y="11" />
+      <frame id="66" flip-x="False" offset-x="20" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="59">
+      <frame id="16" flip-x="False" offset-x="15" offset-y="24" />
+      <frame id="43" flip-x="False" offset-x="14" offset-y="38" />
+      <frame id="96" flip-x="False" offset-x="6" offset-y="12" />
+      <frame id="40" flip-x="False" offset-x="28" offset-y="18" />
+      <frame id="41" flip-x="False" offset-x="10" offset-y="26" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="60">
+      <frame id="8" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="97" flip-x="False" offset-x="11" offset-y="12" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="61">
+      <frame id="17" flip-x="False" offset-x="11" offset-y="37" />
+      <frame id="98" flip-x="False" offset-x="11" offset-y="9" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="62">
+      <frame id="99" flip-x="False" offset-x="24" offset-y="15" />
+      <frame id="100" flip-x="False" offset-x="13" offset-y="40" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="102" flip-x="False" offset-x="10" offset-y="25" />
+      <frame id="103" flip-x="False" offset-x="15" offset-y="14" />
+      <frame id="104" flip-x="False" offset-x="20" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="63">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="18" />
+      <frame id="106" flip-x="False" offset-x="14" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="107" flip-x="False" offset-x="11" offset-y="25" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="13" />
+      <frame id="108" flip-x="False" offset-x="20" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="64">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="20" />
+      <frame id="106" flip-x="False" offset-x="14" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="107" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="109" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="108" flip-x="False" offset-x="21" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="65">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="109" flip-x="False" offset-x="5" offset-y="25" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="66">
+      <frame id="110" flip-x="False" offset-x="12" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="109" flip-x="False" offset-x="4" offset-y="26" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="67">
+      <frame id="99" flip-x="False" offset-x="18" offset-y="12" />
+      <frame id="113" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="114" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="115" flip-x="False" offset-x="5" offset-y="18" />
+      <frame id="116" flip-x="False" offset-x="15" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="68">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="115" flip-x="False" offset-x="2" offset-y="25" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="69">
+      <frame id="110" flip-x="False" offset-x="12" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="115" flip-x="False" offset-x="1" offset-y="27" />
+      <frame id="112" flip-x="False" offset-x="12" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="70">
+      <frame id="105" flip-x="False" offset-x="17" offset-y="21" />
+      <frame id="117" flip-x="False" offset-x="10" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="102" flip-x="False" offset-x="4" offset-y="25" />
+      <frame id="118" flip-x="False" offset-x="-2" offset-y="11" />
+      <frame id="104" flip-x="False" offset-x="16" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="71">
+      <frame id="105" flip-x="False" offset-x="17" offset-y="22" />
+      <frame id="117" flip-x="False" offset-x="10" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="102" flip-x="False" offset-x="4" offset-y="25" />
+      <frame id="118" flip-x="False" offset-x="-2" offset-y="10" />
+      <frame id="104" flip-x="False" offset-x="15" offset-y="25" />
+    </composite-frame>
+    <composite-frame id="72">
+      <frame id="99" flip-x="False" offset-x="19" offset-y="12" />
+      <frame id="113" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="114" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="118" flip-x="False" offset-x="2" offset-y="15" />
+      <frame id="104" flip-x="False" offset-x="18" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="73">
+      <frame id="99" flip-x="False" offset-x="19" offset-y="13" />
+      <frame id="113" flip-x="False" offset-x="11" offset-y="40" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="114" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="109" flip-x="False" offset-x="10" offset-y="19" />
+      <frame id="112" flip-x="False" offset-x="17" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="74">
+      <frame id="119" flip-x="False" offset-x="14" offset-y="24" />
+      <frame id="120" flip-x="False" offset-x="15" offset-y="39" />
+      <frame id="121" flip-x="False" offset-x="12" offset-y="14" />
+      <frame id="122" flip-x="False" offset-x="27" offset-y="17" />
+      <frame id="123" flip-x="False" offset-x="14" offset-y="27" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="75">
+      <frame id="125" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="121" flip-x="False" offset-x="14" offset-y="15" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="122" flip-x="False" offset-x="25" offset-y="18" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="28" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="76">
+      <frame id="126" flip-x="False" offset-x="4" offset-y="21" />
+      <frame id="127" flip-x="False" offset-x="8" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="28" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="24" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="77">
+      <frame id="126" flip-x="False" offset-x="4" offset-y="21" />
+      <frame id="127" flip-x="False" offset-x="6" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="9" offset-y="23" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="78">
+      <frame id="119" flip-x="False" offset-x="11" offset-y="22" />
+      <frame id="130" flip-x="False" offset-x="8" offset-y="37" />
+      <frame id="121" flip-x="False" offset-x="8" offset-y="13" />
+      <frame id="131" flip-x="False" offset-x="26" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="24" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="79">
+      <frame id="126" flip-x="False" offset-x="4" offset-y="21" />
+      <frame id="132" flip-x="False" offset-x="5" offset-y="18" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="24" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="80">
+      <frame id="126" flip-x="False" offset-x="4" offset-y="21" />
+      <frame id="132" flip-x="False" offset-x="5" offset-y="22" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="23" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="81">
+      <frame id="119" flip-x="False" offset-x="13" offset-y="22" />
+      <frame id="130" flip-x="False" offset-x="10" offset-y="37" />
+      <frame id="133" flip-x="False" offset-x="5" offset-y="9" />
+      <frame id="131" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="82">
+      <frame id="119" flip-x="False" offset-x="13" offset-y="22" />
+      <frame id="130" flip-x="False" offset-x="10" offset-y="37" />
+      <frame id="133" flip-x="False" offset-x="4" offset-y="9" />
+      <frame id="131" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="83">
+      <frame id="119" flip-x="False" offset-x="11" offset-y="22" />
+      <frame id="130" flip-x="False" offset-x="8" offset-y="37" />
+      <frame id="133" flip-x="False" offset-x="4" offset-y="10" />
+      <frame id="131" flip-x="False" offset-x="26" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="24" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="84">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="21" />
+      <frame id="106" flip-x="False" offset-x="14" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="107" flip-x="False" offset-x="11" offset-y="25" />
+      <frame id="134" flip-x="False" offset-x="12" offset-y="13" />
+      <frame id="108" flip-x="False" offset-x="21" offset-y="26" />
+    </composite-frame>
+    <composite-frame id="85">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="135" flip-x="False" offset-x="3" offset-y="21" />
+      <frame id="116" flip-x="False" offset-x="12" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="86">
+      <frame id="110" flip-x="False" offset-x="11" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="111" flip-x="False" offset-x="6" offset-y="31" />
+      <frame id="135" flip-x="False" offset-x="1" offset-y="22" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="87">
+      <frame id="125" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="136" flip-x="False" offset-x="16" offset-y="15" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="122" flip-x="False" offset-x="25" offset-y="18" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="28" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="88">
+      <frame id="125" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="136" flip-x="False" offset-x="19" offset-y="15" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="122" flip-x="False" offset-x="24" offset-y="19" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="28" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="89">
+      <frame id="126" flip-x="False" offset-x="2" offset-y="21" />
+      <frame id="137" flip-x="False" offset-x="5" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="24" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="90">
+      <frame id="126" flip-x="False" offset-x="2" offset-y="21" />
+      <frame id="137" flip-x="False" offset-x="3" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="128" flip-x="False" offset-x="25" offset-y="15" />
+      <frame id="129" flip-x="False" offset-x="9" offset-y="23" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="91">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="139" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="140" flip-x="False" offset-x="5" offset-y="10" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="92">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="139" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="141" flip-x="False" offset-x="7" offset-y="2" />
+      <frame id="142" flip-x="False" offset-x="7" offset-y="18" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="93">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="139" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="143" flip-x="True" offset-x="4" offset-y="24" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="94">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="15" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="139" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="143" flip-x="True" offset-x="3" offset-y="28" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="18" />
+    </composite-frame>
+    <composite-frame id="95">
+      <frame id="144" flip-x="False" offset-x="11" offset-y="7" />
+      <frame id="144" flip-x="True" offset-x="25" offset-y="7" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="145" flip-x="False" offset-x="13" offset-y="43" />
+      <frame id="146" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="96">
+      <frame id="147" flip-x="False" offset-x="6" offset-y="19" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="148" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="149" flip-x="False" offset-x="22" offset-y="21" />
+      <frame id="150" flip-x="False" offset-x="9" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="97">
+      <frame id="151" flip-x="False" offset-x="6" offset-y="7" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="148" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="143" flip-x="False" offset-x="18" offset-y="12" />
+      <frame id="150" flip-x="False" offset-x="10" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="98">
+      <frame id="152" flip-x="False" offset-x="15" offset-y="1" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="148" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="143" flip-x="False" offset-x="18" offset-y="12" />
+      <frame id="150" flip-x="False" offset-x="11" offset-y="16" />
+    </composite-frame>
+    <composite-frame id="99">
+      <frame id="153" flip-x="False" offset-x="6" offset-y="23" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="148" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="149" flip-x="False" offset-x="23" offset-y="21" />
+      <frame id="150" flip-x="False" offset-x="9" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="100">
+      <frame id="99" flip-x="False" offset-x="21" offset-y="17" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="154" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="103" flip-x="False" offset-x="12" offset-y="16" />
+      <frame id="112" flip-x="False" offset-x="19" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="101">
+      <frame id="155" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="150" flip-x="False" offset-x="12" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="39" />
+      <frame id="122" flip-x="False" offset-x="27" offset-y="16" />
+      <frame id="123" flip-x="False" offset-x="14" offset-y="26" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="102">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="103">
+      <frame id="3" flip-x="False" offset-x="13" offset-y="6" />
+      <frame id="3" flip-x="True" offset-x="29" offset-y="6" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="156" flip-x="False" offset-x="12" offset-y="35" />
+      <frame id="5" flip-x="False" offset-x="12" offset-y="20" />
+      <frame id="6" flip-x="False" offset-x="20" offset-y="11" />
+    </composite-frame>
+    <composite-frame id="104">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="14" />
+      <frame id="11" flip-x="False" offset-x="22" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="105">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="13" flip-x="False" offset-x="26" offset-y="3" />
+      <frame id="14" flip-x="False" offset-x="14" offset-y="18" />
+      <frame id="15" flip-x="False" offset-x="11" offset-y="11" />
+    </composite-frame>
+    <composite-frame id="106">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="9" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="13" />
+      <frame id="20" flip-x="False" offset-x="12" offset-y="23" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="107">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="23" flip-x="False" offset-x="18" offset-y="8" />
+      <frame id="24" flip-x="False" offset-x="11" offset-y="17" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="108">
+      <frame id="158" flip-x="True" offset-x="17" offset-y="21" />
+      <frame id="18" flip-x="True" offset-x="20" offset-y="9" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="True" offset-x="8" offset-y="13" />
+      <frame id="20" flip-x="True" offset-x="17" offset-y="23" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="109">
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="13" flip-x="True" offset-x="8" offset-y="5" />
+      <frame id="14" flip-x="True" offset-x="8" offset-y="20" />
+      <frame id="15" flip-x="True" offset-x="19" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="110">
+      <frame id="7" flip-x="True" offset-x="10" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="True" offset-x="18" offset-y="27" />
+      <frame id="10" flip-x="True" offset-x="26" offset-y="14" />
+      <frame id="11" flip-x="True" offset-x="7" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="111">
+      <frame id="25" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="10" flip-x="False" offset-x="12" offset-y="14" />
+      <frame id="11" flip-x="False" offset-x="22" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="112">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="28" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="15" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="113">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="10" flip-x="False" offset-x="10" offset-y="16" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="114">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="28" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="15" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="115">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="29" />
+      <frame id="10" flip-x="False" offset-x="10" offset-y="16" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="116">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="36" flip-x="False" offset-x="29" offset-y="14" />
+      <frame id="20" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="117">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="118">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="22" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="16" />
+      <frame id="41" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="119">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="False" offset-x="29" offset-y="15" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="120">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="22" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="16" />
+      <frame id="41" flip-x="False" offset-x="12" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="121">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="44" flip-x="False" offset-x="5" offset-y="17" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="14" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="122">
+      <frame id="47" flip-x="False" offset-x="5" offset-y="8" />
+      <frame id="29" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="15" />
+      <frame id="48" flip-x="False" offset-x="21" offset-y="20" />
+    </composite-frame>
+    <composite-frame id="123">
+      <frame id="49" flip-x="False" offset-x="3" offset-y="14" />
+      <frame id="25" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="45" flip-x="False" offset-x="9" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="11" offset-y="13" />
+      <frame id="50" flip-x="False" offset-x="17" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="124">
+      <frame id="44" flip-x="True" offset-x="24" offset-y="11" />
+      <frame id="51" flip-x="False" offset-x="8" offset-y="29" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="10" />
+      <frame id="19" flip-x="False" offset-x="26" offset-y="14" />
+      <frame id="52" flip-x="False" offset-x="6" offset-y="21" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="125">
+      <frame id="47" flip-x="True" offset-x="25" offset-y="9" />
+      <frame id="51" flip-x="False" offset-x="8" offset-y="29" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="11" />
+      <frame id="36" flip-x="False" offset-x="26" offset-y="14" />
+      <frame id="53" flip-x="False" offset-x="5" offset-y="11" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="126">
+      <frame id="54" flip-x="False" offset-x="24" offset-y="17" />
+      <frame id="55" flip-x="False" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="11" offset-y="9" />
+      <frame id="40" flip-x="False" offset-x="26" offset-y="14" />
+      <frame id="56" flip-x="False" offset-x="5" offset-y="22" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="127">
+      <frame id="7" flip-x="False" offset-x="19" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="57" flip-x="False" offset-x="10" offset-y="15" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="128">
+      <frame id="25" flip-x="False" offset-x="17" offset-y="8" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="159" flip-x="False" offset-x="18" offset-y="27" />
+      <frame id="59" flip-x="False" offset-x="7" offset-y="18" />
+      <frame id="31" flip-x="False" offset-x="17" offset-y="19" />
+    </composite-frame>
+    <composite-frame id="129">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="60" flip-x="False" offset-x="9" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="40" flip-x="False" offset-x="29" offset-y="14" />
+      <frame id="38" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="130">
+      <frame id="160" flip-x="False" offset-x="18" offset-y="19" />
+      <frame id="62" flip-x="False" offset-x="10" offset-y="17" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="63" flip-x="False" offset-x="17" offset-y="17" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="131">
+      <frame id="29" flip-x="False" offset-x="24" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="65" flip-x="False" offset-x="11" offset-y="23" />
+      <frame id="57" flip-x="False" offset-x="19" offset-y="12" />
+      <frame id="66" flip-x="False" offset-x="23" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="132">
+      <frame id="158" flip-x="False" offset-x="19" offset-y="24" />
+      <frame id="60" flip-x="False" offset-x="16" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="False" offset-x="24" offset-y="17" />
+      <frame id="20" flip-x="False" offset-x="17" offset-y="27" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="133">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="46" flip-x="True" offset-x="-1" offset-y="18" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="134">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="48" flip-x="True" offset-x="1" offset-y="17" />
+      <frame id="10" flip-x="False" offset-x="17" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="135">
+      <frame id="49" flip-x="True" offset-x="25" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="70" flip-x="True" offset-x="4" offset-y="23" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="136">
+      <frame id="44" flip-x="False" offset-x="4" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="12" />
+    </composite-frame>
+    <composite-frame id="137">
+      <frame id="47" flip-x="False" offset-x="7" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="18" flip-x="False" offset-x="10" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="138">
+      <frame id="72" flip-x="False" offset-x="4" offset-y="23" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="19" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="139">
+      <frame id="73" flip-x="False" offset-x="13" offset-y="27" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="140">
+      <frame id="74" flip-x="False" offset-x="18" offset-y="27" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="35" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="141">
+      <frame id="68" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="75" flip-x="False" offset-x="5" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="142">
+      <frame id="76" flip-x="False" offset-y="24" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="8" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="22" offset-y="17" />
+      <frame id="60" flip-x="False" offset-x="8" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="143">
+      <frame id="7" flip-x="False" offset-x="22" offset-y="16" />
+      <frame id="44" flip-x="False" offset-x="5" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="163" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="13" offset-y="13" />
+      <frame id="46" flip-x="False" offset-x="24" offset-y="18" />
+    </composite-frame>
+    <composite-frame id="144">
+      <frame id="7" flip-x="False" offset-x="23" offset-y="18" />
+      <frame id="44" flip-x="False" offset-x="7" offset-y="10" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="163" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="14" offset-y="12" />
+      <frame id="48" flip-x="False" offset-x="23" offset-y="18" />
+    </composite-frame>
+    <composite-frame id="145">
+      <frame id="7" flip-x="False" offset-x="23" offset-y="14" />
+      <frame id="49" flip-x="False" offset-x="8" offset-y="17" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="163" flip-x="False" offset-x="12" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="12" offset-y="14" />
+      <frame id="70" flip-x="False" offset-x="19" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="146">
+      <frame id="78" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="164" flip-x="False" offset-x="16" offset-y="37" />
+      <frame id="44" flip-x="True" offset-x="25" offset-y="13" />
+      <frame id="18" flip-x="False" offset-x="13" offset-y="11" />
+      <frame id="19" flip-x="False" offset-x="27" offset-y="14" />
+      <frame id="79" flip-x="False" offset-x="8" offset-y="17" />
+    </composite-frame>
+    <composite-frame id="147">
+      <frame id="47" flip-x="True" offset-x="27" offset-y="9" />
+      <frame id="78" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="13" offset-y="12" />
+      <frame id="36" flip-x="False" offset-x="27" offset-y="14" />
+      <frame id="53" flip-x="False" offset-x="9" offset-y="9" />
+      <frame id="164" flip-x="False" offset-x="16" offset-y="37" />
+    </composite-frame>
+    <composite-frame id="148">
+      <frame id="49" flip-x="True" offset-x="25" offset-y="13" />
+      <frame id="78" flip-x="False" offset-x="9" offset-y="21" />
+      <frame id="18" flip-x="False" offset-x="12" offset-y="10" />
+      <frame id="40" flip-x="False" offset-x="27" offset-y="14" />
+      <frame id="56" flip-x="False" offset-x="7" offset-y="21" />
+      <frame id="164" flip-x="False" offset-x="16" offset-y="37" />
+    </composite-frame>
+    <composite-frame id="149">
+      <frame id="29" flip-x="False" offset-x="21" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="80" flip-x="False" offset-x="18" offset-y="25" />
+      <frame id="81" flip-x="False" offset-x="10" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="150">
+      <frame id="158" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="82" flip-x="False" offset-x="6" offset-y="13" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="40" flip-x="False" offset-x="25" offset-y="15" />
+      <frame id="20" flip-x="False" offset-x="11" offset-y="24" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="151">
+      <frame id="29" flip-x="False" offset-x="20" offset-y="20" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="84" flip-x="False" offset-x="16" offset-y="30" />
+      <frame id="81" flip-x="False" offset-x="15" offset-y="19" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="152">
+      <frame id="87" flip-x="False" offset-x="17" offset-y="29" />
+      <frame id="82" flip-x="False" offset-x="16" offset-y="19" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="165" flip-x="False" offset-x="26" offset-y="26" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="153">
+      <frame id="89" flip-x="False" offset-x="29" offset-y="18" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="10" flip-x="False" offset-x="16" offset-y="14" />
+      <frame id="70" flip-x="False" offset-x="9" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="154">
+      <frame id="89" flip-x="True" offset-x="-3" offset-y="16" />
+      <frame id="68" flip-x="True" offset-x="4" offset-y="23" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="46" flip-x="False" offset-x="21" offset-y="17" />
+      <frame id="18" flip-x="False" offset-x="9" offset-y="12" />
+    </composite-frame>
+    <composite-frame id="155">
+      <frame id="89" flip-x="False" offset-x="29" offset-y="16" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="161" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="90" flip-x="False" offset-x="5" offset-y="8" />
+      <frame id="91" flip-x="False" offset-x="14" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="156">
+      <frame id="92" flip-x="False" offset-x="12" offset-y="5" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="162" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="93" flip-x="False" offset-x="6" offset-y="12" />
+      <frame id="70" flip-x="False" offset-x="18" offset-y="10" />
+    </composite-frame>
+    <composite-frame id="157">
+      <frame id="7" flip-x="False" offset-x="20" offset-y="12" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="157" flip-x="False" offset-x="11" offset-y="28" />
+      <frame id="57" flip-x="False" offset-x="10" offset-y="19" />
+      <frame id="28" flip-x="False" offset-x="16" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="158">
+      <frame id="160" flip-x="False" offset-x="18" offset-y="22" />
+      <frame id="60" flip-x="False" offset-x="13" offset-y="14" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="19" flip-x="False" offset-x="28" offset-y="17" />
+      <frame id="20" flip-x="False" offset-x="14" offset-y="25" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="159">
+      <frame id="29" flip-x="False" offset-x="18" offset-y="17" />
+      <frame id="94" flip-x="False" offset-x="19" offset-y="38" />
+      <frame id="1" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="34" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="95" flip-x="False" offset-x="4" offset-y="9" />
+      <frame id="66" flip-x="False" offset-x="20" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="160">
+      <frame id="16" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="43" flip-x="False" offset-x="14" offset-y="36" />
+      <frame id="96" flip-x="False" offset-x="6" offset-y="10" />
+      <frame id="40" flip-x="False" offset-x="28" offset-y="16" />
+      <frame id="41" flip-x="False" offset-x="10" offset-y="24" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="161">
+      <frame id="8" flip-x="False" offset-x="11" offset-y="38" />
+      <frame id="97" flip-x="False" offset-x="11" offset-y="10" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="162">
+      <frame id="17" flip-x="False" offset-x="11" offset-y="35" />
+      <frame id="98" flip-x="False" offset-x="11" offset-y="7" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+      <frame id="2" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="163">
+      <frame id="99" flip-x="False" offset-x="24" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="102" flip-x="False" offset-x="10" offset-y="23" />
+      <frame id="103" flip-x="False" offset-x="15" offset-y="12" />
+      <frame id="104" flip-x="False" offset-x="20" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="164">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="16" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="107" flip-x="False" offset-x="11" offset-y="23" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="11" />
+      <frame id="108" flip-x="False" offset-x="21" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="165">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="18" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="107" flip-x="False" offset-x="11" offset-y="23" />
+      <frame id="109" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="108" flip-x="False" offset-x="21" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="166">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="109" flip-x="False" offset-x="5" offset-y="23" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="167">
+      <frame id="110" flip-x="False" offset-x="12" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="109" flip-x="False" offset-x="4" offset-y="24" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="168">
+      <frame id="99" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="167" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="115" flip-x="False" offset-x="5" offset-y="16" />
+      <frame id="116" flip-x="False" offset-x="15" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="169">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="115" flip-x="False" offset-x="2" offset-y="23" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="170">
+      <frame id="110" flip-x="False" offset-x="12" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="115" flip-x="False" offset-x="1" offset-y="25" />
+      <frame id="112" flip-x="False" offset-x="12" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="171">
+      <frame id="105" flip-x="False" offset-x="17" offset-y="19" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="102" flip-x="False" offset-x="4" offset-y="23" />
+      <frame id="118" flip-x="False" offset-x="-2" offset-y="9" />
+      <frame id="104" flip-x="False" offset-x="16" offset-y="23" />
+    </composite-frame>
+    <composite-frame id="172">
+      <frame id="105" flip-x="False" offset-x="17" offset-y="20" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="102" flip-x="False" offset-x="4" offset-y="23" />
+      <frame id="118" flip-x="False" offset-x="-2" offset-y="8" />
+      <frame id="104" flip-x="False" offset-x="15" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="173">
+      <frame id="99" flip-x="False" offset-x="19" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="167" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="118" flip-x="False" offset-x="2" offset-y="13" />
+      <frame id="104" flip-x="False" offset-x="18" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="174">
+      <frame id="99" flip-x="False" offset-x="19" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="167" flip-x="False" offset-x="11" offset-y="27" />
+      <frame id="109" flip-x="False" offset-x="10" offset-y="17" />
+      <frame id="112" flip-x="False" offset-x="17" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="175">
+      <frame id="168" flip-x="False" offset-x="14" offset-y="22" />
+      <frame id="121" flip-x="False" offset-x="12" offset-y="12" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="122" flip-x="False" offset-x="27" offset-y="15" />
+      <frame id="123" flip-x="False" offset-x="14" offset-y="25" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="176">
+      <frame id="168" flip-x="False" offset-x="17" offset-y="23" />
+      <frame id="121" flip-x="False" offset-x="14" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="122" flip-x="False" offset-x="25" offset-y="16" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="26" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="177">
+      <frame id="169" flip-x="False" offset-x="15" offset-y="18" />
+      <frame id="127" flip-x="False" offset-x="8" offset-y="9" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="28" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="22" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="178">
+      <frame id="169" flip-x="False" offset-x="13" offset-y="18" />
+      <frame id="127" flip-x="False" offset-x="6" offset-y="9" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="29" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="9" offset-y="21" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="179">
+      <frame id="168" flip-x="False" offset-x="11" offset-y="20" />
+      <frame id="121" flip-x="False" offset-x="8" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="131" flip-x="False" offset-x="26" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="22" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="180">
+      <frame id="169" flip-x="False" offset-x="13" offset-y="18" />
+      <frame id="132" flip-x="False" offset-x="5" offset-y="16" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="22" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="181">
+      <frame id="169" flip-x="False" offset-x="13" offset-y="18" />
+      <frame id="132" flip-x="False" offset-x="5" offset-y="20" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="21" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="182">
+      <frame id="168" flip-x="False" offset-x="13" offset-y="20" />
+      <frame id="133" flip-x="False" offset-x="5" offset-y="7" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="131" flip-x="False" offset-x="29" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="12" offset-y="21" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="183">
+      <frame id="168" flip-x="False" offset-x="13" offset-y="20" />
+      <frame id="133" flip-x="False" offset-x="4" offset-y="7" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="131" flip-x="False" offset-x="29" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="184">
+      <frame id="168" flip-x="False" offset-x="11" offset-y="20" />
+      <frame id="133" flip-x="False" offset-x="4" offset-y="8" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="131" flip-x="False" offset-x="26" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="11" offset-y="22" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="185">
+      <frame id="105" flip-x="False" offset-x="24" offset-y="19" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="107" flip-x="False" offset-x="11" offset-y="23" />
+      <frame id="134" flip-x="False" offset-x="12" offset-y="11" />
+      <frame id="108" flip-x="False" offset-x="21" offset-y="24" />
+    </composite-frame>
+    <composite-frame id="186">
+      <frame id="110" flip-x="False" offset-x="13" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="135" flip-x="False" offset-x="3" offset-y="19" />
+      <frame id="116" flip-x="False" offset-x="12" offset-y="22" />
+    </composite-frame>
+    <composite-frame id="187">
+      <frame id="110" flip-x="False" offset-x="11" offset-y="9" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="166" flip-x="False" offset-x="14" offset-y="29" />
+      <frame id="135" flip-x="False" offset-x="1" offset-y="20" />
+      <frame id="112" flip-x="False" offset-x="13" offset-y="21" />
+    </composite-frame>
+    <composite-frame id="188">
+      <frame id="168" flip-x="False" offset-x="17" offset-y="23" />
+      <frame id="136" flip-x="False" offset-x="16" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="122" flip-x="False" offset-x="25" offset-y="16" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="26" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="189">
+      <frame id="168" flip-x="False" offset-x="18" offset-y="22" />
+      <frame id="136" flip-x="False" offset-x="19" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="122" flip-x="False" offset-x="24" offset-y="17" />
+      <frame id="123" flip-x="False" offset-x="16" offset-y="26" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="190">
+      <frame id="169" flip-x="False" offset-x="13" offset-y="19" />
+      <frame id="137" flip-x="False" offset-x="5" offset-y="10" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="26" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="10" offset-y="22" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="191">
+      <frame id="169" flip-x="False" offset-x="12" offset-y="19" />
+      <frame id="137" flip-x="False" offset-x="3" offset-y="9" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="128" flip-x="False" offset-x="25" offset-y="13" />
+      <frame id="129" flip-x="False" offset-x="9" offset-y="21" />
+      <frame id="124" flip-x="False" offset-x="-95" offset-y="-75" />
+    </composite-frame>
+    <composite-frame id="192">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="9" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="170" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="140" flip-x="False" offset-x="5" offset-y="8" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="193">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="8" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="170" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="141" flip-x="False" offset-x="7" />
+      <frame id="142" flip-x="False" offset-x="7" offset-y="16" />
+      <frame id="103" flip-x="False" offset-x="18" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="194">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="11" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="170" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="143" flip-x="True" offset-x="4" offset-y="22" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="15" />
+    </composite-frame>
+    <composite-frame id="195">
+      <frame id="138" flip-x="False" offset-x="20" offset-y="13" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="170" flip-x="False" offset-x="7" offset-y="24" />
+      <frame id="143" flip-x="True" offset-x="3" offset-y="26" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="16" />
+    </composite-frame>
+    <composite-frame id="196">
+      <frame id="144" flip-x="False" offset-x="11" offset-y="5" />
+      <frame id="144" flip-x="True" offset-x="25" offset-y="5" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="146" flip-x="False" offset-x="10" offset-y="19" />
+      <frame id="171" flip-x="False" offset-x="10" offset-y="34" />
+      <frame id="103" flip-x="False" offset-x="16" offset-y="19" />
+    </composite-frame>
+    <composite-frame id="197">
+      <frame id="147" flip-x="False" offset-x="6" offset-y="17" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="172" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="149" flip-x="False" offset-x="22" offset-y="19" />
+      <frame id="150" flip-x="False" offset-x="9" offset-y="12" />
+    </composite-frame>
+    <composite-frame id="198">
+      <frame id="151" flip-x="False" offset-x="6" offset-y="5" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="172" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="143" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="150" flip-x="False" offset-x="10" offset-y="13" />
+    </composite-frame>
+    <composite-frame id="199">
+      <frame id="152" flip-x="False" offset-x="15" offset-y="-1" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="172" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="143" flip-x="False" offset-x="18" offset-y="10" />
+      <frame id="150" flip-x="False" offset-x="11" offset-y="14" />
+    </composite-frame>
+    <composite-frame id="200">
+      <frame id="153" flip-x="False" offset-x="6" offset-y="21" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="172" flip-x="False" offset-x="9" offset-y="22" />
+      <frame id="149" flip-x="False" offset-x="23" offset-y="19" />
+      <frame id="150" flip-x="False" offset-x="9" offset-y="12" />
+    </composite-frame>
+    <composite-frame id="201">
+      <frame id="99" flip-x="False" offset-x="21" offset-y="15" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="167" flip-x="False" offset-x="12" offset-y="26" />
+      <frame id="103" flip-x="False" offset-x="12" offset-y="14" />
+      <frame id="112" flip-x="False" offset-x="19" offset-y="20" />
+    </composite-frame>
+    <composite-frame id="202">
+      <frame id="155" flip-x="False" offset-x="10" offset-y="21" />
+      <frame id="150" flip-x="False" offset-x="12" offset-y="10" />
+      <frame id="173" flip-x="False" offset-x="16" offset-y="37" />
+      <frame id="101" flip-x="False" offset-x="5" offset-y="37" />
+      <frame id="122" flip-x="False" offset-x="27" offset-y="14" />
+      <frame id="123" flip-x="False" offset-x="14" offset-y="24" />
+    </composite-frame>
+  </composite-frames>
+  <guides />
+  <colors />
+  <motion-tweens />
+  <composite-frame-sets>
+    <composite-frame-set name="Three-Sixty">
+      <frame id="3" />
+      <frame id="2" />
+      <frame id="9" />
+      <frame id="8" />
+      <frame id="7" />
+      <frame id="6" />
+      <frame id="5" />
+      <frame id="4" />
+    </composite-frame-set>
+    <composite-frame-set name="Walking.SW">
+      <frame id="10" />
+      <frame id="11" />
+      <frame id="12" />
+      <frame id="13" />
+      <frame id="14" />
+      <frame id="13" />
+      <frame id="12" />
+      <frame id="11" />
+    </composite-frame-set>
+    <composite-frame-set name="Walking.NW">
+      <frame id="15" />
+      <frame id="16" />
+      <frame id="17" />
+      <frame id="18" />
+      <frame id="19" />
+      <frame id="18" />
+      <frame id="17" />
+      <frame id="16" />
+    </composite-frame-set>
+    <composite-frame-set name="Wing-Flapping.SW">
+      <frame id="20" />
+      <frame id="21" />
+      <frame id="22" />
+    </composite-frame-set>
+    <composite-frame-set name="Wing-Flapping.NW">
+      <frame id="23" />
+      <frame id="24" />
+      <frame id="25" />
+    </composite-frame-set>
+    <composite-frame-set name="Head-Banging.SW">
+      <frame id="26" />
+      <frame id="27" />
+    </composite-frame-set>
+    <composite-frame-set name="Head-Banging.NW">
+      <frame id="28" />
+      <frame id="29" />
+    </composite-frame-set>
+    <composite-frame-set name="Dead.SW">
+      <frame id="38" />
+    </composite-frame-set>
+    <composite-frame-set name="Dead.NW">
+      <frame id="39" />
+    </composite-frame-set>
+  </composite-frame-sets>
+  <sounds />
+</format>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="90b4e0c4-7c6b-46ea-bed5-35f3dcb43904" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers available actions within the "File" menu.</para>
+      <mediaLink>
+        <image xlink:href="File"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Load Image...</legacyBold>: Load either a BMP or PNG image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Export Active Frames as GIF</legacyBold>: Exports the active animation sequence into an animated image (GIF) in the same folder as the loaded image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Formats</legacyBold>: Begins a new formatting document or edits the loaded formatting document.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Exit</legacyBold>: Closes the program. Any changes that have not been saved are lost.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

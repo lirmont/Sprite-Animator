@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="e9da060c-c95e-4951-ada3-0ac2bf60545a" revisionNumber="1">
+  <developerOrientationDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>Sprite Animator allows you to "see" any image in action (whether in the context of the program via the preview function or outside the context of the program via animated .gif images). Images are loaded by this program, depending on complex file extensions that reference the requested format. For example, a PNG image called "my-sprite.png" that should be loaded using a format you've created (ex: "type-1") would actually need to be named "my-sprite.type-1.png" to be loaded correctly.</para>
+      <mediaLink>
+        <image placement="center" xlink:href="Program-Workflow"/>
+      </mediaLink>
+    </introduction>
+    <relatedTopics>
+    </relatedTopics>
+  </developerOrientationDocument>
+</topic>

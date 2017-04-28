@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format name="FF: Tracking Line" status="Demonstration only." frame-width="480" frame-height="300" target-rows="3" target-columns="4" target-start="1" target-end="11" target-ms="80" on-load-zoom="0.50" base-width="12" base-height="8" no-sampling="true">
+  <reference>
+    <protected-colors>
+      <color r="255" g="255" b="255" />
+    </protected-colors>
+  </reference>
+  <guides>
+    <guide type="horizontal" value="150" />
+    <guide type="vertical" value="240" />
+  </guides>
+  <colors />
+  <sounds />
+  <motion-tweens>
+    <motion-tween id="1" length-in-frames="11" advancement-function="linear">
+      <point x="3" y="150" z="0" />
+      <point x="11" y="134" z="0" />
+      <point x="20" y="119" z="0" />
+      <point x="31" y="105" z="0" />
+      <point x="43" y="93" z="0" />
+      <point x="62" y="77" z="0" />
+      <point x="80" y="63" z="0" />
+      <point x="100" y="51" z="0" />
+      <point x="120" y="41" z="0" />
+      <point x="141" y="33" z="0" />
+      <point x="163" y="26" z="0" />
+      <point x="184" y="21" z="0" />
+      <point x="204" y="18" z="0" />
+      <point x="223" y="17" z="0" />
+      <point x="240" y="17" z="0" />
+      <point x="257" y="17" z="0" />
+      <point x="276" y="18" z="0" />
+      <point x="300" y="21" z="0" />
+      <point x="316" y="25" z="0" />
+      <point x="334" y="31" z="0" />
+      <point x="355" y="39" z="0" />
+      <point x="375" y="48" z="0" />
+      <point x="394" y="58" z="0" />
+      <point x="411" y="69" z="0" />
+      <point x="427" y="81" z="0" />
+      <point x="440" y="94" z="0" />
+      <point x="452" y="108" z="0" />
+      <point x="461" y="122" z="0" />
+      <point x="469" y="134" z="0" />
+      <point x="477" y="150" z="0" />
+    </motion-tween>
+  </motion-tweens>
+  <named-attachment-points />
+  <composite-frame-sets />
+  <frames>
+    <frame id="1" s="3" t="3" w="5" h="5" />
+    <frame id="2" s="9" t="4" w="3" h="3" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1" />
+    <composite-frame id="2">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="2" motion-trail-frames-in-tween="1" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="2" motion-trail-frames-in-tween="1" motion-trail-type="instance-fill" offset-x="-2" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="3" motion-trail-frames-in-tween="2" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="3" motion-trail-frames-in-tween="2" motion-trail-type="instance-fill" offset-x="-2" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="4" motion-trail-frames-in-tween="3" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="4" motion-trail-frames-in-tween="3" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="5" motion-trail-frames-in-tween="4" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="5" motion-trail-frames-in-tween="4" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="6" motion-trail-frames-in-tween="5" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="6" motion-trail-frames-in-tween="5" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="7" motion-trail-frames-in-tween="6" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="7" motion-trail-frames-in-tween="6" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="8" motion-trail-frames-in-tween="7" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="8" motion-trail-frames-in-tween="7" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="9" motion-trail-frames-in-tween="8" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="9" motion-trail-frames-in-tween="8" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="10">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="10" motion-trail-frames-in-tween="9" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="10" motion-trail-frames-in-tween="9" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+    <composite-frame id="11">
+      <frame id="1" blend="lighten" tween="1" frame-in-tween="11" motion-trail-frames-in-tween="10" motion-trail-type="instance-fill" offset-x="-3" />
+      <frame id="2" blend="color-dodge" tween="1" frame-in-tween="11" motion-trail-frames-in-tween="10" motion-trail-type="instance-fill" offset-x="-2" offset-y="1" />
+    </composite-frame>
+  </composite-frames>
+</format>

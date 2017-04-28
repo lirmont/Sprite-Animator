@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b3ea59e0-3fa7-47a4-8587-514702e9a26f" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>Sprite Animator's basic interface is split into five main areas. In order of importance, they are: the main display area, the adjustable preview window, the settings panel, the main program tool strip, and the program status bar.</para>
+    </introduction>
+    <section address="MainDisplay">
+      <title>Main Display Area</title>
+      <content>
+        <autoOutline />
+        <para>The main display area is responsible for showing a visual representation of each composite frame present in the given format. This area behaves differently based on the existence or non-existence of a format. For format-less displays, the whole image is shown, subdivided by an arbitrary number of rows and columns; this mode easily allows an equally divided image to be animated. For images using a specified format, composite frames are compiled according to the format's description. Composite frames are displayed left-to-right, top-to-bottom.</para>
+        <para>Once this area has focus, it can be navigated with the directional keys: left, right, up, and down (provided that the animation feature is turned off first). Using these keys, it is possible to select a specific composite frame for display. Additionally, this area also provides a context menu, leading to the following advanced options: edit selected frame, use previous frame, and flip frame horizontally. </para>
+        <mediaLink>
+          <image placement="center" xlink:href="Display-Area"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="PreviewWindow">
+      <title>Preview Window</title>
+      <content>
+        <autoOutline />
+        <para>The preview window initially starts in the upper left-hand corner of the interface. This window is a separate window overlaid on top of the original interface, and it is responsible for displaying the current composite frame. It provides a context menu leading to the following settings: pop-out/pop-in, use frozen background, set to default size, set to scaled size, set to frame size, and resize. While the area is popped out, it can be arbitrarily placed elsewhere by clicking and dragging.</para>
+        <mediaLink>
+          <image placement="center" xlink:href="Preview-Window"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="SettingsPanel">
+      <title>Settings Panel</title>
+      <content>
+        <autoOutline />
+        <para>The settings panel initially starts beneath the preview window. This set of controls allows for configuration of three different sets of settings: display, animation, and subdivision. Each section can be expanded or closed by clicking on the respective title.</para>
+        <mediaLink>
+          <image placement="center" xlink:href="Settings-Panel"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="ToolStrip">
+      <title>Main Tool Strip</title>
+      <content>
+        <autoOutline />
+        <para>The main tool strip is located directly beneath the title bar. It provides access to basic file operations, display windows, the program credits, and to selection of graphics renderers.</para>
+        <mediaLink>
+          <image placement="center" xlink:href="Main-Tool-Strip"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="StatusBar">
+      <title>Status Bar</title>
+      <content>
+        <autoOutline />
+        <para>The status bar is located at the bottom edge of the interface. Because some format-related operations can take a long amount of time, the status bar is used to display information related to the current progress of those operations.</para>
+        <mediaLink>
+          <image placement="center" xlink:href="Status-Bar"/>
+        </mediaLink>
+      </content>
+    </section>
+    <relatedTopics>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID"/>
+      <link xlink:href="Other Topic's ID">Link inner text</link>
+
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8270" />
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on CodePlex</linkText>
+          <linkAlternateText>Go to CodePlex</linkAlternateText>
+          <linkUri>http://shfb.codeplex.com</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

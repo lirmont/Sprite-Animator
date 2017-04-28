@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="a241ff54-bd5c-4552-9be6-a371e2375947" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section provides a screenshot of an example loaded format. See "Begin New Format" for explanations of the terms used in this form.</para>
+      <mediaLink>
+        <image xlink:href="Edit-Loaded-Format"/>
+      </mediaLink>
+    </introduction>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

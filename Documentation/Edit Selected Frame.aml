@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="3c97dc7e-d15a-4a0c-9b3d-8b2e09c0652c" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available areas of the "Edit Selected Frame" feature.</para>
+    </introduction>
+    <section address="FrameCallDisplayArea">
+      <title>Frame Call Display Area</title>
+      <content>
+        <para>
+          This area displays visual representations of the frame calls that make up the composite frame, allowing for selection and manipulation of those frame calls.
+        </para>
+        <mediaLink>
+          <image xlink:href="Frame-Call-Display-Area"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="Toolbar">
+      <title>Toolbar</title>
+      <content>
+        <para>
+          This area displays buttons for zooming in and back out of the frame call display area.
+        </para>
+        <mediaLink>
+          <image xlink:href="Toolbar"/>
+        </mediaLink>
+      </content>
+    </section>
+    <section address="FrameCallInformationPanel">
+      <title>Frame Call Information Panel</title>
+      <content>
+        <para>
+          This area displays textual representations of the frame calls that make up the composite frame. It provides for a more controlled manner of selecting frame calls than the frame call display area.
+        </para>
+        <mediaLink>
+          <image xlink:href="Frame-Call-Information-Panel"/>
+        </mediaLink>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

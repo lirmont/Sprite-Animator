@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="857b1f21-e124-43f8-8c53-09ee33524fe3" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Named Attachment Point" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Named-Attachment-Point"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>ID</legacyBold>: The ID number used by the format document to reference this named attachment point. ID values start and the number "1" and increase towards positive infinity.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Name</legacyBold>: The logical name of the function the attachment point represents. For example, a name might be: "Weapon.Left".
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>X Attachment</legacyBold>: A value from 0 to 1. A value of zero aligns the image to the left. A value of 1 aligns the image to the right.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Y Attachment</legacyBold>: A value from 0 to 1. A value of zero aligns the image to the top. A value of 1 aligns the image to the bottom.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Description</legacyBold>: A description of what kinds of images should be attached to this named attachment point.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

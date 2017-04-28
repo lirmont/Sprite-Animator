@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d1018c39-f4dd-4610-87a2-1b26c263ccae" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions of the "View" menu.</para>
+      <mediaLink>
+        <image xlink:href="View"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Available Formats</legacyBold>: Launch a window to display all available formats, including a summary of each format.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Constructed Palette</legacyBold>: Launch a window to display all the colors used in the loaded image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Available Attachments</legacyBold>: Launch a window to display all available named attachments for the loaded format.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

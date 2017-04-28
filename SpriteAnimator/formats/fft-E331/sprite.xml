@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format name="FFT: Demonstration only (E331)" status="WIP" frame-width="134" frame-height="109" target-rows="4" target-columns="6" target-start="1" target-end="19" target-ms="35" on-load-zoom="1.00" base-width="256" base-height="128" no-sampling="true">
+  <reference />
+  <guides>
+    <guide type="horizontal" value="16" />
+    <guide type="horizontal" value="44" />
+    <guide type="horizontal" value="55" />
+    <guide type="horizontal" value="91" />
+    <guide type="vertical" value="13" />
+    <guide type="vertical" value="47" />
+    <guide type="vertical" value="66" />
+    <guide type="vertical" value="116" />
+  </guides>
+  <colors>
+    <color name="0% purple" r="0.92156862745098" g="0" b="1" a="0" />
+    <color name="blue" r="0" g="0.631372549019608" b="1" a="1" />
+    <color name="green" r="0" g="1" b="0.796078431372549" a="1" />
+    <color name="pink" r="1" g="0" b="0.596078431372549" a="1" />
+    <color name="purple" r="0.898039215686275" g="0" b="1" a="1" />
+    <color name="red" r="1" g="0" b="0.00784313725490196" a="1" />
+    <color name="white" r="1" g="1" b="1" a="1" />
+  </colors>
+  <sounds />
+  <motion-tweens>
+    <motion-tween id="1" length-in-frames="12" advancement-function="linear">
+      <color-state name="red" />
+      <color-state name="blue" />
+      <color-state name="blue" />
+      <color-state name="blue" />
+      <color-state name="pink" />
+      <color-state name="pink" />
+      <color-state name="purple" />
+      <color-state name="0% purple" />
+    </motion-tween>
+  </motion-tweens>
+  <named-attachment-points>
+    <named-attachment-point id="1" name="Mock-Target" description="Image of target of effect, used for rapid prototyping." />
+  </named-attachment-points>
+  <composite-frame-sets />
+  <frames>
+    <frame id="1" s="7" t="8" w="26" h="31" />
+    <frame id="2" s="34" t="9" w="29" h="31" />
+    <frame id="3" s="66" t="9" w="29" h="31" />
+    <frame id="4" s="98" t="10" w="26" h="31" />
+    <frame id="5" s="132" t="11" w="26" h="27" />
+    <frame id="6" s="162" t="10" w="12" h="12" />
+    <frame id="7" s="176" t="8" w="24" h="25" />
+    <frame id="8" s="200" t="8" w="24" h="25" />
+    <frame id="9" s="225" t="8" w="23" h="25" />
+    <frame id="10" s="12" t="44" w="8" h="8" />
+    <frame id="11" s="9" t="57" w="7" h="7" />
+    <frame id="12" s="17" t="57" w="7" h="7" />
+    <frame id="13" s="39" t="49" w="25" h="20" />
+    <frame id="14" s="95" t="48" w="28" h="15" />
+    <frame id="15" s="130" t="42" w="29" h="19" />
+    <frame id="16" s="161" t="40" w="30" h="25" />
+    <frame id="17" s="192" t="33" w="23" h="32" />
+    <frame id="18" s="217" t="32" w="31" h="31" />
+    <frame id="999" s="253" t="125" w="3" h="3" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="18" blend="linear-dodge" offset-x="45" offset-y="35" scale-x="2.2" scale-y="1.76" />
+      <frame id="18" blend="linear-dodge" offset-x="45" offset-y="35" scale-x="2.2" scale-y="1.76" />
+      <frame id="18" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="45" offset-y="35" scale-x="2.2" scale-y="1.76" />
+      <frame id="18" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="45" offset-y="35" scale-x="2.2" scale-y="1.76" />
+      <frame id="18" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="45" offset-y="35" scale-x="2.2" scale-y="1.76" />
+      <frame id="13" blend="linear-dodge" offset-x="71" offset-y="33" rotation-z="44" scale-x="1.36" scale-y="1.54" />
+      <frame id="14" blend="linear-dodge" offset-x="70" offset-y="40" scale-x="1.9" scale-y="1.6" />
+      <frame id="14" blend="linear-dodge" offset-x="31" offset-y="55" rotation-z="150" scale-y="1.2" />
+      <frame id="14" blend="linear-dodge" offset-x="27" offset-y="45" rotation-z="-172" scale-y="1.2" />
+      <frame id="15" blend="linear-dodge" offset-x="36" offset-y="27" rotation-z="-112" />
+      <frame id="14" blend="linear-dodge" offset-x="28" offset-y="37" rotation-z="-141" scale-x="1.1" scale-y="1.6" />
+      <frame id="14" blend="linear-dodge" offset-x="50" offset-y="29" rotation-z="-69" />
+      <frame id="5" blend="color-dodge" offset-x="47" offset-y="37" scale-x="2.52" scale-y="2.16" />
+    </composite-frame>
+    <composite-frame id="2">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="14" blend="linear-dodge" offset-x="70" offset-y="40" scale-x="1.9" scale-y="2.6" />
+      <frame id="14" blend="linear-dodge" offset-x="33" offset-y="52" rotation-z="150" scale-y="1.2" />
+      <frame id="14" blend="linear-dodge" offset-x="29" offset-y="45" rotation-z="-172" scale-y="1.2" />
+      <frame id="15" blend="linear-dodge" offset-x="37" offset-y="30" rotation-z="-112" />
+      <frame id="14" blend="linear-dodge" offset-x="31" offset-y="38" rotation-z="-141" scale-x="1.1" scale-y="1.6" />
+      <frame id="14" blend="linear-dodge" offset-x="50" offset-y="30" rotation-z="-69" />
+      <frame id="18" blend="color-dodge" offset-x="53" offset-y="40" scale-x="1.3" scale-y="1.2" />
+      <frame id="5" blend="color-dodge" tween="1" frame-in-tween="3" offset-x="56" offset-y="41" scale-x="1.3" scale-y="1.2" />
+      <frame id="5" blend="linear-dodge" offset-x="56" offset-y="42" />
+      <frame id="5" blend="color-dodge" offset-x="44" offset-y="37" scale-x="1.34" scale-y="1.52" />
+      <frame id="5" blend="screen" tween="1" frame-in-tween="3" offset-x="41" offset-y="37" scale-x="1.2" scale-y="1.16" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="14" blend="linear-dodge" offset-x="70" offset-y="40" scale-x="2.2" scale-y="2.84" />
+      <frame id="14" blend="linear-dodge" offset-x="36" offset-y="49" rotation-z="150" scale-x="0.6" scale-y="0.8" />
+      <frame id="14" blend="linear-dodge" offset-x="32" offset-y="45" rotation-z="-172" scale-x="0.6" scale-y="0.8" />
+      <frame id="15" blend="linear-dodge" offset-x="38" offset-y="33" rotation-z="-112" scale-x="0.6" scale-y="0.6" />
+      <frame id="14" blend="linear-dodge" offset-x="33" offset-y="40" rotation-z="-141" scale-x="0.700000000000001" scale-y="1.2" />
+      <frame id="14" blend="linear-dodge" offset-x="45" offset-y="36" rotation-z="-69" scale-x="0.6" scale-y="0.6" />
+      <frame id="18" blend="color-dodge" offset-x="53" offset-y="40" scale-y="1.1" />
+      <frame id="5" blend="color-dodge" tween="1" frame-in-tween="3" offset-x="56" offset-y="41" scale-y="1.1" />
+      <frame id="5" blend="linear-dodge" offset-x="56" offset-y="42" scale-x="0.7" scale-y="0.9" />
+      <frame id="5" blend="color-dodge" offset-x="44" offset-y="37" scale-x="0.939999999999999" scale-y="1.12" />
+      <frame id="5" blend="screen" tween="1" frame-in-tween="3" offset-x="41" offset-y="37" scale-x="0.8" scale-y="0.759999999999999" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="14" blend="linear-dodge" offset-x="70" offset-y="40" scale-x="2.2" scale-y="2.84" />
+      <frame id="14" blend="linear-dodge" offset-x="36" offset-y="49" rotation-z="150" scale-x="0.6" scale-y="0.8" />
+      <frame id="14" blend="linear-dodge" offset-x="32" offset-y="45" rotation-z="-172" scale-x="0.6" scale-y="0.8" />
+      <frame id="15" blend="linear-dodge" offset-x="38" offset-y="33" rotation-z="-112" scale-x="0.6" scale-y="0.6" />
+      <frame id="14" blend="linear-dodge" offset-x="33" offset-y="40" rotation-z="-141" scale-x="0.700000000000001" scale-y="1.2" />
+      <frame id="14" blend="linear-dodge" offset-x="45" offset-y="36" rotation-z="-69" scale-x="0.6" scale-y="0.6" />
+      <frame id="18" blend="color-dodge" offset-x="53" offset-y="40" scale-y="1.1" />
+      <frame id="5" blend="color-dodge" tween="1" frame-in-tween="3" offset-x="56" offset-y="41" scale-y="1.1" />
+      <frame id="5" blend="linear-dodge" offset-x="56" offset-y="42" scale-x="0.7" scale-y="0.9" />
+      <frame id="5" blend="color-dodge" offset-x="44" offset-y="37" scale-x="0.939999999999999" scale-y="1.12" />
+      <frame id="5" blend="screen" tween="1" frame-in-tween="3" offset-x="41" offset-y="37" scale-x="0.8" scale-y="0.759999999999999" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="15" blend="linear-dodge" offset-x="77" offset-y="33" scale-y="2.1" />
+      <frame id="15" blend="linear-dodge" offset-x="46" offset-y="44" rotation-z="205" scale-y="2.1" />
+      <frame id="5" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="47" offset-y="46" scale-x="1.96" scale-y="2.44" />
+      <frame id="5" blend="color-dodge" offset-x="47" offset-y="46" scale-x="1.74" scale-y="2.44" />
+      <frame id="7" blend="linear-dodge" offset-x="63" offset-y="18" rotation-z="174" scale-x="1.1" scale-y="0.7" />
+      <frame id="8" blend="linear-dodge" offset-x="35" offset-y="40" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="8" blend="screen" offset-x="35" offset-y="40" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="11" blend="color-dodge" offset-x="77" offset-y="66" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="82" offset-y="41" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="61" offset-y="37" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="45" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="78" offset-y="59" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="31" offset-y="39" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="30" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="78" offset-y="32" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="38" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="7" blend="color-dodge" offset-x="59" offset-y="34" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="3" offset-x="31" offset-y="30" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="8" blend="screen" offset-x="31" offset-y="30" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="6" blend="color-dodge" offset-x="37" offset-y="34" rotation-z="-34" scale-x="1.9" scale-y="1.5" />
+      <frame id="5" blend="screen" offset-x="33" offset-y="33" scale-x="1.3" scale-y="1.06" />
+      <frame id="6" blend="color-dodge" tween="1" frame-in-tween="4" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="6" blend="screen" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="10" offset-x="44" offset-y="15" rotation-z="39" scale-x="0.8" scale-y="0.8" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="10" offset-x="44" offset-y="15" rotation-z="39" scale-x="0.8" scale-y="0.8" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="15" blend="linear-dodge" offset-x="76" offset-y="33" scale-y="2.1" />
+      <frame id="15" blend="linear-dodge" offset-x="47" offset-y="44" rotation-z="205" scale-y="2.1" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="screen" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="7" blend="linear-dodge" offset-x="67" offset-y="16" rotation-z="174" scale-x="1.2" scale-y="0.8" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="11" blend="color-dodge" offset-x="78" offset-y="66" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="83" offset-y="41" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="60" offset-y="36" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="45" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="78" offset-y="59" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="30" offset-y="38" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="29" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="79" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="37" offset-y="59" scale-x="1.1" scale-y="1.1" />
+      <frame id="7" blend="color-dodge" offset-x="59" offset-y="34" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="26" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="6" blend="color-dodge" offset-x="37" offset-y="34" rotation-z="-34" scale-x="1.9" scale-y="1.5" />
+      <frame id="5" blend="screen" offset-x="33" offset-y="33" scale-x="1.3" scale-y="1.06" />
+      <frame id="6" blend="color-dodge" tween="1" frame-in-tween="4" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="6" blend="screen" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="11" offset-x="44" offset-y="14" rotation-z="39" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="11" offset-x="44" offset-y="14" rotation-z="39" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="15" blend="linear-dodge" offset-x="74" offset-y="33" scale-y="2.1" />
+      <frame id="15" blend="linear-dodge" offset-x="49" offset-y="44" rotation-z="205" scale-y="2.1" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="7" offset-x="44" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" offset-x="44" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="7" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="68" offset-y="15" rotation-z="174" scale-x="1.2" scale-y="0.8" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="11" blend="color-dodge" offset-x="79" offset-y="65" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="84" offset-y="40" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="59" offset-y="35" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="86" offset-y="61" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="91" offset-y="59" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="97" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="96" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="86" offset-y="26" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="26" offset-y="38" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="26" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="44" offset-y="30" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="79" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="29" offset-y="37" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="28" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="80" offset-y="30" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="36" offset-y="60" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="36" offset-y="76" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="53" offset-y="83" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="79" offset-y="22" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="25" offset-y="32" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="86" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="93" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="7" blend="color-dodge" offset-x="59" offset-y="34" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="26" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="6" blend="color-dodge" offset-x="37" offset-y="34" rotation-z="-34" scale-x="1.9" scale-y="1.5" />
+      <frame id="5" blend="screen" offset-x="33" offset-y="33" scale-x="1.3" scale-y="1.06" />
+      <frame id="6" blend="color-dodge" tween="1" frame-in-tween="4" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="6" blend="screen" offset-x="70" offset-y="53" scale-x="1.2" scale-y="1.2" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="12" offset-x="44" offset-y="10" rotation-z="39" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="12" offset-x="44" offset-y="10" rotation-z="39" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="46" offset-y="46" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="46" offset-y="46" scale-x="3.5" scale-y="3.8" />
+      <frame id="7" blend="linear-dodge" tween="1" frame-in-tween="8" offset-x="70" offset-y="13" rotation-z="174" scale-x="1.2" scale-y="0.8" />
+      <frame id="7" blend="linear-dodge" tween="1" frame-in-tween="8" offset-x="70" offset-y="13" rotation-z="174" scale-x="1.2" scale-y="0.8" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="11" blend="color-dodge" offset-x="80" offset-y="64" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="85" offset-y="39" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="58" offset-y="34" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="87" offset-y="60" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="92" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="98" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="97" offset-y="50" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="87" offset-y="25" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="25" offset-y="37" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="25" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="43" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="80" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="28" offset-y="36" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="27" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="81" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="35" offset-y="61" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="35" offset-y="77" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="52" offset-y="84" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="80" offset-y="19" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="24" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="87" offset-y="30" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="94" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="26" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="6" blend="color-dodge" offset-x="36" offset-y="33" rotation-z="-34" scale-x="1.9" scale-y="1.5" />
+      <frame id="5" blend="screen" tween="1" frame-in-tween="9" offset-x="33" offset-y="32" scale-x="1.3" scale-y="1.06" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="8" offset-x="45" offset-y="45" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="color-dodge" tween="1" frame-in-tween="1" offset-x="46" offset-y="46" scale-x="3.5" scale-y="3.8" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="8" blend="screen" tween="1" frame-in-tween="2" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="11" blend="color-dodge" offset-x="82" offset-y="63" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="87" offset-y="38" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="57" offset-y="32" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="90" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="94" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="100" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="99" offset-y="49" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="87" offset-y="23" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="24" offset-y="35" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="24" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="41" offset-y="27" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="81" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="27" offset-y="35" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="26" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="82" offset-y="27" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="33" offset-y="62" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="34" offset-y="79" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="51" offset-y="86" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="81" offset-y="17" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="23" offset-y="30" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="88" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="10" blend="color-dodge" offset-x="97" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="8" blend="linear-dodge" tween="1" frame-in-tween="2" offset-x="26" offset-y="29" rotation-z="-32" scale-x="1.5" scale-y="1.3" />
+      <frame id="5" blend="screen" tween="1" frame-in-tween="9" offset-x="33" offset-y="32" scale-x="1.3" scale-y="1.06" />
+    </composite-frame>
+    <composite-frame id="10">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="8" blend="color-dodge" offset-x="45" offset-y="45" scale-x="3.72" scale-y="3.8" />
+      <frame id="8" blend="linear-dodge" offset-x="31" offset-y="43" rotation-z="194" scale-x="1.54" scale-y="1.44" />
+      <frame id="12" blend="color-dodge" offset-x="84" offset-y="62" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="88" offset-y="36" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="56" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="92" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="96" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="102" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="101" offset-y="48" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="87" offset-y="21" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="23" offset-y="33" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="23" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="41" offset-y="26" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="83" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="26" offset-y="33" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="25" offset-y="50" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="83" offset-y="25" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="32" offset-y="65" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="33" offset-y="81" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="50" offset-y="88" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="82" offset-y="15" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="22" offset-y="28" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="89" offset-y="27" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="99" offset-y="55" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="11">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="55" offset-y="26" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="22" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="22" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="40" offset-y="24" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="25" offset-y="31" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="24" offset-y="48" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="21" offset-y="26" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="31" offset-y="67" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="32" offset-y="83" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="49" offset-y="90" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="86" offset-y="61" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="94" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="98" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="104" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="103" offset-y="47" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="85" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="101" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="89" offset-y="34" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="88" offset-y="19" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="84" offset-y="23" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="82" offset-y="13" scale-x="1.1" scale-y="1.1" />
+      <frame id="11" blend="color-dodge" offset-x="90" offset-y="25" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="12">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="54" offset-y="23" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="21" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="21" offset-y="49" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="39" offset-y="22" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="24" offset-y="29" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="23" offset-y="46" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="20" offset-y="24" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="30" offset-y="69" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="31" offset-y="85" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="48" offset-y="92" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="88" offset-y="60" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="96" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="100" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="106" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="105" offset-y="46" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="87" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="103" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="90" offset-y="32" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="89" offset-y="17" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="85" offset-y="21" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="82" offset-y="11" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="91" offset-y="23" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="13">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="54" offset-y="22" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="20" offset-y="27" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="20" offset-y="47" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="38" offset-y="20" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="23" offset-y="27" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="22" offset-y="44" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="19" offset-y="22" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="29" offset-y="71" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="30" offset-y="87" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="47" offset-y="94" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="90" offset-y="59" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="98" offset-y="54" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="102" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="108" offset-y="50" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="107" offset-y="45" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="89" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="105" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="91" offset-y="30" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="90" offset-y="15" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="86" offset-y="19" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="83" offset-y="9" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="92" offset-y="21" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="14">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="54" offset-y="20" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="19" offset-y="25" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="19" offset-y="45" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="37" offset-y="18" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="22" offset-y="25" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="21" offset-y="42" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="18" offset-y="20" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="28" offset-y="73" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="29" offset-y="89" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="46" offset-y="96" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="92" offset-y="58" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="100" offset-y="53" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="104" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="110" offset-y="49" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="109" offset-y="44" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="91" offset-y="50" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="107" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="92" offset-y="28" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="91" offset-y="13" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="87" offset-y="17" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="83" offset-y="7" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="93" offset-y="19" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="15">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="18" offset-y="23" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="18" offset-y="43" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="21" offset-y="23" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="17" offset-y="18" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="94" offset-y="57" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="102" offset-y="52" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="106" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="112" offset-y="48" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="111" offset-y="43" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="93" offset-y="26" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="92" offset-y="11" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="88" offset-y="15" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="16">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="17" offset-y="21" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="16" offset-y="16" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="96" offset-y="56" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="104" offset-y="51" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="113" offset-y="42" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="94" offset-y="24" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="89" offset-y="13" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="17">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="16" offset-y="19" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="98" offset-y="55" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="106" offset-y="50" scale-x="1.1" scale-y="1.1" />
+      <frame id="12" blend="color-dodge" offset-x="95" offset-y="22" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+    <composite-frame id="18">
+      <frame id="999" named-attachment-point-id="1" offset-x="65" offset-y="53" offset-z="-3" />
+      <frame id="12" blend="color-dodge" offset-x="108" offset-y="49" scale-x="1.1" scale-y="1.1" />
+    </composite-frame>
+  </composite-frames>
+</format>

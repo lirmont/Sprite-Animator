@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<format name="flammy" status="new" frame-width="144" frame-height="144" target-rows="7" target-columns="3" target-start="4" target-end="16" target-ms="100" on-load-zoom="1.00" no-sampling="True">
+  <frames>
+    <frame id="1" s="0" t="0" w="144" h="144" />
+    <frame id="2" s="145" t="0" w="144" h="144" />
+    <frame id="3" s="289" t="0" w="144" h="144" />
+    <frame id="4" s="0" t="145" w="144" h="144" />
+    <frame id="5" s="145" t="145" w="144" h="144" />
+    <frame id="6" s="289" t="145" w="144" h="144" />
+    <frame id="7" s="0" t="289" w="144" h="144" />
+    <frame id="8" s="145" t="289" w="144" h="144" />
+    <frame id="9" s="289" t="289" w="144" h="144" />
+    <frame id="10" s="0" t="433" w="144" h="144" />
+    <frame id="11" s="145" t="433" w="144" h="144" />
+    <frame id="12" s="289" t="433" w="144" h="144" />
+    <frame id="13" s="0" t="577" w="144" h="144" />
+    <frame id="14" s="144" t="577" w="144" h="144" />
+    <frame id="15" s="289" t="577" w="144" h="144" />
+    <frame id="16" s="0" t="864" w="144" h="144" />
+    <frame id="17" s="145" t="864" w="144" h="144" />
+    <frame id="18" s="289" t="864" w="144" h="144" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="1" />
+    </composite-frame>
+    <composite-frame id="2">
+      <frame id="2" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="3" />
+      <frame id="3" />
+      <frame id="3" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="4" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="5" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="6" />
+      <frame id="6" />
+      <frame id="3" />
+      <frame id="6" />
+    </composite-frame>
+  </composite-frames>
+  <guides />
+  <colors />
+  <motion-tweens />
+  <composite-frame-sets />
+  <sounds />
+</format>

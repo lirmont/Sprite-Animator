@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="25bf24b1-2418-484d-8e04-f6e41ebd94e5" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions inside the context of the main display area.</para>
+    </introduction>
+    <section address="KeyboardActions">
+      <title>Keyboard Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>UP</legacyBold>: Advance the composite frame selector up by one.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>DOWN</legacyBold>: Advance the composite frame selector down by one.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>LEFT</legacyBold>: Advance the composite frame selector left by one.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>RIGHT</legacyBold>: Advance the composite frame selector right by one.</para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="MouseActions">
+      <title>Mouse Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Right-click</legacyBold>: Opens context menu for selected composite frame.</para>
+            <list class="ordered">
+              <listItem>
+                <para>
+                  <legacyBold>Edit Selected Frame</legacyBold>: Opens the composite frame editor.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Use Previous Frame</legacyBold>: Opens the composite frame editor, using the previous composite frame's frame calls.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Flip Frame Horizontally</legacyBold>: Mirrors the composite frame's frame calls across the halfway-point so that the resulting frame calls move to the side opposite of where they are and face where they were. The composite frame reloads during this process.</para>
+              </listItem>
+            </list>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

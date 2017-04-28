@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f76a3eaa-879f-4cc6-8be2-c2b79c6281d9" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers available composite frame renderers.</para>
+    </introduction>
+    <section address="SoftwareRenderer">
+      <title>Software Renderer</title>
+      <content>
+        <para>This renderer relies on the Windows' platform GDI+ drawing library. For basic format needs, this renderer is just as fast as any other renderer. However, because more advanced features rely on per-pixel blending, this renderer becomes progressively slower as the number of pixels increases. In short, the software renderer has sub-par performance if the format uses blending or motion trails. By comparison, the result of the software renderer is pixel perfect.</para>
+      </content>
+    </section>
+    <section address="LegacyOpenGLRenderer">
+      <title>Legacy OpenGL Renderer</title>
+      <content>
+        <para>This renderer is a hardware accelerated renderer, relying on the early features of OpenGL (Open Graphics Library), specifically hardware-accelerated color blending. Its performance is comparable to the software renderer for non-complicated large amounts of composite frames. However, it surpasses the software renderer by being able to keep the same level of performance even in the face of blending modes and motion trails.</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

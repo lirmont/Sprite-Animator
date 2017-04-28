@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="5ff8349b-744f-44ee-a88e-898b0d1ea986" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the program credits.</para>
+    </introduction>
+    <section address="Credits">
+      <title>Information</title>
+      <content>
+        <para>This program was made by Scott Overman ("lirmont"). The original project idea and program icon were both developed by LIJJ. GIF encoding is provided by one of the tools included in the ImageMagick toolset. Other program icons (like menu icons) are provided by Icons Etc. Ogg-Vorbis (OGG) audio decoding is provided by the Vorbis# project. Positional audio playback is provided by OpenAL (Open Audio Library).</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

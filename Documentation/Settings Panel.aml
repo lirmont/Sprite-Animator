@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="0d326b7c-5b62-432c-9024-b1961456d2aa" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section describes the available options in the settings panel.</para>
+    </introduction>
+    <section address="AvailableDisplayOptions">
+      <title>Available Display Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Ghost Previous Frame</legacyBold>: In the preview window, an image of the previous composite frame is overlaid on the active composite frame. If the animation sequence was created by range or named set, then the previous composite frame in the sequence is used. Otherwise, the composite frame with the number numerically prior to the active composite frame will be used. If the active composite frame is 1 and animation is disabled, the last composite frame of the format is used.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Ghost Next Frame</legacyBold>: In the preview window, an image of the next composite frame is overlaid on the active composite frame. If the animation sequence was created by range or named set, then the next composite frame in the sequence is used. Otherwise, the composite frame with the number numerically after the active composite frame will be used. If the active composite frame is the final composite frame and animation is disabled, the first composite frame of the format is used.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frame Number on Raw Image</legacyBold>: In the main display area, numbers will be drawn over the active composite frame, denoting which frame number it is. Color is determined by the "Raw Image Overlays" setting.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Transparent Background</legacyBold>: In the main display area, the background color is replaced with a repeating background image, defaulting to a grey and white checkered pattern.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frame Around Raw Image</legacyBold>: In the main display area, a box is drawn around the active composite frame. Color is determined by the "Raw Image Overlays" setting.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Keep Aspect Ratio on Resize</legacyBold>: While active, the main window's resizing is limited to increments of the loaded image or format's aspect ratio. While inactive, resizing is not constrained.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Auto-Update on File Change</legacyBold>: While active, the composite frames will automatically reload when a change to the loaded image is noticed. While inactive, a status message will be displayed when a change to the loaded image is noticed.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Auto-Update on Format Change</legacyBold>: While active, the composite frames will automatically reload when a change to the loaded formatting document is noticed. While inactive, there is no status message denoting the change.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Use No Sampling</legacyBold>: While active, image manipulation tries to maintain pixel perfect outcomes. However, renderers defer to filtering (the bicubic filter) in the presence of rotation or scale, even when this setting is active. While inactive, everything benefits from filtering, giving a smoothed look to the overall images.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Show Audio WaveForm</legacyBold>: In the presence of used audio, the wave-form image of the audio data is overlaid in the main display area. The colors are chosen in the "Edit Loaded Format" feature.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Ignore Audio</legacyBold>: While active, no audio is played. Audio wave-form images will still be drawn if the "Show Audio WaveForm" setting is enabled, though. Otherwise, audio will be buffered and played as it is encountered during animation.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Raw Image Overlays</legacyBold> (color): This color determines which color overlays display as.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Line Width</legacyBold> (number): This number determines how wide the overlaid lines will be.</para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="AvailableAnimationOptions">
+      <title>Available Animation Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Animate</legacyBold> (checkbox): This option determines whether or not the interface cycles through the active animation sequence.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Animate by Named Set</legacyBold>: This option is unavailable if there are no named sets specified by the formatting document. Selecting this option uses the animation sequence specified by the active named set.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Named Sets</legacyBold> (selection box): This option is unavailable if there are no named sets specified by the formatting document. Selecting a named set replaces the active animation sequence with whatever sequence the named set specifies. Named sets can specify any amount of composite frames, any composite frame (including repeats), and even specify a non-default animation speed (specified manually by the "Target ms" setting).</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Animate by Range</legacyBold>: This option is hidden in the absence of named sets. If this option is selected specifically (or by default), the active animation sequence is composed of the composite frames in the inclusive range specified by the start and end frame options. By way of example, a start frame of 1 and end frame of 6 creates an active animation sequence including the following composite frames: 1, 2, 3, 4, 5, and 6.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Start Frame</legacyBold>: If the animation is by range, this setting represents the starting composite frame in the animation sequence.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>End Frame</legacyBold>: If the animation is by range, this setting represents the ending composite frame in the animation sequence.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Target ms</legacyBold>: During animation, the amount of time (in milliseconds) to wait to advance to the next composite frame.</para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="AvailableSubdivisionOptions">
+      <title>Available Subdivision Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Rows</legacyBold> (number): Determines the amount of rows. This setting is automatically set during the process of loading a format in order to meet the display goals of the formatting document. In the absence of a loaded format document, this setting helps define a very simple 1-to-1 rows-by-columns format that matches to the image.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Columns</legacyBold> (number): Determines the amount of columns. This setting is automatically set during the process of loading a format in order to meet the display goals of the formatting documetn. In the absence of a loaded format document, this setting helps define a very simple 1-to-1 rows-by-columns format that matches to the image.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Max Cells</legacyBold> (number): A calculated statistic that represents the total of rows multiplied by columns. This setting has no effect on display or animation.</para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

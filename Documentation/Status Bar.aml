@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="205a6112-3a1f-4662-bc55-09d73363c1d9" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section enumerates the various status messages issued by this program.</para>
+    </introduction>
+    <section address="Messages">
+      <title>Messages</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyItalic>Ready.</legacyItalic>: This message may be present after any other action is completed.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Compiling file formats...X/Y</legacyItalic>: This message is present prior to the "Load File" feature's open file dialog opening. It denotes the progress for compiling the extension list of the open file dialog.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>EXPORT ERROR: Could not create a temporary folder during export to GIF format.</legacyItalic>: This message is present when the program is unable to find a location to place individually exported composite frame images during the "Export Active Frames as GIF" feature.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Image Loaded (last-write-date-time)</legacyItalic>: This message is present after an image is loaded or reload. The "last-write-date-time" is the date and time that the image was last modified.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Parsing sprite description file...</legacyItalic>: This message is present directly prior to composite frame rendering. As format documents get longer and longer, they take longer to parse into usable objects. 
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Image Has Been Altered (last-write-date-time); Turn on Auto-Update Feature to Retrieve.</legacyItalic>: This message is present after an image would have been automatically reloaded. The "last-write-date-time" is the date and time that the image was last modified.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Reloading format document.</legacyItalic>: This message is present when a format document is automatically reloaded.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyItalic>Loading format document.</legacyItalic>: This message is present only when using the operating system to open an image with this program. It is identical to the "Parsing sprite description file..." message.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

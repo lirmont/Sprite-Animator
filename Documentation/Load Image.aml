@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="48149202-9da0-4b13-8fdf-8e151fbfd7a1" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers pertinent information regarding valid image formats and file types.</para>
+    </introduction>
+    <section address="ValidImageFormats">
+      <title>Valid Image Formats</title>
+      <content>
+        <para>Both Bitmap (BMP) and Portable Network Graphics (PNG) are valid image formats within the context of this program. Transparency in bitmap images is calculated as the second diagonal pixel from the top left of the image. Otherwise, the color table is respected, not forcing a transparent color but using existing colors (some of which may be transparent).</para>
+      </content>
+    </section>
+    <section address="NamingConvention">
+      <title>Naming Convention</title>
+      <content>
+        <para>In order to take advantage of this program's formatting feature, images need to be named with complex extensions that reference the name of the format that the image should load as. The "Load Image..." feature keeps an up-to-date list of available formats. However, the format is generally "image-name.format-name.image-extension".</para>
+        <mediaLink>
+          <image placement="center" xlink:href="Load-Image"/>
+        </mediaLink>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

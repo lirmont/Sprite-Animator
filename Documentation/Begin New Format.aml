@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="a003d030-f96f-438e-af48-6d4d715a9557" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section summarizes the purpose of the "Begin New Format" feature.</para>
+      <mediaLink>
+        <image xlink:href="Begin-New-Format"/>
+      </mediaLink>
+    </introduction>
+    <section address="MainSettings">
+      <title>Main Settings</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>File Type</legacyBold>: The name of the folder where the format's sprite.xml will be created. This string is used as part of an image's complex file extension, like "*.format-file-type.bmp".
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Format Description</legacyBold>: A sentence or two about which images are targeted by this format.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Format Status</legacyBold>: A short sentence about the progress or completion of this format.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frame Width</legacyBold> (number): The output width of each individual composite frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frame Height</legacyBold> (number): The output height of each individual composite frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Rows</legacyBold> (number): The number of rows of composite frames to display.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Columns</legacyBold> (number): The number of columns per row of composite frames to display.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Start Frame</legacyBold> (number): The initial active animation sequence start frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>End Frame</legacyBold> (number): The initial active animation sequence end frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Target MS</legacyBold> (number): The default animation dispose time in milliseconds. This can be overidden in named composite frame sets.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>On Load, Zoom</legacyBold> (masked number): This number represents how much to zoom in or out the first time an image is loaded in this format. This feature allows large amounts of composite frames to be displayed.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Source Image</legacyBold>: This string represents the image to use for determining base with and height. It is also used as a background image while cutting out frames.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Use No Image Sampling</legacyBold> (checkbox): This value determines whether or not the format should use no image filtering. When active, the format will request that composite frames try to stay pixel perfect. This is an important feature for minutely detailed images. However, renderers will revert to using bicubic filtering in the presence of scale or rotation, regardless of this setting's value.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="FormatComponents">
+      <title>Format Components</title>
+      <content>
+        <para>Generally, right-clicking in the list view's display area will yield a context menu, allowing for component creation and manipulation.</para>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Available Colors</legacyBold>: Displays a list of colors available to the format. Colors are used for color tweens, sounds, and can also be specified explicitly on a frame call.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Guides</legacyBold>: Displays a list of horizontal and vertical guide lines; values are in pixel units.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Color and Motion Tweens</legacyBold>: Displays a list of tween patterns, summarizing their components. Tweens can be used uniformly move frame calls inside the context of a composite frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frames</legacyBold>: Displays a list of frames; values are in pixel units. ID's start and 1 and increase towards positive infinity.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Composite Frames</legacyBold>: Displays a list of composite frames. Composite frames cannot be created here; create composite frames in the main display area.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Composite Frame Sets</legacyBold>: Displays a list of named composite frame sets.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Named Attachment Points</legacyBold>: Displays a list of named attachment points. Named attachment points can be attached to frame calls, and they can have an external image associated with their name, enabling deep customization without explicit changes to the format.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Sounds</legacyBold>: Displays a list of sounds available to the format. Sounds must be in OGG format.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

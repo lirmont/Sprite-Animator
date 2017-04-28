@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f69c2d78-0f63-4034-bfdf-c6535d2969f6" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions of the "About" menu.</para>
+      <mediaLink>
+        <image xlink:href="About"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Credits</legacyBold>: Launch a window displaying information about the current iteration of the program.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Help</legacyBold>: Launch a window displaying this help file.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

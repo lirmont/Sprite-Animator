@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b1a544fc-49f8-4737-a424-3d47595c72be" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Frame" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Frame"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>ID</legacyBold>: The ID number of the frame. The value starts at the number "1" and increases towards positive infinity.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>s</legacyBold>: The horizontal starting location (in pixels) from the left edge of the image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>t</legacyBold>: The vertical starting location (in pixels) from the top edge of the image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>w</legacyBold>: The width of the frame rectangle (in pixels). This number is added to "s" to form the rectangle.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>h</legacyBold>: The height of the frame rectangle (in pixels). This number is added to "t" to form the rectangle.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="DrawingAreaAvailableActions">
+      <title>Drawing Area Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Left-Click and Drag</legacyBold>: Create the rectangle, (s, t, w, h), by dragging over the image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Wheel Forward/Backward</legacyBold> (or) <legacyBold>Toolbar Buttons</legacyBold>: Zooms the view in and out.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

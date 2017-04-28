@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="2b9b43bb-b7b9-46c2-a5db-46126faf6b78" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available options of the "Available Formats" window.</para>
+      <mediaLink>
+        <image xlink:href="Available-Formats"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Format</legacyBold> (selection box): A list of available formats. On selection, the information summary updates to match the selected format.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>View Reference Image</legacyBold>: Launches a window displaying an arbitrary reference image (by name of reference.bmp).
+            </para>
+            <mediaLink>
+              <image placement="near" xlink:href="Reference-with-and-without-Image"/>
+            </mediaLink>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

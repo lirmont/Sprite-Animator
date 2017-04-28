@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="e9da060c-c95e-4951-ada3-0ac2bf60545a" visible="True" isDefault="true" title="Introduction" tocTitle="Introduction" />
+  <Topic id="b3ea59e0-3fa7-47a4-8587-514702e9a26f" visible="True" isExpanded="true" title="Basic Interface" tocTitle="Basic Interface">
+    <Topic id="25bf24b1-2418-484d-8e04-f6e41ebd94e5" visible="True" isExpanded="true" title="Main Display Area" tocTitle="Main Display Area">
+      <Topic id="3c97dc7e-d15a-4a0c-9b3d-8b2e09c0652c" visible="True" isExpanded="true">
+        <Topic id="d70c0022-c72d-45d4-9215-2fee52d6bcec" visible="True" isExpanded="true" title="Frame Call Display Area" tocTitle="Frame Call Display Area">
+          <Topic id="d4f3d7dd-0056-4996-a3f7-0ac69c2827ee" visible="True" title="Context Menu" tocTitle="Context Menu" />
+        </Topic>
+      </Topic>
+    </Topic>
+    <Topic id="b80660ba-e792-4f7e-b433-2bc0c3fc43f3" visible="True" title="Preview Window" tocTitle="Preview Window" />
+    <Topic id="0d326b7c-5b62-432c-9024-b1961456d2aa" visible="True" title="Settings Panel" tocTitle="Settings Panel" />
+    <Topic id="a9114ab7-8998-430e-9c38-56b33d9c3936" visible="True" isExpanded="true" title="Main Tool Strip" tocTitle="Main Tool Strip">
+      <Topic id="90b4e0c4-7c6b-46ea-bed5-35f3dcb43904" visible="True" isExpanded="true" title="File" tocTitle="File">
+        <Topic id="48149202-9da0-4b13-8fdf-8e151fbfd7a1" visible="True" title="Load Image" tocTitle="Load Image" />
+        <Topic id="aeea65dc-1058-4786-9a16-edb58718a23c" visible="True" title="Export Active Frames to Animated GIF" tocTitle="Export Active Frames to Animated GIF" />
+        <Topic id="629a5dec-34b1-4a09-9a08-75ccfada2feb" visible="True" isExpanded="true" title="Formats" tocTitle="Formats">
+          <Topic id="a003d030-f96f-438e-af48-6d4d715a9557" visible="True" isExpanded="true" title="Begin New Format" tocTitle="Begin New Format">
+            <Topic id="374eaf5c-e0db-4bec-826c-f674fbb66640" visible="True" isSelected="true" title="Add or Edit Color" tocTitle="Add or Edit Color" />
+            <Topic id="b4183670-2c7a-4092-9fd3-0e78571223eb" visible="True" title="Add or Edit Guide" tocTitle="Add or Edit Guide" />
+            <Topic id="31471805-7a56-4cd5-a52e-3116f8c8a79e" visible="True" title="Add or Edit Tween" tocTitle="Add or Edit Tween" />
+            <Topic id="b1a544fc-49f8-4737-a424-3d47595c72be" visible="True" title="Add or Edit Frame" tocTitle="Add or Edit Frame" />
+            <Topic id="54c7ce76-de49-4163-bd7a-f294048029fb" visible="True" title="Add or Edit Composite Frame Set" tocTitle="Add or Edit Composite Frame Set" />
+            <Topic id="857b1f21-e124-43f8-8c53-09ee33524fe3" visible="True" title="Add or Edit Named Attachment Point" tocTitle="Add or Edit Named Attachment Point" />
+            <Topic id="ea34bb62-eb40-4980-bd7b-729a5ccd45a4" visible="True" title="Add or Edit Sound" tocTitle="Add or Edit Sound" />
+          </Topic>
+          <Topic id="a241ff54-bd5c-4552-9be6-a371e2375947" visible="True" title="Edit Loaded Format" tocTitle="Edit Loaded Format" />
+        </Topic>
+      </Topic>
+      <Topic id="d1018c39-f4dd-4610-87a2-1b26c263ccae" visible="True" isExpanded="true" title="View" tocTitle="View">
+        <Topic id="2b9b43bb-b7b9-46c2-a5db-46126faf6b78" visible="True" title="Available Formats" tocTitle="Available Formats" />
+        <Topic id="a3af74a5-7c62-4d5d-abd7-abda6643d22e" visible="True" title="Constructed Palette" tocTitle="Constructed Palette" />
+        <Topic id="baeb4850-e00b-4b70-be36-5d11aac4e003" visible="True" title="Available Attachments" tocTitle="Available Attachments" />
+      </Topic>
+      <Topic id="f69c2d78-0f63-4034-bfdf-c6535d2969f6" visible="True" isExpanded="true" title="About" tocTitle="About">
+        <Topic id="5ff8349b-744f-44ee-a88e-898b0d1ea986" visible="True" title="Credits" tocTitle="Credits" />
+        <Topic id="aad65d73-fc86-4b4c-9e43-a43f4cb98a2c" visible="True" title="Help" tocTitle="Help" />
+      </Topic>
+      <Topic id="f76a3eaa-879f-4cc6-8be2-c2b79c6281d9" visible="True" />
+    </Topic>
+    <Topic id="205a6112-3a1f-4662-bc55-09d73363c1d9" visible="True" title="Status Bar" tocTitle="Status Bar" />
+  </Topic>
+</Topics>

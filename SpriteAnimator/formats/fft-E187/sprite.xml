@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format name="FFT: Space Storage Back (E187)" status="Demonstration only." frame-width="526" frame-height="454" target-rows="4" target-columns="8" target-start="1" target-end="23" target-ms="32" on-load-zoom="0.28" base-width="128" base-height="256" no-sampling="true">
+  <reference />
+  <guides>
+    <guide type="horizontal" value="55" />
+    <guide type="horizontal" value="189" />
+    <guide type="horizontal" value="221" />
+    <guide type="horizontal" value="248" />
+    <guide type="vertical" value="38" />
+    <guide type="vertical" value="223" />
+    <guide type="vertical" value="256" />
+    <guide type="vertical" value="290" />
+    <guide type="vertical" value="460" />
+  </guides>
+  <colors />
+  <sounds />
+  <motion-tweens />
+  <named-attachment-points>
+    <named-attachment-point id="1" name="Mock-Target" description="Target of effect." />
+  </named-attachment-points>
+  <composite-frame-sets />
+  <frames>
+    <frame id="1" s="10" t="11" w="58" h="58" />
+    <frame id="2" s="10" t="92" w="34" h="33" />
+    <frame id="3" s="88" t="73" w="23" h="23" />
+    <frame id="4" s="94" t="102" w="12" h="13" />
+    <frame id="5" s="82" t="166" w="45" h="47" />
+    <frame id="6" s="4" t="158" w="71" h="76" />
+    <frame id="999" s="126" t="254" w="2" h="2" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="257" offset-y="181" />
+      <frame id="4" blend="color-dodge" offset-x="307" offset-y="176" />
+      <frame id="4" blend="color-dodge" offset-x="320" offset-y="213" />
+      <frame id="4" blend="color-dodge" offset-x="329" offset-y="216" />
+      <frame id="4" blend="color-dodge" offset-x="283" offset-y="233" />
+      <frame id="4" blend="color-dodge" offset-x="284" offset-y="214" />
+      <frame id="4" blend="color-dodge" offset-x="285" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="276" offset-y="250" />
+      <frame id="4" blend="color-dodge" offset-x="274" offset-y="250" />
+      <frame id="4" blend="color-dodge" offset-x="272" offset-y="250" />
+      <frame id="4" blend="color-dodge" offset-x="240" offset-y="261" />
+      <frame id="4" blend="color-dodge" offset-x="238" offset-y="261" />
+      <frame id="4" blend="color-dodge" offset-x="236" offset-y="260" />
+      <frame id="4" blend="color-dodge" offset-x="231" offset-y="212" />
+      <frame id="4" blend="color-dodge" offset-x="236" offset-y="208" />
+      <frame id="4" blend="color-dodge" offset-x="243" offset-y="197" />
+      <frame id="4" blend="color-dodge" offset-x="214" offset-y="188" />
+      <frame id="4" blend="color-dodge" offset-x="212" offset-y="189" />
+      <frame id="4" blend="color-dodge" offset-x="212" offset-y="187" />
+    </composite-frame>
+    <composite-frame id="2">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="256" offset-y="179" />
+      <frame id="4" blend="color-dodge" offset-x="309" offset-y="174" />
+      <frame id="4" blend="color-dodge" offset-x="322" offset-y="211" />
+      <frame id="4" blend="color-dodge" offset-x="331" offset-y="214" />
+      <frame id="4" blend="color-dodge" offset-x="285" offset-y="235" />
+      <frame id="4" blend="color-dodge" offset-x="286" offset-y="213" />
+      <frame id="4" blend="color-dodge" offset-x="287" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="278" offset-y="253" />
+      <frame id="4" blend="color-dodge" offset-x="276" offset-y="253" />
+      <frame id="4" blend="color-dodge" offset-x="274" offset-y="253" />
+      <frame id="4" blend="color-dodge" offset-x="236" offset-y="266" />
+      <frame id="4" blend="color-dodge" offset-x="234" offset-y="266" />
+      <frame id="4" blend="color-dodge" offset-x="232" offset-y="265" />
+      <frame id="4" blend="color-dodge" offset-x="229" offset-y="211" />
+      <frame id="4" blend="color-dodge" offset-x="234" offset-y="207" />
+      <frame id="4" blend="color-dodge" offset-x="241" offset-y="196" />
+      <frame id="4" blend="color-dodge" offset-x="212" offset-y="187" />
+      <frame id="4" blend="color-dodge" offset-x="210" offset-y="188" />
+      <frame id="4" blend="color-dodge" offset-x="210" offset-y="186" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="230" offset-y="179" scale-x="0.6" scale-y="1.4" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="255" offset-y="177" />
+      <frame id="4" blend="color-dodge" offset-x="311" offset-y="173" />
+      <frame id="4" blend="color-dodge" offset-x="324" offset-y="210" />
+      <frame id="4" blend="color-dodge" offset-x="333" offset-y="213" />
+      <frame id="4" blend="color-dodge" offset-x="288" offset-y="212" />
+      <frame id="4" blend="color-dodge" offset-x="289" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="286" offset-y="237" />
+      <frame id="4" blend="color-dodge" offset-x="279" offset-y="255" />
+      <frame id="4" blend="color-dodge" offset-x="277" offset-y="255" />
+      <frame id="4" blend="color-dodge" offset-x="275" offset-y="255" />
+      <frame id="4" blend="color-dodge" offset-x="235" offset-y="268" />
+      <frame id="4" blend="color-dodge" offset-x="233" offset-y="268" />
+      <frame id="4" blend="color-dodge" offset-x="231" offset-y="267" />
+      <frame id="4" blend="color-dodge" offset-x="227" offset-y="210" />
+      <frame id="4" blend="color-dodge" offset-x="232" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="239" offset-y="195" />
+      <frame id="4" blend="color-dodge" offset-x="210" offset-y="186" />
+      <frame id="4" blend="color-dodge" offset-x="208" offset-y="187" />
+      <frame id="4" blend="color-dodge" offset-x="208" offset-y="185" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="230" offset-y="179" scale-x="0.8" scale-y="2.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="240" offset-y="198" rotation-z="66" scale-x="0.8" scale-y="2.4" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="254" offset-y="175" />
+      <frame id="4" blend="color-dodge" offset-x="313" offset-y="172" />
+      <frame id="4" blend="color-dodge" offset-x="326" offset-y="209" />
+      <frame id="4" blend="color-dodge" offset-x="335" offset-y="212" />
+      <frame id="4" blend="color-dodge" offset-x="290" offset-y="211" />
+      <frame id="4" blend="color-dodge" offset-x="291" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="287" offset-y="239" />
+      <frame id="4" blend="color-dodge" offset-x="280" offset-y="257" />
+      <frame id="4" blend="color-dodge" offset-x="278" offset-y="257" />
+      <frame id="4" blend="color-dodge" offset-x="276" offset-y="257" />
+      <frame id="4" blend="color-dodge" offset-x="234" offset-y="270" />
+      <frame id="4" blend="color-dodge" offset-x="232" offset-y="270" />
+      <frame id="4" blend="color-dodge" offset-x="230" offset-y="269" />
+      <frame id="4" blend="color-dodge" offset-x="225" offset-y="209" />
+      <frame id="4" blend="color-dodge" offset-x="230" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="237" offset-y="194" />
+      <frame id="4" blend="color-dodge" offset-x="208" offset-y="185" />
+      <frame id="4" blend="color-dodge" offset-x="206" offset-y="186" />
+      <frame id="4" blend="color-dodge" offset-x="206" offset-y="184" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="184" scale-x="0.8" scale-y="2.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="226" offset-y="189" rotation-z="102" scale-x="0.7" scale-y="2.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="100" scale-x="0.8" scale-y="3.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.7" scale-y="5.2" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="253" offset-y="173" />
+      <frame id="4" blend="color-dodge" offset-x="315" offset-y="171" />
+      <frame id="4" blend="color-dodge" offset-x="328" offset-y="208" />
+      <frame id="4" blend="color-dodge" offset-x="337" offset-y="211" />
+      <frame id="4" blend="color-dodge" offset-x="292" offset-y="210" />
+      <frame id="4" blend="color-dodge" offset-x="293" offset-y="202" />
+      <frame id="4" blend="color-dodge" offset-x="288" offset-y="241" />
+      <frame id="4" blend="color-dodge" offset-x="281" offset-y="259" />
+      <frame id="4" blend="color-dodge" offset-x="279" offset-y="259" />
+      <frame id="4" blend="color-dodge" offset-x="277" offset-y="259" />
+      <frame id="4" blend="color-dodge" offset-x="233" offset-y="272" />
+      <frame id="4" blend="color-dodge" offset-x="231" offset-y="272" />
+      <frame id="4" blend="color-dodge" offset-x="229" offset-y="271" />
+      <frame id="4" blend="color-dodge" offset-x="223" offset-y="208" />
+      <frame id="4" blend="color-dodge" offset-x="228" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="235" offset-y="193" />
+      <frame id="4" blend="color-dodge" offset-x="206" offset-y="184" />
+      <frame id="4" blend="color-dodge" offset-x="204" offset-y="185" />
+      <frame id="4" blend="color-dodge" offset-x="204" offset-y="183" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="231" offset-y="179" scale-y="2.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="241" scale-x="0.8" scale-y="1.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="260" scale-x="1.1" scale-y="2.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.9" scale-y="1.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="226" offset-y="189" rotation-z="103" scale-x="0.6" scale-y="2.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="288" offset-y="241" rotation-z="125" scale-x="0.7" scale-y="3.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="100" scale-x="0.5" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.5" scale-y="6.3" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="253" offset-y="173" />
+      <frame id="4" blend="color-dodge" offset-x="317" offset-y="170" />
+      <frame id="4" blend="color-dodge" offset-x="330" offset-y="207" />
+      <frame id="4" blend="color-dodge" offset-x="339" offset-y="210" />
+      <frame id="4" blend="color-dodge" offset-x="294" offset-y="209" />
+      <frame id="4" blend="color-dodge" offset-x="295" offset-y="201" />
+      <frame id="4" blend="color-dodge" offset-x="289" offset-y="243" />
+      <frame id="4" blend="color-dodge" offset-x="282" offset-y="261" />
+      <frame id="4" blend="color-dodge" offset-x="280" offset-y="261" />
+      <frame id="4" blend="color-dodge" offset-x="278" offset-y="261" />
+      <frame id="4" blend="color-dodge" offset-x="232" offset-y="274" />
+      <frame id="4" blend="color-dodge" offset-x="230" offset-y="274" />
+      <frame id="4" blend="color-dodge" offset-x="228" offset-y="273" />
+      <frame id="4" blend="color-dodge" offset-x="221" offset-y="207" />
+      <frame id="4" blend="color-dodge" offset-x="226" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="233" offset-y="192" />
+      <frame id="4" blend="color-dodge" offset-x="204" offset-y="183" />
+      <frame id="4" blend="color-dodge" offset-x="202" offset-y="184" />
+      <frame id="4" blend="color-dodge" offset-x="202" offset-y="182" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="231" offset-y="138" scale-x="0.8" scale-y="4.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="241" scale-x="0.8" scale-y="2.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="260" scale-x="0.5" scale-y="2.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.6" scale-y="2.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="165" offset-y="173" rotation-z="103" scale-x="0.84" scale-y="3.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="0.5" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="100" scale-x="0.2" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.3" scale-y="6.3" />
+      <frame id="6" blend="lighten" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="252" offset-y="171" />
+      <frame id="4" blend="color-dodge" offset-x="319" offset-y="169" />
+      <frame id="4" blend="color-dodge" offset-x="332" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="341" offset-y="209" />
+      <frame id="4" blend="color-dodge" offset-x="296" offset-y="208" />
+      <frame id="4" blend="color-dodge" offset-x="297" offset-y="200" />
+      <frame id="4" blend="color-dodge" offset-x="290" offset-y="245" />
+      <frame id="4" blend="color-dodge" offset-x="283" offset-y="263" />
+      <frame id="4" blend="color-dodge" offset-x="281" offset-y="263" />
+      <frame id="4" blend="color-dodge" offset-x="279" offset-y="263" />
+      <frame id="4" blend="color-dodge" offset-x="231" offset-y="276" />
+      <frame id="4" blend="color-dodge" offset-x="229" offset-y="276" />
+      <frame id="4" blend="color-dodge" offset-x="227" offset-y="275" />
+      <frame id="4" blend="color-dodge" offset-x="219" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="224" offset-y="202" />
+      <frame id="4" blend="color-dodge" offset-x="231" offset-y="191" />
+      <frame id="4" blend="color-dodge" offset-x="202" offset-y="182" />
+      <frame id="4" blend="color-dodge" offset-x="200" offset-y="183" />
+      <frame id="4" blend="color-dodge" offset-x="200" offset-y="181" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="138" scale-x="0.5" scale-y="4.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="249" scale-x="0.8" scale-y="3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="275" scale-x="0.3" scale-y="3.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.3" scale-y="2.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="151" offset-y="171" rotation-z="103" scale-x="0.44" scale-y="4.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="152" offset-y="207" rotation-z="80" scale-x="0.44" scale-y="3.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="152" offset-y="218" rotation-z="73" scale-x="0.44" scale-y="3.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="0.5" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="268" offset-y="207" rotation-z="116" scale-x="0.5" scale-y="2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="100" scale-x="0.1" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.1" scale-y="6.3" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="1.2" />
+      <frame id="4" blend="color-dodge" offset-x="251" offset-y="169" />
+      <frame id="4" blend="color-dodge" offset-x="321" offset-y="168" />
+      <frame id="4" blend="color-dodge" offset-x="334" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="343" offset-y="208" />
+      <frame id="4" blend="color-dodge" offset-x="298" offset-y="207" />
+      <frame id="4" blend="color-dodge" offset-x="299" offset-y="199" />
+      <frame id="4" blend="color-dodge" offset-x="291" offset-y="247" />
+      <frame id="4" blend="color-dodge" offset-x="284" offset-y="265" />
+      <frame id="4" blend="color-dodge" offset-x="282" offset-y="265" />
+      <frame id="4" blend="color-dodge" offset-x="280" offset-y="265" />
+      <frame id="4" blend="color-dodge" offset-x="230" offset-y="278" />
+      <frame id="4" blend="color-dodge" offset-x="228" offset-y="278" />
+      <frame id="4" blend="color-dodge" offset-x="226" offset-y="277" />
+      <frame id="4" blend="color-dodge" offset-x="217" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="222" offset-y="201" />
+      <frame id="4" blend="color-dodge" offset-x="229" offset-y="190" />
+      <frame id="4" blend="color-dodge" offset-x="200" offset-y="181" />
+      <frame id="4" blend="color-dodge" offset-x="198" offset-y="182" />
+      <frame id="4" blend="color-dodge" offset-x="198" offset-y="180" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="207" offset-y="174" rotation-z="-55" scale-x="0.8" scale-y="2.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="211" offset-y="218" rotation-z="-159" scale-x="0.8" scale-y="1.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="246" offset-y="230" rotation-z="-211" scale-x="0.8" scale-y="2.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="138" scale-x="0.3" scale-y="4.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="262" scale-x="0.5" scale-y="3.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="286" scale-x="0.1" scale-y="4.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.2" scale-y="2.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="142" offset-y="168" rotation-z="103" scale-x="0.24" scale-y="4.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="0.54" scale-y="3.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="0.44" scale-y="4.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="221" rotation-z="73" scale-x="0.34" scale-y="4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="0.1" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="291" offset-y="219" rotation-z="116" scale-x="0.7" scale-y="4.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="228" offset-y="100" scale-x="-0.1" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.1" scale-y="6.3" />
+      <frame id="6" blend="color-dodge" flip-x="True" offset-x="229" offset-y="178" scale-x="0.8" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="250" offset-y="167" />
+      <frame id="4" blend="color-dodge" offset-x="323" offset-y="167" />
+      <frame id="4" blend="color-dodge" offset-x="336" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="345" offset-y="207" />
+      <frame id="4" blend="color-dodge" offset-x="300" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="301" offset-y="198" />
+      <frame id="4" blend="color-dodge" offset-x="292" offset-y="249" />
+      <frame id="4" blend="color-dodge" offset-x="285" offset-y="267" />
+      <frame id="4" blend="color-dodge" offset-x="283" offset-y="267" />
+      <frame id="4" blend="color-dodge" offset-x="281" offset-y="267" />
+      <frame id="4" blend="color-dodge" offset-x="229" offset-y="280" />
+      <frame id="4" blend="color-dodge" offset-x="227" offset-y="280" />
+      <frame id="4" blend="color-dodge" offset-x="225" offset-y="279" />
+      <frame id="4" blend="color-dodge" offset-x="215" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="220" offset-y="200" />
+      <frame id="4" blend="color-dodge" offset-x="227" offset-y="189" />
+      <frame id="4" blend="color-dodge" offset-x="198" offset-y="180" />
+      <frame id="4" blend="color-dodge" offset-x="196" offset-y="181" />
+      <frame id="4" blend="color-dodge" offset-x="196" offset-y="179" />
+    </composite-frame>
+    <composite-frame id="10">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="206" offset-y="234" rotation-z="-159" scale-x="0.5" scale-y="2.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.6" scale-y="3.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="125" scale-x="0.16" scale-y="4.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="279" scale-x="0.3" scale-y="4.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.2" scale-y="2.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="142" offset-y="168" rotation-z="103" scale-x="0.14" scale-y="4.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="0.34" scale-y="3.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="0.44" scale-y="4.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="221" rotation-z="73" scale-x="0.24" scale-y="2.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="-0.1" scale-y="5.02" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="291" offset-y="224" rotation-z="116" scale-x="0.419999999999996" scale-y="-4.16000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.919999999999996" scale-y="-3.66000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.1" scale-y="5.3" />
+      <frame id="4" blend="color-dodge" offset-x="249" offset-y="165" />
+      <frame id="4" blend="color-dodge" offset-x="325" offset-y="166" />
+      <frame id="4" blend="color-dodge" offset-x="338" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="347" offset-y="206" />
+      <frame id="4" blend="color-dodge" offset-x="302" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="303" offset-y="197" />
+      <frame id="4" blend="color-dodge" offset-x="293" offset-y="251" />
+      <frame id="4" blend="color-dodge" offset-x="286" offset-y="269" />
+      <frame id="4" blend="color-dodge" offset-x="284" offset-y="269" />
+      <frame id="4" blend="color-dodge" offset-x="282" offset-y="269" />
+      <frame id="4" blend="color-dodge" offset-x="228" offset-y="282" />
+      <frame id="4" blend="color-dodge" offset-x="226" offset-y="282" />
+      <frame id="4" blend="color-dodge" offset-x="224" offset-y="281" />
+      <frame id="4" blend="color-dodge" offset-x="213" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="218" offset-y="199" />
+      <frame id="4" blend="color-dodge" offset-x="225" offset-y="188" />
+      <frame id="4" blend="color-dodge" offset-x="196" offset-y="179" />
+      <frame id="4" blend="color-dodge" offset-x="194" offset-y="180" />
+      <frame id="4" blend="color-dodge" offset-x="194" offset-y="178" />
+    </composite-frame>
+    <composite-frame id="11">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="206" offset-y="234" rotation-z="-159" scale-x="0.2" scale-y="3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.4" scale-y="4.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="125" scale-x="0.26" scale-y="3.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="279" scale-x="0.1" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="0.1" scale-y="3.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="142" offset-y="168" rotation-z="103" scale-x="0.04" scale-y="4.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="0.14" scale-y="4.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="0.14" scale-y="4.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="221" rotation-z="73" scale-x="0.14" scale-y="4.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="-0.2" scale-y="5.02" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="308" offset-y="233" rotation-z="116" scale-x="0.219999999999996" scale-y="-4.76000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.419999999999996" scale-y="-4.56000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.2" scale-y="5.3" />
+      <frame id="4" blend="color-dodge" offset-x="248" offset-y="163" />
+      <frame id="4" blend="color-dodge" offset-x="327" offset-y="165" />
+      <frame id="4" blend="color-dodge" offset-x="340" offset-y="202" />
+      <frame id="4" blend="color-dodge" offset-x="349" offset-y="205" />
+      <frame id="4" blend="color-dodge" offset-x="304" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="305" offset-y="196" />
+      <frame id="4" blend="color-dodge" offset-x="294" offset-y="253" />
+      <frame id="4" blend="color-dodge" offset-x="287" offset-y="271" />
+      <frame id="4" blend="color-dodge" offset-x="285" offset-y="271" />
+      <frame id="4" blend="color-dodge" offset-x="283" offset-y="271" />
+      <frame id="4" blend="color-dodge" offset-x="227" offset-y="284" />
+      <frame id="4" blend="color-dodge" offset-x="225" offset-y="284" />
+      <frame id="4" blend="color-dodge" offset-x="223" offset-y="283" />
+      <frame id="4" blend="color-dodge" offset-x="211" offset-y="202" />
+      <frame id="4" blend="color-dodge" offset-x="216" offset-y="198" />
+      <frame id="4" blend="color-dodge" offset-x="223" offset-y="187" />
+      <frame id="4" blend="color-dodge" offset-x="194" offset-y="178" />
+      <frame id="4" blend="color-dodge" offset-x="192" offset-y="179" />
+      <frame id="4" blend="color-dodge" offset-x="192" offset-y="177" />
+    </composite-frame>
+    <composite-frame id="12">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="206" offset-y="234" rotation-z="-159" scale-x="0.1" scale-y="3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.2" scale-y="4.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="125" scale-x="0.36" scale-y="3.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="125" scale-x="0.16" scale-y="4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="222" offset-y="279" scale-x="0" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="-0.1" scale-y="3.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="142" offset-y="168" rotation-z="103" scale-x="-0.06" scale-y="4.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="-0.06" scale-y="5.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="0.04" scale-y="5.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="221" rotation-z="73" scale-x="0.04" scale-y="5.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="301" offset-y="251" rotation-z="125" scale-x="-0.2" scale-y="3.88" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="308" offset-y="233" rotation-z="116" scale-x="0.119999999999996" scale-y="-5.16000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.219999999999996" scale-y="-5.26000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.36" scale-y="4.9" />
+      <frame id="4" blend="color-dodge" offset-x="247" offset-y="161" />
+      <frame id="4" blend="color-dodge" offset-x="329" offset-y="164" />
+      <frame id="4" blend="color-dodge" offset-x="342" offset-y="201" />
+      <frame id="4" blend="color-dodge" offset-x="351" offset-y="204" />
+      <frame id="4" blend="color-dodge" offset-x="306" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="307" offset-y="195" />
+      <frame id="4" blend="color-dodge" offset-x="295" offset-y="255" />
+      <frame id="4" blend="color-dodge" offset-x="288" offset-y="273" />
+      <frame id="4" blend="color-dodge" offset-x="286" offset-y="273" />
+      <frame id="4" blend="color-dodge" offset-x="284" offset-y="273" />
+      <frame id="4" blend="color-dodge" offset-x="226" offset-y="286" />
+      <frame id="4" blend="color-dodge" offset-x="224" offset-y="286" />
+      <frame id="4" blend="color-dodge" offset-x="222" offset-y="285" />
+      <frame id="4" blend="color-dodge" offset-x="209" offset-y="201" />
+      <frame id="4" blend="color-dodge" offset-x="214" offset-y="197" />
+      <frame id="4" blend="color-dodge" offset-x="221" offset-y="186" />
+      <frame id="4" blend="color-dodge" offset-x="192" offset-y="177" />
+      <frame id="4" blend="color-dodge" offset-x="190" offset-y="178" />
+      <frame id="4" blend="color-dodge" offset-x="190" offset-y="176" />
+    </composite-frame>
+    <composite-frame id="13">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.2" scale-y="4.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="130" scale-x="0.66" scale-y="3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="125" scale-x="0.32" scale-y="3.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="198" offset-y="233" rotation-z="44" scale-x="-0.1" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="142" offset-y="168" rotation-z="103" scale-x="-0.06" scale-y="5.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="0.04" scale-y="4.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="0.04" scale-y="4.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="221" rotation-z="73" scale-x="0.04" scale-y="3.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="290" offset-y="244" rotation-z="125" scale-x="-0.5" scale-y="3.28" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="308" offset-y="233" rotation-z="116" scale-x="0.119999999999996" scale-y="-6.76000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.119999999999996" scale-y="-5.96000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="275" offset-y="184" rotation-z="69" scale-x="0.66" scale-y="3.96" />
+      <frame id="4" blend="color-dodge" offset-x="246" offset-y="159" />
+      <frame id="4" blend="color-dodge" offset-x="331" offset-y="163" />
+      <frame id="4" blend="color-dodge" offset-x="344" offset-y="200" />
+      <frame id="4" blend="color-dodge" offset-x="353" offset-y="203" />
+      <frame id="4" blend="color-dodge" offset-x="308" offset-y="202" />
+      <frame id="4" blend="color-dodge" offset-x="309" offset-y="194" />
+      <frame id="4" blend="color-dodge" offset-x="296" offset-y="257" />
+      <frame id="4" blend="color-dodge" offset-x="289" offset-y="275" />
+      <frame id="4" blend="color-dodge" offset-x="287" offset-y="275" />
+      <frame id="4" blend="color-dodge" offset-x="285" offset-y="275" />
+      <frame id="4" blend="color-dodge" offset-x="225" offset-y="288" />
+      <frame id="4" blend="color-dodge" offset-x="223" offset-y="288" />
+      <frame id="4" blend="color-dodge" offset-x="221" offset-y="287" />
+      <frame id="4" blend="color-dodge" offset-x="207" offset-y="200" />
+      <frame id="4" blend="color-dodge" offset-x="212" offset-y="196" />
+      <frame id="4" blend="color-dodge" offset-x="219" offset-y="185" />
+      <frame id="4" blend="color-dodge" offset-x="190" offset-y="176" />
+      <frame id="4" blend="color-dodge" offset-x="188" offset-y="177" />
+      <frame id="4" blend="color-dodge" offset-x="188" offset-y="175" />
+    </composite-frame>
+    <composite-frame id="14">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.1" scale-y="4.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="161" scale-x="0.66" scale-y="1.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="132" scale-x="0.42" scale-y="3.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="-0.0599999999999991" scale-y="4.20000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="-0.06" scale-y="3.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="280" offset-y="238" rotation-z="125" scale-x="-0.7" scale-y="2.88" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="308" offset-y="233" rotation-z="116" scale-x="0.219999999999996" scale-y="-5.46000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.019999999999996" scale-y="-5.96000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="260" offset-y="186" rotation-z="69" scale-x="0.56" scale-y="1.76" />
+      <frame id="4" blend="color-dodge" offset-x="245" offset-y="157" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="333" offset-y="162" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="346" offset-y="199" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="355" offset-y="202" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="310" offset-y="201" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="311" offset-y="193" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="297" offset-y="259" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="290" offset-y="277" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="288" offset-y="277" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="286" offset-y="277" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="224" offset-y="290" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="222" offset-y="290" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="220" offset-y="289" scale-x="0.8" scale-y="0.8" />
+      <frame id="4" blend="color-dodge" offset-x="205" offset-y="199" scale-x="0.8" scale-y="0.9" />
+      <frame id="4" blend="color-dodge" offset-x="210" offset-y="195" scale-x="0.8" scale-y="0.9" />
+      <frame id="4" blend="color-dodge" offset-x="217" offset-y="184" scale-x="0.8" scale-y="0.9" />
+      <frame id="4" blend="color-dodge" offset-x="188" offset-y="175" scale-x="0.8" scale-y="0.9" />
+      <frame id="4" blend="color-dodge" offset-x="186" offset-y="176" scale-x="0.8" scale-y="0.9" />
+      <frame id="4" blend="color-dodge" offset-x="186" offset-y="174" scale-x="0.8" scale-y="0.9" />
+    </composite-frame>
+    <composite-frame id="15">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="265" rotation-z="-211" scale-x="0.1" scale-y="2.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="172" scale-x="0.56" scale-y="0.999999999999999" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="138" scale-x="0.62" scale-y="2.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="153" offset-y="189" rotation-z="94" scale-x="-0.159999999999999" scale-y="3.70000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="143" offset-y="210" rotation-z="80" scale-x="-0.26" scale-y="3.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="261" offset-y="224" rotation-z="125" scale-x="-0.7" scale-y="1.78" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="308" offset-y="233" rotation-z="116" scale-x="0.219999999999996" scale-y="-3.96000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.119999999999996" scale-y="-5.06000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="252" offset-y="189" rotation-z="69" scale-x="0.46" scale-y="1.16" />
+      <frame id="4" blend="color-dodge" offset-x="244" offset-y="155" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="335" offset-y="161" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="348" offset-y="198" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="357" offset-y="201" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="312" offset-y="200" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="313" offset-y="192" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="298" offset-y="261" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="291" offset-y="279" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="289" offset-y="279" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="287" offset-y="279" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="223" offset-y="292" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="221" offset-y="292" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="219" offset-y="291" scale-x="0.6" scale-y="0.6" />
+      <frame id="4" blend="color-dodge" offset-x="203" offset-y="198" scale-x="0.64" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="208" offset-y="194" scale-x="0.64" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="215" offset-y="183" scale-x="0.64" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="186" offset-y="174" scale-x="0.64" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="184" offset-y="175" scale-x="0.64" scale-y="0.66" />
+      <frame id="4" blend="color-dodge" offset-x="184" offset-y="173" scale-x="0.64" scale-y="0.66" />
+    </composite-frame>
+    <composite-frame id="16">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="255" offset-y="250" rotation-z="-211" scale-x="0.3" scale-y="2.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="165" scale-x="0.82" scale-y="1.6" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="158" offset-y="189" rotation-z="94" scale-x="-0.559999999999999" scale-y="2.90000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="162" offset-y="210" rotation-z="80" scale-x="-0.36" scale-y="2.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="250" offset-y="215" rotation-z="125" scale-x="-0.4" scale-y="1.28" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="299" offset-y="229" rotation-z="116" scale-x="0.319999999999996" scale-y="-3.16000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.319999999999996" scale-y="-4.36000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="252" offset-y="189" rotation-z="69" scale-x="0.36" scale-y="0.86" />
+      <frame id="4" blend="color-dodge" offset-x="243" offset-y="153" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="337" offset-y="160" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="350" offset-y="197" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="359" offset-y="200" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="314" offset-y="199" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="315" offset-y="191" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="299" offset-y="263" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="292" offset-y="281" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="290" offset-y="281" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="288" offset-y="281" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="222" offset-y="294" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="220" offset-y="294" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="218" offset-y="293" scale-x="0.4" scale-y="0.4" />
+      <frame id="4" blend="color-dodge" offset-x="201" offset-y="197" scale-x="0.44" scale-y="0.46" />
+      <frame id="4" blend="color-dodge" offset-x="206" offset-y="193" scale-x="0.44" scale-y="0.46" />
+      <frame id="4" blend="color-dodge" offset-x="213" offset-y="182" scale-x="0.44" scale-y="0.46" />
+      <frame id="4" blend="color-dodge" offset-x="184" offset-y="173" scale-x="0.44" scale-y="0.46" />
+      <frame id="4" blend="color-dodge" offset-x="182" offset-y="174" scale-x="0.44" scale-y="0.46" />
+      <frame id="4" blend="color-dodge" offset-x="182" offset-y="172" scale-x="0.44" scale-y="0.46" />
+    </composite-frame>
+    <composite-frame id="17">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="242" offset-y="223" rotation-z="-211" scale-x="0.6" scale-y="1.3" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="229" offset-y="184" scale-x="0.92" scale-y="0.8" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="184" offset-y="192" rotation-z="94" scale-x="-0.859999999999999" scale-y="2.10000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="197" offset-y="207" rotation-z="80" scale-x="-0.66" scale-y="1.9" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="250" offset-y="215" rotation-z="125" scale-x="-0.4" scale-y="1.28" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="299" offset-y="229" rotation-z="116" scale-x="0.319999999999996" scale-y="-3.16000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="183" offset-y="166" rotation-z="-55" scale-x="0.519999999999996" scale-y="-3.06000000000002" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="249" offset-y="192" rotation-z="69" scale-x="0.26" scale-y="0.56" />
+      <frame id="4" blend="color-dodge" offset-x="242" offset-y="151" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="340" offset-y="159" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="353" offset-y="196" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="362" offset-y="199" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="317" offset-y="198" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="318" offset-y="190" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="300" offset-y="265" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="293" offset-y="283" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="291" offset-y="283" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="289" offset-y="283" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="221" offset-y="296" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="219" offset-y="296" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="217" offset-y="295" scale-x="0.2" scale-y="0.2" />
+      <frame id="4" blend="color-dodge" offset-x="199" offset-y="196" scale-x="0.24" scale-y="0.26" />
+      <frame id="4" blend="color-dodge" offset-x="204" offset-y="192" scale-x="0.24" scale-y="0.26" />
+      <frame id="4" blend="color-dodge" offset-x="211" offset-y="181" scale-x="0.24" scale-y="0.26" />
+      <frame id="4" blend="color-dodge" offset-x="182" offset-y="172" scale-x="0.24" scale-y="0.26" />
+      <frame id="4" blend="color-dodge" offset-x="180" offset-y="173" scale-x="0.24" scale-y="0.26" />
+      <frame id="4" blend="color-dodge" offset-x="180" offset-y="171" scale-x="0.24" scale-y="0.26" />
+    </composite-frame>
+    <composite-frame id="18">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="237" offset-y="214" rotation-z="-211" scale-x="0.8" scale-y="0.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="231" offset-y="192" scale-x="0.92" scale-y="0.5" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="212" offset-y="196" rotation-z="94" scale-x="-0.859999999999999" scale-y="1.20000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="211" offset-y="207" rotation-z="80" scale-x="-0.66" scale-y="1.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="240" offset-y="209" rotation-z="125" scale-x="-0.4" scale-y="0.68" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="269" offset-y="217" rotation-z="116" scale-x="0.619999999999996" scale-y="-2.06000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="199" offset-y="177" rotation-z="-55" scale-x="0.519999999999996" scale-y="-1.86000000000002" />
+    </composite-frame>
+    <composite-frame id="19">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="234" offset-y="206" rotation-z="-211" scale-x="0.9" scale-y="0.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="220" offset-y="198" rotation-z="94" scale-x="-0.859999999999999" scale-y="0.70000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="219" offset-y="207" rotation-z="80" scale-x="-0.76" scale-y="0.7" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="246" offset-y="209" rotation-z="116" scale-x="0.619999999999996" scale-y="-1.06000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="212" offset-y="185" rotation-z="-55" scale-x="0.519999999999996" scale-y="-1.06000000000002" />
+    </composite-frame>
+    <composite-frame id="20">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="234" offset-y="206" rotation-z="-211" scale-x="0.3" scale-y="0.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="224" offset-y="198" rotation-z="94" scale-x="-0.859999999999999" scale-y="0.30000000000001" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="221" offset-y="207" rotation-z="80" scale-x="-0.76" scale-y="0.4" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="236" offset-y="202" rotation-z="116" scale-x="0.619999999999996" scale-y="-0.660000000000009" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="217" offset-y="192" rotation-z="-55" scale-x="0.519999999999996" scale-y="-0.560000000000019" />
+    </composite-frame>
+    <composite-frame id="21">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="224" offset-y="207" rotation-z="80" scale-x="-0.76" scale-y="0.2" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="232" offset-y="200" rotation-z="116" scale-x="0.459999999999996" scale-y="-0.360000000000009" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="221" offset-y="195" rotation-z="-55" scale-x="0.519999999999996" scale-y="-0.36000000000002" />
+    </composite-frame>
+    <composite-frame id="22">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="224" offset-y="207" rotation-z="80" scale-x="-0.46" scale-y="0.1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="230" offset-y="199" rotation-z="116" scale-x="0.359999999999996" scale-y="-0.260000000000009" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="221" offset-y="195" rotation-z="-55" scale-x="0.319999999999996" scale-y="-0.26000000000002" />
+    </composite-frame>
+    <composite-frame id="23">
+      <frame id="999" named-attachment-point-id="1" offset-x="262" offset-y="220" offset-z="-1" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="230" offset-y="199" rotation-z="116" scale-x="0.159999999999996" scale-y="-0.160000000000009" />
+      <frame id="1" blend="linear-dodge" flip-x="True" offset-x="221" offset-y="195" rotation-z="-55" scale-x="0.119999999999996" scale-y="-0.16000000000002" />
+    </composite-frame>
+  </composite-frames>
+</format>

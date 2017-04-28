@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="31471805-7a56-4cd5-a52e-3116f8c8a79e" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Tween" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Tween"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>ID</legacyBold>: The ID number of the tween.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Advancement Function</legacyBold>: The function determining frame to distance.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Length in Frames</legacyBold>: The length of the tween in animation frames.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Colors</legacyBold> (list): A list of color names used to help determine the color at a given point during the tween. To manipulate the list, right-click within the control to open its context menu.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Points</legacyBold> (list): A list of 3-dimensional points. To manipulate the list, right-click within the control to open its context menu.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="DrawingAreaAvailableActions">
+      <title>Drawing Area Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Double Left-Click</legacyBold>: Create a new point. This feature is positionally aware, interpolating the line where possible.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click and Drag</legacyBold> (over an existing point): Moves the selected point.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Wheel Forward/Backward</legacyBold> (or) <legacyBold>Toolbar Buttons</legacyBold>: Zooms the view in and out.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Left/Right Side Buttons</legacyBold>: Decrease or increase the presence of the tween's path components (points, line size, etc).
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

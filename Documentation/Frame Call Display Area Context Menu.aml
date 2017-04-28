@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d4f3d7dd-0056-4996-a3f7-0ac69c2827ee" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the list of options available within the context menu of the "Frame Call Display Area".</para>
+    </introduction>
+    <section address="AvailableActions">
+      <title>Available Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Draw Motion Tween</legacyBold>: While active, any selected frame call that has a motion tween associated with it will result in a visual representation of the tween path drawn along with the frame call.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Draw Points in Tween</legacyBold>: While active, any selected frame call that has a motion tween associated with it will result in a visual representation of the tween points drawn along with the frame call.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Draw Distance from Tween</legacyBold>: While active, any selected frame call that has a motion tween associated with it will result in a dashed line being drawn from the origin of the frame call to the place it exists on the motion tween.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Draw Guides if Available</legacyBold>: While active, horizontal and vertical guide lines specified by the loaded format document are drawn regardless of selection.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Add New Frame</legacyBold>: Adds a new frame call. Frame calls are grouped into sections for convenience.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Default Blending Mode</legacyBold>: Determines the blending mode of new frame calls. Typically, this is "overwrite".
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Add Sound</legacyBold>: Adds a sound to be cued when this composite frame is reached in an animation sequence. The sound will play until the sooner of the following two exit conditions: the animation sequence ends or the sound's duration is reached.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Remove Sound</legacyBold>: Undoes the changes made by the "Add Sound" feature.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Send Backward</legacyBold>: Sends the frame call one place backward in the stack. For frame calls that exist in the same exact plane, this action would be placing the frame call farther away from the viewer.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Copy in Place</legacyBold>: Duplicates a frame call or selection of frame calls, keeping the copies relatively in the same order.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Bring Forward</legacyBold>: Sends the frame call one place forward in the stack. For frame calls that exist in the same exact plane, this action would be placing the frame call closer to the viewer.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Selected Frame</legacyBold>: Swap the existing frame call for with a different area of the image.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Selected Tween</legacyBold>: Swap the existing tween with a different tween.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Motion Trail</legacyBold>: When a tween is present, change the settings related to how a motion trail is calculated. By default, the mode used is "instance" with a setting of "0". The mode "instance" means that only a single copy of the object will be drawn as the renderer traverses the path backwards from the frame call, evaluating the motion trail by the specified amount of frames. The mode "instance-fill" means that the distance traversed backwards from the frame call along the motion tween will be filled with as many copies as necessary of the frame call to fill the distance; the amount of frames specified determines how many frames backwards the motion trail evaluates.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Selected Named Attachment Point</legacyBold>: When named attachment points are provided by the loaded format document, one named attachment point can be added per frame call.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Selected Blending</legacyBold>: Swap the frame call's blending mode with a different mode.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Change Selected Orientation</legacyBold>: Swap the frame call's horizontal orientation mode.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Clear Selected Scaling</legacyBold>: Return the frame call's scaling to its initial state: (x: 1, y: 1, z: 1).
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Clear Selected Rotation</legacyBold>: Return the frame call's rotation to its initial state: (x: 0, y: 0, z: 0).
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Clear Selected Tween</legacyBold>: Remove the frame call's tween, returning its offset and color to its original values without the tween.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Clear Selected Named Attachment Point</legacyBold>: Removes the associated named attachment point from the frame call.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Remove Selected Frames</legacyBold>: Removes the frame call from the composite frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Update Frame</legacyBold>: Updates the composite frame, signaling a re-render event in the "Main Display Area" of the main program interface.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

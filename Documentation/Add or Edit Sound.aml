@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="ea34bb62-eb40-4980-bd7b-729a5ccd45a4" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Sound" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Sound"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Name</legacyBold>: The name of the sound; it is referenced within the formatting document by this name.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Color Name</legacyBold>: The name of the color used to represent this sound when it is visually represented.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Filename</legacyBold>: The path and filename of the sound file (OGG) that will be played back.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

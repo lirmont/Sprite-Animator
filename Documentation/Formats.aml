@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="629a5dec-34b1-4a09-9a08-75ccfada2feb" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This sections contains descriptions of concepts related to format creation.</para>
+    </introduction>
+    <section address="FormatStorage">
+      <title>Format Storage</title>
+      <content>
+        <para>Formats are stored beneath the program directory's "formats" directory. Each format is given its own directory, as every format is named "sprite.xml" at the file level.</para>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

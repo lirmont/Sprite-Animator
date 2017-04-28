@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="54c7ce76-de49-4163-bd7a-f294048029fb" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Composite Frame Set" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Composite-Frame-Set"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Name</legacyBold>: The name of the composite frame set; it is referenced within the formatting document by this name.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Target MS</legacyBold>: The animation speed (delay) in milliseconds.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Frames</legacyBold>: The list of composite frames that compose the animation sequence. To manipulate this list, right-click in the data grid area to bring up its context menu. This feature requires composite frames to exist before anything meaningful can be done with it.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

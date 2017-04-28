@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b4183670-2c7a-4092-9fd3-0e78571223eb" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the options of the "Add or Edit Guide" feature.</para>
+      <mediaLink>
+        <image xlink:href="Add-or-Edit-Guide"/>
+      </mediaLink>
+    </introduction>
+    <section address="AvailableOptions">
+      <title>Available Options</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Type</legacyBold>: The name of the sound; it is referenced within the formatting document by this name.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Position</legacyBold>: The position (in pixels) from the left (for horizontal) or the top (for vertical) to draw the guide line while editing in a composite frame context.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

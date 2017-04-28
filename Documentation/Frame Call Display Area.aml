@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d70c0022-c72d-45d4-9215-2fee52d6bcec" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the availble actions within the "Frame Call Display Area" control.</para>
+    </introduction>
+    <section address="MouseActions">
+      <title>Mouse Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Mouse Hover</legacyBold>: Hover select frame call object, denoted by an outline. Otherwise, displays a red "X", indicating that no mouse action is possible.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold> (during hover-select): Select the top-most hover-selected frame call object. Updates displays regarding active offset and frame call.
+            </para>
+            <mediaLink>
+              <image xlink:href="Select-Frame-Call"/>
+            </mediaLink>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click and Drag</legacyBold> (during hover-select): Select the top-most hover-selected frame call object, initiating a change to the frame call (or group of frame calls). Release the left mouse button to confirm the new offset.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Mouse Wheel Forward/Backward</legacyBold>: Zooms the display in and out.
+            </para>
+            <mediaLink>
+              <image xlink:href="Zoom-In"/>
+            </mediaLink>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Middle-Mouse/Mouse Wheel Click and Drag</legacyBold>: Pans the display area along its current view.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold> (during rotation): Accept the frame call's displayed rotation as the new value for its rotation.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold> (during scaling): Accept the frame call's displayed scale as the new value for its scale.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Right-Click</legacyBold>: Displays the context menu. If a frame call is selected, options are tailored to that frame call's data.
+            </para>
+            <mediaLink>
+              <image xlink:href="Context-Menu"/>
+            </mediaLink>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section address="KeyboardActions">
+      <title>Keyboard Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>A</legacyBold>: Selects all frame calls in the displayed composite frame.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>B</legacyBold>: Begins the box-selection feature (for selecting a positionally similar set of frame calls). Confirm selection with left-click.
+            </para>
+            <mediaLink>
+              <image xlink:href="Box-Select"/>
+            </mediaLink>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>G</legacyBold>: Grabs selected frame calls, allowing them to be moved with the mouse's movement. An alternate route to the feature exposed by left-click and drag. To accept the new location, left-click. To cancel, press the Escape keyboard button.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>R</legacyBold>: Begins rotating frame calls, allowing them to be rotated along with the mouse's movement. To accept the rotation, left-click. To cancel, press the Escape keyboard button.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>S</legacyBold>: Begins scaling frame calls, allowing them to be scaled along with the mouse's movement. To accept the scale, left-click. To cancel, press the Escape keyboard button.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Escape</legacyBold> (during another action): Cancels the interim changes made by the action up to that point and then cancels the action.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Numpad 1</legacyBold>: Resets the display's view back to the default view (front view).
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Numpad 2</legacyBold>: Rotate the view so that move of the bottom-side of the frame calls can be seen.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Numpad 4</legacyBold>: Rotate the view so that more of the left-side of the frame calls can be seen.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Numpad 6</legacyBold>: Rotate the view so that more of the right-side of the frame calls can be seen.
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Numpad 8</legacyBold>: Rotate the view so that more of the top-side of the frame calls can be seen.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

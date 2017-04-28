@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<format name="Mega Man X: Test" target-rows="9" target-columns="1" base-width="140" base-height="35" frame-width="200" frame-height="34" no-sampling="true" target-start="1" target-end="9" status="Demonstration only.">
+  <reference>
+    <protected-colors>
+      <color r="255" g="255" b="255" />
+    </protected-colors>
+  </reference>
+  <frames>
+    <frame id="999" s="0" t="0" w="1" h="1" />
+    <frame id="1" s="1" t="1" w="29" h="34" />
+    <frame id="2" s="31" t="1" w="8" h="34" />
+    <frame id="3" s="40" t="1" w="36" h="34" />
+    <frame id="4" s="77" t="1" w="32" h="34" />
+    <frame id="5" s="110" t="1" w="30" h="34" />
+    <frame id="6" s="141" t="1" w="29" h="34" />
+    <frame id="7" s="172" t="1" w="30" h="34" />
+    <frame id="8" s="203" t="1" w="30" h="34" />
+  </frames>
+  <colors>
+    <color name="white" r="1" g="1" b="1" a="1" />
+    <color name="red" r="1" g="0" b="0" a="1" />
+    <color name="green" r="0" g="1" b="0" a="1" />
+  </colors>
+  <motion-tweens>
+    <motion-tween id="1" length-in-frames="4">
+      <point x="40" y="0" />
+      <point x="190" y="0" />
+      <color-state name="white" />
+      <color-state name="red" />
+    </motion-tween>
+  </motion-tweens>
+  <composite-frames>
+    <composite-frame id="2">
+      <frame id="5" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="1" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="1" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="2" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="5" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="3" />
+      <frame id="2" tween="1" frame-in-tween="1" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="1" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="4" />
+      <frame id="2" tween="1" frame-in-tween="2" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="5" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="3" />
+      <frame id="2" tween="1" frame-in-tween="1" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="1" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="4" />
+      <frame id="2" tween="1" frame-in-tween="2" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="6" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="3" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="7" offset-x="0" offset-y="0" flip-x="false" />
+      <frame id="2" tween="1" frame-in-tween="4" />
+    </composite-frame>
+    <composite-frame id="1">
+      <frame id="7" rotation-z="0" />
+      <frame id="7" offset-y="5" tween="1" frame-in-tween="1" rotation-z="30" />
+      <frame id="7" offset-y="10" tween="1" frame-in-tween="2" rotation-z="60" />
+    </composite-frame>
+  </composite-frames>
+</format>

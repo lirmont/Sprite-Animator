@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<format name="96x96 Tethical Characters" status="WIP" frame-width="96" frame-height="96" target-rows="4" target-columns="14" target-ms="143" on-load-zoom="0.50" no-sampling="True">
+  <reference>
+    <protected-colors>
+      <color r="255" g="255" b="255" />
+    </protected-colors>
+  </reference>
+  <frames>
+    <frame id="1" s="0" t="0" w="96" h="96" />
+    <frame id="2" s="96" t="0" w="96" h="96" />
+    <frame id="3" s="192" t="0" w="96" h="96" />
+	<frame id="4" s="288" t="0" w="96" h="96" />
+    <frame id="5" s="384" t="0" w="96" h="96" />
+    <frame id="6" s="480" t="0" w="96" h="96" />
+    <frame id="7" s="576" t="0" w="96" h="96" />
+    <frame id="8" s="672" t="0" w="96" h="96" />
+    <frame id="9" s="768" t="0" w="96" h="96" />
+    <frame id="10" s="864" t="0" w="96" h="96" />
+    <frame id="11" s="960" t="0" w="96" h="96" />
+    <frame id="12" s="1056" t="0" w="96" h="96" />
+    <frame id="13" s="1152" t="0" w="96" h="96" />
+    <frame id="14" s="1248" t="0" w="96" h="96" />
+    <frame id="15" s="0" t="96" w="96" h="96" />
+    <frame id="16" s="96" t="96" w="96" h="96" />
+    <frame id="17" s="192" t="96" w="96" h="96" />
+    <frame id="18" s="288" t="96" w="96" h="96" />
+    <frame id="19" s="384" t="96" w="96" h="96" />
+    <frame id="20" s="480" t="96" w="96" h="96" />
+    <frame id="21" s="576" t="96" w="96" h="96" />
+    <frame id="22" s="672" t="96" w="96" h="96" />
+    <frame id="23" s="768" t="96" w="96" h="96" />
+    <frame id="24" s="864" t="96" w="96" h="96" />
+    <frame id="25" s="960" t="96" w="96" h="96" />
+    <frame id="26" s="1056" t="96" w="96" h="96" />
+    <frame id="27" s="1152" t="96" w="96" h="96" />
+    <frame id="28" s="1248" t="96" w="96" h="96" />
+    <frame id="29" s="0" t="192" w="96" h="96" />
+    <frame id="30" s="96" t="192" w="96" h="96" />
+    <frame id="31" s="192" t="192" w="96" h="96" />
+    <frame id="32" s="288" t="192" w="96" h="96" />
+    <frame id="33" s="384" t="192" w="96" h="96" />
+    <frame id="34" s="480" t="192" w="96" h="96" />
+    <frame id="35" s="576" t="192" w="96" h="96" />
+    <frame id="36" s="672" t="192" w="96" h="96" />
+    <frame id="37" s="768" t="192" w="96" h="96" />
+    <frame id="38" s="864" t="192" w="96" h="96" />
+    <frame id="39" s="960" t="192" w="96" h="96" />
+    <frame id="40" s="1056" t="192" w="96" h="96" />
+    <frame id="41" s="1152" t="192" w="96" h="96" />
+    <frame id="42" s="1248" t="192" w="96" h="96" />
+    <frame id="43" s="0" t="288" w="96" h="96" />
+    <frame id="44" s="96" t="288" w="96" h="96" />
+    <frame id="45" s="192" t="288" w="96" h="96" />
+    <frame id="46" s="288" t="288" w="96" h="96" />
+    <frame id="47" s="384" t="288" w="96" h="96" />
+    <frame id="48" s="480" t="288" w="96" h="96" />
+    <frame id="49" s="576" t="288" w="96" h="96" />
+    <frame id="50" s="672" t="288" w="96" h="96" />
+    <frame id="51" s="768" t="288" w="96" h="96" />
+    <frame id="52" s="864" t="288" w="96" h="96" />
+    <frame id="53" s="960" t="288" w="96" h="96" />
+    <frame id="54" s="1056" t="288" w="96" h="96" />
+    <frame id="55" s="1152" t="288" w="96" h="96" />
+    <frame id="56" s="1248" t="288" w="96" h="96" />
+  </frames>
+  <composite-frames>
+    <composite-frame id="1">
+      <frame id="1" />
+    </composite-frame>
+    <composite-frame id="2">
+      <frame id="2" />
+    </composite-frame>
+    <composite-frame id="3">
+      <frame id="3" />
+    </composite-frame>
+    <composite-frame id="4">
+      <frame id="4" />
+    </composite-frame>
+    <composite-frame id="5">
+      <frame id="5" />
+    </composite-frame>
+    <composite-frame id="6">
+      <frame id="6" />
+    </composite-frame>
+    <composite-frame id="7">
+      <frame id="7" />
+    </composite-frame>
+    <composite-frame id="8">
+      <frame id="8" />
+    </composite-frame>
+    <composite-frame id="9">
+      <frame id="9" />
+    </composite-frame>
+    <composite-frame id="10">
+      <frame id="10" />
+    </composite-frame>
+    <composite-frame id="11">
+      <frame id="11" />
+    </composite-frame>
+    <composite-frame id="12">
+      <frame id="12" />
+    </composite-frame>
+    <composite-frame id="13">
+      <frame id="13" />
+    </composite-frame>
+    <composite-frame id="14">
+      <frame id="14" />
+    </composite-frame>
+    <composite-frame id="15">
+      <frame id="15" />
+    </composite-frame>
+    <composite-frame id="16">
+      <frame id="16" />
+    </composite-frame>
+    <composite-frame id="17">
+      <frame id="17" />
+    </composite-frame>
+    <composite-frame id="18">
+      <frame id="18" />
+    </composite-frame>
+    <composite-frame id="19">
+      <frame id="19" />
+    </composite-frame>
+    <composite-frame id="20">
+      <frame id="20" />
+    </composite-frame>
+    <composite-frame id="21">
+      <frame id="21" />
+    </composite-frame>
+    <composite-frame id="22">
+      <frame id="22" />
+    </composite-frame>
+    <composite-frame id="23">
+      <frame id="23" />
+    </composite-frame>
+    <composite-frame id="24">
+      <frame id="24" />
+    </composite-frame>
+    <composite-frame id="25">
+      <frame id="25" />
+    </composite-frame>
+    <composite-frame id="26">
+      <frame id="26" />
+    </composite-frame>
+    <composite-frame id="27">
+      <frame id="27" />
+    </composite-frame>
+    <composite-frame id="28">
+      <frame id="28" />
+    </composite-frame>
+    <composite-frame id="29">
+      <frame id="29" />
+    </composite-frame>
+    <composite-frame id="30">
+      <frame id="30" />
+    </composite-frame>
+    <composite-frame id="31">
+      <frame id="31" />
+    </composite-frame>
+    <composite-frame id="32">
+      <frame id="32" />
+    </composite-frame>
+    <composite-frame id="33">
+      <frame id="33" />
+    </composite-frame>
+    <composite-frame id="34">
+      <frame id="34" />
+    </composite-frame>
+    <composite-frame id="35">
+      <frame id="35" />
+    </composite-frame>
+    <composite-frame id="36">
+      <frame id="36" />
+    </composite-frame>
+    <composite-frame id="37">
+      <frame id="37" />
+    </composite-frame>
+    <composite-frame id="38">
+      <frame id="38" />
+    </composite-frame>
+    <composite-frame id="39">
+      <frame id="39" />
+    </composite-frame>
+    <composite-frame id="40">
+      <frame id="40" />
+    </composite-frame>
+    <composite-frame id="41">
+      <frame id="41" />
+    </composite-frame>
+    <composite-frame id="42">
+      <frame id="42" />
+    </composite-frame>
+    <composite-frame id="43">
+      <frame id="43" />
+    </composite-frame>
+    <composite-frame id="44">
+      <frame id="44" />
+    </composite-frame>
+    <composite-frame id="45">
+      <frame id="45" />
+    </composite-frame>
+    <composite-frame id="46">
+      <frame id="46" />
+    </composite-frame>
+    <composite-frame id="47">
+      <frame id="47" />
+    </composite-frame>
+    <composite-frame id="48">
+      <frame id="48" />
+    </composite-frame>
+    <composite-frame id="49">
+      <frame id="49" />
+    </composite-frame>
+    <composite-frame id="50">
+      <frame id="50" />
+    </composite-frame>
+    <composite-frame id="51">
+      <frame id="51" />
+    </composite-frame>
+    <composite-frame id="52">
+      <frame id="52" />
+    </composite-frame>
+    <composite-frame id="53">
+      <frame id="53" />
+    </composite-frame>
+    <composite-frame id="54">
+      <frame id="54" />
+    </composite-frame>
+    <composite-frame id="55">
+      <frame id="55" />
+    </composite-frame>
+    <composite-frame id="56">
+      <frame id="56" />
+    </composite-frame>
+  </composite-frames>
+  <guides />
+  <colors />
+  <motion-tweens />
+  <composite-frame-sets>
+    <composite-frame-set name="Walking.SW">
+      <frame id="2" />
+      <frame id="3" />
+      <frame id="4" />
+      <frame id="5" />
+      <frame id="6" />
+      <frame id="5" />
+      <frame id="4" />
+      <frame id="3" />
+    </composite-frame-set>
+    <composite-frame-set name="Walking.SE">
+      <frame id="16" />
+      <frame id="17" />
+      <frame id="18" />
+      <frame id="19" />
+      <frame id="20" />
+      <frame id="19" />
+      <frame id="18" />
+      <frame id="17" />
+    </composite-frame-set>
+    <composite-frame-set name="Walking.NE">
+      <frame id="30" />
+      <frame id="31" />
+      <frame id="32" />
+      <frame id="33" />
+      <frame id="34" />
+      <frame id="33" />
+      <frame id="32" />
+      <frame id="31" />
+    </composite-frame-set>
+    <composite-frame-set name="Walking.NW">
+      <frame id="44" />
+      <frame id="45" />
+      <frame id="46" />
+      <frame id="47" />
+      <frame id="48" />
+      <frame id="47" />
+      <frame id="46" />
+      <frame id="45" />
+    </composite-frame-set>
+  </composite-frame-sets>
+  <sounds />
+</format>

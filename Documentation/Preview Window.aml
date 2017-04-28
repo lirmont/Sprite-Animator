@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b80660ba-e792-4f7e-b433-2bc0c3fc43f3" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This section covers the available actions for the floating, adjustable preview window.</para>
+    </introduction>
+    <section address="MouseActions">
+      <title>Mouse Actions</title>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>
+              <legacyBold>Left-Click</legacyBold>: In pop-out mode, this window can be left-clicked and dragged to change its placement on the screen.</para>
+          </listItem>
+          <listItem>
+            <para>
+              <legacyBold>Right-Click</legacyBold>: Opens context menu for preview window.</para>
+            <list class="ordered">
+              <listItem>
+                <para>
+                  <legacyBold>Pop-Out/Pop-In</legacyBold>: If the window is still attached to the main interface, this option will pop the window out, allowing it to be moved. Otherwise, this option returns the floating window back to its starting location and size.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Use Frozen Background</legacyBold>: If the "Transparent Background" option (located in the Settings Panel) is turned on, this window only displays the background of the first composite frame (as it exists in the Main Display Area). Otherwise, it displays the actual background of the actual composite frame as it exists in the Main Display Area.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Set to Default Size</legacyBold>: Sets this window to its starting size, so that it is able to fit into its starting location.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Set to Scaled Size</legacyBold>: Sets this window to a scale that matches the size of the composite frames in the Main Display Area.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Set to Frame Size</legacyBold>: Sets this window to the unscaled frame size; this size matches the frame width and height specified by the loaded format document.</para>
+              </listItem>
+              <listItem>
+                <para>
+                  <legacyBold>Resize</legacyBold>: If the window is not currently being resized, the resize controls of the window are displayed, allowing the window to be freely resized. To hide the resizing controls, select this option again.</para>
+              </listItem>
+            </list>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <relatedTopics>
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>
