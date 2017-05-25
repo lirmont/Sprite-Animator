@@ -239,6 +239,10 @@
       <ImageId>Edit-Loaded-Format</ImageId>
       <AlternateText>Edit Loaded Format</AlternateText>
     </Image>
+    <Image Include="Media\Example-Usage.png">
+      <ImageId>Example-Usage</ImageId>
+      <AlternateText>Example-Usage</AlternateText>
+    </Image>
     <Image Include="Media\Export-Active-Frames-as-GIF.png">
       <ImageId>Export-Active-Frames-as-GIF</ImageId>
       <AlternateText>Export Active Frames as GIF</AlternateText>
@@ -258,6 +262,14 @@
     <Image Include="Media\Main-Tool-Strip.png">
       <ImageId>Main-Tool-Strip</ImageId>
       <AlternateText>Main Tool Strip</AlternateText>
+    </Image>
+    <Image Include="Media\nerdy-medic_w.fft-type2-animation-100-Walking-SE.gif">
+      <ImageId>nerdy-medic_w.fft-type2-animation-100-Walking-SE</ImageId>
+      <AlternateText>nerdy-medic w.fft-type 2-animation-100-Walking-SE</AlternateText>
+    </Image>
+    <Image Include="Media\nerdy-medic_w.fft-type2-animation-100-Walking-SW.gif">
+      <ImageId>nerdy-medic_w.fft-type2-animation-100-Walking-SW</ImageId>
+      <AlternateText>nerdy-medic w.fft-type 2-animation-100-Walking-SW</AlternateText>
     </Image>
     <Image Include="Media\Preview-Window.png">
       <ImageId>Preview-Window</ImageId>

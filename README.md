@@ -2,9 +2,9 @@
 
 ## Overview
 
-![In-App Editing](https://drive.google.com/open?id=0B5iSdBA1bVSZZmJpOTdlTGlEY1E)
+![In-App Editing](https://raw.githubusercontent.com/lirmont/Sprite-Animator/master/Documentation/Media/Example-Usage.png)
 
-![Left](https://drive.google.com/open?id=0B5iSdBA1bVSZMUo2MzJFR1RPWGc) ![Right](https://drive.google.com/open?id=0B5iSdBA1bVSZUU5oa3JCUXgxVEE)
+![Left](https://raw.githubusercontent.com/lirmont/Sprite-Animator/master/Documentation/Media/nerdy-medic_w.fft-type2-animation-100-Walking-SW.gif) ![Right](https://raw.githubusercontent.com/lirmont/Sprite-Animator/master/Documentation/Media/nerdy-medic_w.fft-type2-animation-100-Walking-SE.gif)
 
 "See" image assets. Turn them into deliverable, reusable formats. Export individual animations as animated GIF files for sharing.
 
