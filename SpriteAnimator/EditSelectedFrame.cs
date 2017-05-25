@@ -1559,7 +1559,6 @@ namespace SpriteAnimator
 				// Draw format-specific guide lines.
 				if (drawGuidesToolStripMenuItem.Checked)
 					SupportFunctions.DrawGuideLines(frameWidth, frameHeight, parent.Format.Guides);
-				//
 				// During translation, hover select the items.
 				if (ActiveMode == Modes.Translation)
 				{

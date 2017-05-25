@@ -300,7 +300,8 @@ namespace SpriteAnimator.SupportClasses
 			// Pin byte array to make pointer available to data.
 			this.dataHandle = GCHandle.Alloc(thisByteArray, GCHandleType.Pinned);
 			//
-			bitmap.Dispose();
+            if (bitmap != null)
+			    bitmap.Dispose();
 			// Make the background of the image transparent after the fact if and only if the code is supposed to respect such a directive and it hasn't already.
 			if (respectMakeBackgroundTransparent)
 			{

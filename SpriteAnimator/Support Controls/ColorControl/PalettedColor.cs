@@ -6,9 +6,12 @@ using System.Windows.Forms;
 #pragma warning disable
 namespace ColorControl
 {
-	public class PalettedColor
+	public class PalettedColor : IDisposable
 	{
-		public static Size DefaultSize = new Size(20, 20);
+        // Make sure this control isn't able to be disposed more than once.
+        private bool disposedValue = false;
+
+        public static Size DefaultSize = new Size(20, 20);
 
 		//
 		Color color = Color.White;
@@ -254,5 +257,22 @@ namespace ColorControl
 			}
 			return foundColor;
 		}
-	}
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                // Dispose the bitmap.
+                if (disposing)
+                    colorSwatch.Dispose();
+                // Make sure this only happens once.
+                disposedValue = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+    }
 }

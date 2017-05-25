@@ -10,6 +10,7 @@ using System.Drawing.Imaging;
 using System.Threading;
 using Tao.OpenGl;
 using OpenTK.Graphics.OpenGL;
+using System.Security.Permissions;
 
 #pragma warning disable 618, 612
 namespace SpriteAnimator
@@ -169,7 +170,7 @@ namespace SpriteAnimator
 								// Support audio.
 								if (!m.ignoreAudio.Checked && m.compositeFrameSoundCues.Count > m.subCurrentAnimationFrame - 1)
 									foreach (Sound a in m.compositeFrameSoundCues[m.subCurrentAnimationFrame - 1])
-										a.play();
+										a.Play();
 								#endregion
 								#region Main frame Advancement if necessary.
 								int curAnimRow = m.subCurrentAnimationFrame / m.columns;
@@ -373,7 +374,8 @@ namespace SpriteAnimator
 		// Grip size
 		private int cGrip = 16;
 
-		protected override void WndProc(ref Message m)
+        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
+        protected override void WndProc(ref Message m)
 		{
 			base.WndProc(ref m);
 			switch (m.Msg)

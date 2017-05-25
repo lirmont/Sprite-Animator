@@ -16,6 +16,9 @@
 			if (disposing && (components != null))
 			{
 				components.Dispose();
+                // Make sure timers are gone.
+                if (scheduleRedraw != null)
+                    scheduleRedraw.Dispose();
 			}
 			base.Dispose(disposing);
 		}

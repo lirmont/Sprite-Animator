@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Drawing;
+using System.Security.Permissions;
+
 namespace SpriteAnimator
 {
 	[System.Reflection.ObfuscationAttribute(Feature = "renaming")]
@@ -138,7 +140,8 @@ namespace SpriteAnimator
 			InitializeComponent();
 		}
 
-		protected override void WndProc(ref System.Windows.Forms.Message m)
+        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
+        protected override void WndProc(ref System.Windows.Forms.Message m)
 		{
 			switch (m.Msg)
 			{

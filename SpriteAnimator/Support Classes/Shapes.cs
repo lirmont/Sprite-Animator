@@ -156,7 +156,6 @@ namespace SpriteAnimator.Shapes
 		public double x = 0.5, y = 0.5;
 		public bool hidden = false;
 
-		[System.Reflection.ObfuscationAttribute(Feature = "renaming")]
 		public string PointName
 		{
 			get { return this.name; }
@@ -167,7 +166,6 @@ namespace SpriteAnimator.Shapes
 			}
 		}
 
-		[System.Reflection.ObfuscationAttribute(Feature = "renaming")]
 		public override object ID
 		{
 			get { return this.id; }
@@ -187,11 +185,11 @@ namespace SpriteAnimator.Shapes
 			this.description = description;
 			this.x = x;
 			this.y = y;
-			this.ID = id;
-			this.PointName = name;
+			this.id = id;
+			this.name = name;
 		}
 
-		// Declare the PropertyChanged event
+		// Declare the PropertyChanged event.
 		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
 
 		// NotifyPropertyChanged will raise the PropertyChanged event passing the source property that is being updated.
@@ -715,21 +713,21 @@ namespace SpriteAnimator.Shapes
 			String namedAttachmentPointId = null
 		)
 		{
-			this.ID = id;
-			this.OffsetX = offsetX;
-			this.OffsetY = offsetY;
-			this.OffsetZ = offsetZ;
-			this.RotationZ = rotationZ;
-			this.ScaleX = scaleX;
-			this.ScaleY = scaleY;
-			this.FlipX = flipX;
-			this.TweenId = tweenId;
-			this.FrameInTween = frameInTween;
-			this.MotionTrailType = motionTrailType;
-			this.MotionTrailFramesInTween = motionTrailFramesInTween;
-			this.ColorName = colorName;
-			this.BlendMode = blendMode;
-			this.NamedAttachmentPointId = namedAttachmentPointId;
+			this.id = id;
+			this.offsetX = offsetX;
+			this.offsetY = offsetY;
+			this.offsetZ = offsetZ;
+			this.rotationZ = rotationZ;
+			this.scaleX = scaleX;
+			this.scaleY = scaleY;
+			this.flipX = flipX;
+			this.tweenId = tweenId;
+			this.frameInTween = frameInTween;
+			this.motionTrailType = motionTrailType;
+			this.motionTrailFramesInTween = motionTrailFramesInTween;
+			this.colorName = colorName;
+			this.blendMode = blendMode;
+			this.namedAttachmentPointId = namedAttachmentPointId;
 		}
 
 		public FrameCall(FrameCall obj)

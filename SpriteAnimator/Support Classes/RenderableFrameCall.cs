@@ -8,7 +8,8 @@ namespace SpriteAnimator.SupportClasses
 {
 	public class RenderableFrameCall
 	{
-		public Shapes.Rect bound = new Shapes.Rect(0, 0, 0, 0);
+        private const int alphaDuringPaintingToFrameImageViaTool = (int)(255 * 0.25);
+        public Shapes.Rect bound = new Shapes.Rect(0, 0, 0, 0);
 		private double offsetZ = 0;
 		public bool hoverSelected = false, selected = false, flipX = false;
 		public Color selectedColor = Color.Yellow, color = Color.White;
@@ -294,7 +295,7 @@ namespace SpriteAnimator.SupportClasses
 						if (!treatSelectionAsPaintable)
 							SupportFunctions.render(-HalfWidth, HalfWidth, HalfHeight, -HalfHeight, depth: Depth, color: selectedColor, lineWidth: selectionLineWidth, blendMode: "line", drawingMode: Gl.GL_LINE_LOOP);
 						else
-							SupportFunctions.render(-HalfWidth, HalfWidth, HalfHeight, -HalfHeight, depth: Depth, color: Color.FromArgb((int)(0.25 * 255), Color.White), lineWidth: 1f, blendMode: "line", drawingMode: Gl.GL_LINE_LOOP);
+							SupportFunctions.render(-HalfWidth, HalfWidth, HalfHeight, -HalfHeight, depth: Depth, color: Color.FromArgb(alphaDuringPaintingToFrameImageViaTool, Color.White), lineWidth: 1f, blendMode: "line", drawingMode: Gl.GL_LINE_LOOP);
 					}
 					Gl.glPopMatrix();
 				}
@@ -391,17 +392,18 @@ namespace SpriteAnimator.SupportClasses
 						int advancement = (thisLength > 1) ? distanceCoveredByThisFrame : 1;
 						Gl.glPushMatrix();
 						{
-							// Handled by Left and Top already.
-							//Gl.glTranslated(-motionTranslation.X, -motionTranslation.Y, 0);
 							// Pick the appropriate color.
 							Color thisColor = color;
-							if ((selected || hoverSelected) && !treatSelectionAsPaintable)
-								thisColor = selectedColor;
-							else if (!(selected || hoverSelected) && treatSelectionAsPaintable)
-								thisColor = Color.FromArgb((int)(255 * 0.25), thisColor);
-							// Perform the actual drawing.
-							SupportFunctions.render(-HalfWidth, HalfWidth, HalfHeight, -HalfHeight, color: thisColor, s: s, t: t, S: S, T: T, textureId: thisTexture, blendMode: blendMode, overrideFilter: (format.UseNoSampling && HasDefaultScale) ? Gl.GL_NEAREST : Gl.GL_LINEAR, textureScale: textureScale);
-						}
+                            if ((selected || hoverSelected) && !treatSelectionAsPaintable)
+                                thisColor = selectedColor;
+                            else if (!(selected || hoverSelected) && treatSelectionAsPaintable)
+                                thisColor = Color.FromArgb(alphaDuringPaintingToFrameImageViaTool, thisColor);
+                            // Drop the alpha of the darken frames to 0 (transparent) so that alpha blending doesn't think this frame is opaque and kill what's behind it (instead of blending with it). 
+                            if (blendMode == "darken")
+                                thisColor = Color.FromArgb(0, color);
+                            // Perform the actual drawing.
+                            SupportFunctions.render(-HalfWidth, HalfWidth, HalfHeight, -HalfHeight, color: thisColor, s: s, t: t, S: S, T: T, textureId: thisTexture, blendMode: blendMode, overrideFilter: (format.UseNoSampling && HasDefaultScale) ? Gl.GL_NEAREST : Gl.GL_LINEAR, textureScale: textureScale);
+                        }
 						Gl.glPopMatrix();
 						// Control the advancement of the loop.
 						if (thisTween != null && motionTrailFramesInTween > 0 && motionTrailType == "instance-fill" && advancement > 0)

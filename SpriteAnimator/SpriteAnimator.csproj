@@ -71,6 +71,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="csogg">
@@ -79,13 +80,15 @@
     <Reference Include="csvorbis">
       <HintPath>Audio\csvorbis.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
-    <Reference Include="OpenTK.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
-    <Reference Include="OpenTK.GLControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="OpenTK.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -93,7 +96,6 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -230,15 +232,6 @@
       <DependentUpon>ImageViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="Support Classes\Input.cs" />
-    <Compile Include="Support Controls\MultiPanel\Design\MultiPanelDesigner.cs" />
-    <Compile Include="Support Controls\MultiPanel\Design\MultiPanelPageDesigner.cs" />
-    <Compile Include="Support Controls\MultiPanel\MultiPanel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Support Controls\MultiPanel\MultiPanelPage.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Support Controls\MultiPanel\MultiPanelPagesCollection.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,29 +266,6 @@
     <Compile Include="Support Controls\RegexTester.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Support Controls\SearchControls\Data Types\NameValuePair.cs" />
-    <Compile Include="Support Controls\SearchControls\Data Types\SearchCategory.cs" />
-    <Compile Include="Support Controls\SearchControls\Data Types\SearchCategoryCollection.cs" />
-    <Compile Include="Support Controls\SearchControls\Data Types\SearchPair.cs" />
-    <Compile Include="Support Controls\SearchControls\Data Types\SearchPairCollection.cs" />
-    <Compile Include="Support Controls\SearchControls\SupportControls\LineSeparator.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Support Controls\SearchControls\SupportControls\LineSeparator.Designer.cs">
-      <DependentUpon>LineSeparator.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Support Controls\SearchControls\SupportControls\MaskedTextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Support Controls\SearchControls\SupportControls\MaskedTextBox.Designer.cs">
-      <DependentUpon>MaskedTextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Support Controls\SearchPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Support Controls\SearchPanel.Designer.cs">
-      <DependentUpon>SearchPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Support Classes\Shapes.cs" />
     <Compile Include="SlideRangeOfCompositeFrames.cs">
       <SubType>Form</SubType>
@@ -315,7 +285,6 @@
     <Compile Include="Support Functions\File.cs" />
     <Compile Include="Support Functions\ListView.cs" />
     <Compile Include="Support Functions\RegularExpressionReplacement.cs" />
-    <Compile Include="Support Functions\Web.cs" />
     <Compile Include="SupportFunctions.cs" />
     <Compile Include="Support Functions\Bitmap.cs" />
     <Compile Include="Support Functions\CommonDrawingRequests.cs" />
@@ -410,15 +379,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
-    <Content Include="formats\ci-character\sprite.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="formats\ci-miniature\sprite.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="formats\ff-line\reference.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="formats\fft-E030\fft-0020-scream.ogg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -452,17 +412,36 @@
     <Content Include="formats\fft-E411\sprite.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="formats\fft-mon\flan_m.fft-mon.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="formats\fft-type1\nerdy-medic_m.fft-type1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="formats\fft-type1\paladin_m.fft-type1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="formats\fft-type2\nerdy-medic_w.fft-type2.bmp" />
     <Content Include="formats\SortedFormat.xslt">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="formats\tethical-ice-one\ice.tethical-ice-one.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="formats\tethical-ice-three\ice.tethical-ice-three.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="formats\tethical-stat-boost\atk.png" />
+    <Content Include="formats\tethical-stat-boost\attack-boost.png" />
+    <Content Include="formats\tethical-stat-boost\attack-boost.tethical-stat-boost.png" />
+    <Content Include="formats\tethical-stat-boost\spd.png" />
+    <Content Include="formats\tethical-stat-boost\speed-boost.tethical-stat-boost.png" />
     <Content Include="formats\tethical-stat-boost\sprite.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
     <None Include="Resources\eye.png" />
-    <Content Include="Support Controls\MultiPanel\multipanel.ico" />
-    <Content Include="Newtonsoft.Json.dll" />
     <None Include="Resources\back.png" />
     <None Include="Resources\unindent_task.png" />
     <Content Include="wrap_oal.dll">
@@ -482,10 +461,6 @@
     <None Include="Resources\018300-firey-orange-jelly-icon-symbols-shapes-checkmark-solid-circle.png" />
     <None Include="Resources\Utilityl.png" />
     <None Include="Resources\transparent-background.png" />
-    <Content Include="formats\ff-line\sprite.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="formats\fft-arute\sprite.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -616,9 +591,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Support Controls\RegexTester.resx">
       <DependentUpon>RegexTester.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Support Controls\SearchPanel.resx">
-      <DependentUpon>SearchPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilityl.ico" />
   </ItemGroup>

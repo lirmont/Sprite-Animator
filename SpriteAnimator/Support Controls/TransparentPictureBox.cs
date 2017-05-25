@@ -4,6 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
+using System.Security.Permissions;
 
 namespace SpriteAnimator
 {
@@ -26,8 +27,9 @@ namespace SpriteAnimator
 
 		protected override CreateParams CreateParams
 		{
-			get
-			{
+            [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
+            get
+            {
 				CreateParams cp = base.CreateParams;
 				cp.ExStyle |= 0x00000020; //WS_EX_TRANSPARENT
 				return cp;

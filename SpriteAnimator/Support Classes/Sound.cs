@@ -4,7 +4,7 @@ using OpenTK.Audio;
 
 namespace SpriteAnimator
 {
-	public class Sound
+	public class Sound : IDisposable
 	{
 		public uint soundBuffer;
 		public int soundSource, totalSamples;
@@ -15,7 +15,10 @@ namespace SpriteAnimator
 		public bool pushedToContext = false;
 		public string name = "0", filename = "", colorName = "";
 
-		public Sound(uint soundBuffer = 10000000, int soundSource = 10000000, int totalSamples = 0, double lengthInSeconds = 0, int waveForm = 0, Bitmap waveFormData = null, Color? color = null, string name = "0", string filename = "", string colorName = "")
+        // Make sure the object doesn't get disposed more than once.
+        private bool disposedValue = false;
+
+        public Sound(uint soundBuffer = 10000000, int soundSource = 10000000, int totalSamples = 0, double lengthInSeconds = 0, int waveForm = 0, Bitmap waveFormData = null, Color? color = null, string name = "0", string filename = "", string colorName = "")
 		{
 			// Required to store in XML:
 			this.name = name;
@@ -38,12 +41,12 @@ namespace SpriteAnimator
 				this.color = Color.White;
 		}
 
-		public void pushToContext()
+		public void PushToContext()
 		{
 			pushedToContext = true;
 		}
 
-		public void play(int playXMilliseconds = -1)
+		public void Play(int playXMilliseconds = -1)
 		{
 			if (playXMilliseconds >= 0)
 			{
@@ -58,5 +61,22 @@ namespace SpriteAnimator
 			}
 			AL.SourcePlay(soundSource);
 		}
-	}
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                // Dispose wave form image.
+                if (disposing)
+                    waveFormData.Dispose();
+                // Don't do this more than once.
+                disposedValue = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+    }
 }

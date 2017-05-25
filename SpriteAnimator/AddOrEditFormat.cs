@@ -169,7 +169,14 @@ namespace SpriteAnimator
 							string linePlurality = (t.LineSegments.Count != 1) ? "lines" : "line";
 							string colorPlurality = (t.colorList.Count != 1) ? "colors" : "color";
 							ListViewItem lvi = new ListViewItem(
-								new string[] { "", String.Format("{0}", t.id), String.Format("{0} frames", new object[] { t.FrameLength.ToString(), framePlurality }), String.Format("{0} {1}", new object[] { t.colorList.Count.ToString(), colorPlurality }), String.Format("{0} {1}", new object[] { (hasLines * (t.LineSegments.Count + 1)).ToString(), linePlurality }), t.advancementFunction },
+								new string[] {
+                                    "",
+                                    String.Format("{0}", t.id),
+                                    String.Format("{0} {1}", new object[] { t.FrameLength.ToString(), framePlurality }),
+                                    String.Format("{0} {1}", new object[] { t.colorList.Count.ToString(), colorPlurality }),
+                                    String.Format("{0} {1}", new object[] { (hasLines * (t.LineSegments.Count + 1)).ToString(), linePlurality }),
+                                    t.advancementFunction
+                                },
 								tweensListBox.Groups[0]
 							);
 							lvi.Tag = t;
@@ -1183,7 +1190,14 @@ namespace SpriteAnimator
 						string linePlurality = (t.LineSegments.Count != 1) ? "lines" : "line";
 						string colorPlurality = (t.colorList.Count != 1) ? "colors" : "color";
 						ListViewItem lvi = new ListViewItem(
-							new string[] { "", String.Format("{0}", t.id), String.Format("{0} frames", new object[] { t.FrameLength.ToString(), framePlurality }), String.Format("{0} {1}", new object[] { t.colorList.Count.ToString(), colorPlurality }), String.Format("{0} {1}", new object[] { (hasLines * (t.LineSegments.Count + 1)).ToString(), linePlurality }), t.advancementFunction },
+							new string[] {
+                                "",
+                                String.Format("{0}", t.id),
+                                String.Format("{0} {1}", new object[] { t.FrameLength.ToString(), framePlurality }),
+                                String.Format("{0} {1}", new object[] { t.colorList.Count.ToString(), colorPlurality }),
+                                String.Format("{0} {1}", new object[] { (hasLines * (t.LineSegments.Count + 1)).ToString(), linePlurality }),
+                                t.advancementFunction
+                            },
 							tweensListBox.Groups[0]
 						);
 						lvi.Tag = t;
@@ -1258,7 +1272,7 @@ namespace SpriteAnimator
 						string colorPlurality = (t.colorList.Count != 1) ? "colors" : "color";
 						tweensListBox.BeginUpdate();
 						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[1].Text = String.Format("{0}", t.id);
-						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[2].Text = String.Format("{0} frames", new object[] { t.FrameLength.ToString(), framePlurality });
+						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[2].Text = String.Format("{0} {1}", new object[] { t.FrameLength.ToString(), framePlurality });
 						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[3].Text = String.Format("{0} {1}", new object[] { t.colorList.Count.ToString(), colorPlurality });
 						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[4].Text = String.Format("{0} {1}", new object[] { (hasLines * (t.LineSegments.Count + 1)).ToString(), linePlurality });
 						tweensListBox.Items[tweensListBox.SelectedIndices[0]].SubItems[5].Text = t.advancementFunction;

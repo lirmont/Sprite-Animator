@@ -16,6 +16,9 @@
             if (disposing && (components != null))
             {
                 components.Dispose();
+                // Make sure thread that causes window shake feature is gone.
+                if (shakeWindowThread != null)
+                    shakeWindowThread.Dispose();
             }
             base.Dispose(disposing);
         }

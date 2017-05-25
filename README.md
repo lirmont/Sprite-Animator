@@ -2,19 +2,25 @@
 
 ## Overview
 
-![In-App Animation](https://raw.githubusercontent.com/lirmont/Sprite-Animator/master/Documentation/Media/Export-Active-Frames-as-GIF.png)
+![In-App Editing](https://drive.google.com/open?id=0B5iSdBA1bVSZZmJpOTdlTGlEY1E)
+
+![Left](https://drive.google.com/open?id=0B5iSdBA1bVSZMUo2MzJFR1RPWGc) ![Right](https://drive.google.com/open?id=0B5iSdBA1bVSZUU5oa3JCUXgxVEE)
 
 "See" image assets. Turn them into deliverable, reusable formats. Export individual animations as animated GIF files for sharing.
 
-## Installation
+## Installer/Pre-Installation
 
 Install OpenAL (Open Audio Library) before running: [OpenAL](http://openal.org/downloads/)
 
-## Support 
+Install Sprite Animator 1.2.2.5 (includes OpenAL): [Download Installer](https://drive.google.com/open?id=0B5iSdBA1bVSZQkpDUERkdlZiX28)
 
-Patreon: [Scott Overman](https://patreon.com/lirmont)
+## Pre-Build
 
-Hire me: [Résumé](https://www.slideshare.net/slideshow/embed_code/key/7EL2dCTmvJcZUc)
+Install OpenTK 1.1 (OpenGL wrapper): [OpenTK](https://sourceforge.net/projects/opentk/)
+
+## Miscellaneous
+
+Past work: [Résumé](https://drive.google.com/open?id=0B5iSdBA1bVSZYU80b3A1bl9Velk)
 
 ## License (MIT License)
 

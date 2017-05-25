@@ -17,6 +17,14 @@ namespace SpriteAnimator
             if (disposing && (components != null))
             {
                 components.Dispose();
+                AC.Dispose();
+                // Make sure timers are gone.
+                if (scanFileChanges != null)
+                    scanFileChanges.Dispose();
+                if (scanFormatFileChanges != null)
+                    scanFormatFileChanges.Dispose();
+                if (scheduleRedraw != null)
+                    scheduleRedraw.Dispose();
             }
             base.Dispose(disposing);
         }

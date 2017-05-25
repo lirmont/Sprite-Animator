@@ -160,15 +160,15 @@ namespace SpriteAnimator.SupportClasses
 					Gl.glClearColor(0, 0, 0, 1);
 					// Clear depth to white.
 					Gl.glClearDepth(1.0);
-					//
-					Gl.glClear(Gl.GL_COLOR_BUFFER_BIT | Gl.GL_DEPTH_BUFFER_BIT | Gl.GL_STENCIL_BUFFER_BIT);
 					// Set features.
 					Gl.glEnable(Gl.GL_LINE_SMOOTH);
 					Gl.glEnable(Gl.GL_DEPTH_TEST);
 					Gl.glEnable(Gl.GL_STENCIL_TEST);
 					Gl.glDepthFunc(Gl.GL_LEQUAL);
-					// Set orthogonal projection.
-					SupportFunctions.pushScreenCoordinateMatrix(0, frameBufferTextureSize.Width, frameBufferTextureSize.Height, 0, near: -frameBufferTextureSize.Width * 2, far: frameBufferTextureSize.Width * 2);
+                    //
+                    Gl.glClear(Gl.GL_COLOR_BUFFER_BIT | Gl.GL_DEPTH_BUFFER_BIT | Gl.GL_STENCIL_BUFFER_BIT);
+                    // Set orthogonal projection.
+                    SupportFunctions.pushScreenCoordinateMatrix(0, frameBufferTextureSize.Width, frameBufferTextureSize.Height, 0, near: -frameBufferTextureSize.Width * 2, far: frameBufferTextureSize.Width * 2);
 					{
 						drawImage(thisCompositeFrameId, format, namedAttachments, image);
 					}
@@ -230,6 +230,7 @@ namespace SpriteAnimator.SupportClasses
 				// Draw optionally transparent sprite geometry (re: draw frame calls).
 				Gl.glEnable(Gl.GL_BLEND);
 				{
+                    // Invert vertical component.
 					Gl.glScaled(1, -1, 1);
 					Gl.glTranslated(0, -frameBufferTextureSize.Height, 0);
 					for (int i = 0; i < loadedFrames.Count; i++)

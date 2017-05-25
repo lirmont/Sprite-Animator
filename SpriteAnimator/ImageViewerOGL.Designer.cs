@@ -17,6 +17,9 @@ namespace SpriteAnimator
 			if (disposing && (components != null))
 			{
 				components.Dispose();
+                // Make sure timers are gone.
+                if (scheduleRedraw != null)
+                    scheduleRedraw.Dispose();
 			}
 			base.Dispose(disposing);
 		}
@@ -167,7 +170,6 @@ namespace SpriteAnimator
 
 		#endregion
 
-		//private Tao.Platform.Windows.SimpleOpenGlControl simpleOpenGlControl1;
 		private System.Windows.Forms.ContextMenuStrip optionsContextMenuStrip;
 		private System.Windows.Forms.ToolStripMenuItem popInOrOutToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem setToFrameSizeToolStripMenuItem;

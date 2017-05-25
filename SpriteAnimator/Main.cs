@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Security.Permissions;
 using System.Threading;
 using System.Windows.Forms;
 using Tao.OpenGl;
@@ -252,7 +253,9 @@ namespace SpriteAnimator
 		private double constrictHeightToIncrement;
 
 		double heightRatio = 1, widthRatio = 1;
-		protected override void WndProc(ref Message m)
+
+        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
+        protected override void WndProc(ref Message m)
 		{
 			Point p = Cursor.Position;
 			bool pChanged = false;
@@ -851,7 +854,7 @@ namespace SpriteAnimator
 													{
 														BitmapData c = soundCue.waveFormData.LockBits(new Rectangle(0, 0, soundCue.waveFormData.Width, soundCue.waveFormData.Height), ImageLockMode.ReadOnly, PixelFormat.Format32bppArgb);
 														SupportFunctions.createTexture(soundCue.waveFormData.Width, soundCue.waveFormData.Height, ref soundCue.waveForm, textureFilter: Sampling, imageData: c.Scan0);
-														soundCue.pushToContext();
+														soundCue.PushToContext();
 													}
 													//
 													double s = (i - cue) * unit, S = ((i - cue) + 1) * unit;

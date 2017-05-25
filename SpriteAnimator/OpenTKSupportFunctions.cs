@@ -178,9 +178,9 @@ namespace SpriteAnimator
 		/// <param name="color">Single System.Drawing.Color to draw the polygon as.</param>
 		/// <param name="colors">List of System.Drawing.Color objects, matched with provided points.</param>
 		/// <param name="blendMode">String representation of the blending mode. Default: "overwrite".</param>
-		/// <param name="drawingMode">OpenGL drawing mode. Default: GL._QUADS.</param>
+		/// <param name="drawingMode">OpenGL drawing mode. Default: GL_QUADS.</param>
 		/// <param name="lineWidth">Line width, for use with line-related drawing modes.</param>
-		public static void render(double left = 0, double right = 0, double bottom = 0, double top = 0, double depth = 0, double depthChange = 0, List<Shapes.Point> points = null, double s = 0, double t = 0, double S = 1, double T = 1, int textureId = 0, List<Shapes.Point> textureCoordinates = null, Color? color = null, Color[] colors = null, string blendMode = "overwrite", BeginMode drawingMode = BeginMode.Quads, float lineWidth = 1, int overrideFilter = 0)
+		public static void render(double left = 0, double right = 0, double bottom = 0, double top = 0, double depth = 0, double depthChange = 0, List<Shapes.Point> points = null, double s = 0, double t = 0, double S = 1, double T = 1, int textureId = 0, List<Shapes.Point> textureCoordinates = null, Color? color = null, Color[] colors = null, string blendMode = "overwrite", PrimitiveType drawingMode = PrimitiveType.Quads, float lineWidth = 1, int overrideFilter = 0)
 		{
 			// Assemble the 4 points that will be used.
 			if (points == null)
@@ -227,7 +227,7 @@ namespace SpriteAnimator
 				if (textureId > 0)
 					GL.Enable(EnableCap.Texture2D); //GL.Enable(GL._TEXTURE_2D);
 				// If the mode is line-related, set the line width.
-				if (drawingMode == BeginMode.LineLoop || drawingMode == BeginMode.Lines)
+				if (drawingMode == PrimitiveType.LineLoop || drawingMode == PrimitiveType.Lines)
 					GL.LineWidth(lineWidth);
 				// Bind the texture regardless (zero is equivalent to unbinding).
 				GL.BindTexture(TextureTarget.Texture2D, textureId);
@@ -453,7 +453,7 @@ namespace SpriteAnimator
 				GL.Translate(0, height, 0);
 				GL.Enable(EnableCap.LineStipple);
 				GL.LineStipple(1, (ushort)stipple);
-				GL.Begin(BeginMode.Lines);
+				GL.Begin(PrimitiveType.Lines);
 				{
 					GL.Vertex2(0, 0);
 					GL.Vertex2(control.ClientRectangle.Width / zoomFactor, 0);
@@ -473,7 +473,7 @@ namespace SpriteAnimator
 				GL.Translate(width, 0, 0);
 				GL.Enable(EnableCap.LineStipple);
 				GL.LineStipple(1, (ushort)stipple);
-				GL.Begin(BeginMode.Lines);
+				GL.Begin(PrimitiveType.Lines);
 				{
 					GL.Vertex2(0, 0);
 					GL.Vertex2(0, control.ClientRectangle.Height / zoomFactor);
@@ -484,7 +484,7 @@ namespace SpriteAnimator
 			GL.PopMatrix();
 		}
 
-		public static void glControl_DrawTexturedQuad(float x, float y, float width, float height, float zoomFactor = 1f, float textureWidth = 1f, float textureHeight = 1f, uint textureId = 0, bool flipTextureCoordinatesVertically = false, BeginMode mode = BeginMode.Quads, Color? color = null)
+		public static void glControl_DrawTexturedQuad(float x, float y, float width, float height, float zoomFactor = 1f, float textureWidth = 1f, float textureHeight = 1f, uint textureId = 0, bool flipTextureCoordinatesVertically = false, PrimitiveType mode = PrimitiveType.Quads, Color? color = null)
 		{
 			if (color == null)
 				color = Color.White;

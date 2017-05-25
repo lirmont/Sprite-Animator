@@ -17,6 +17,12 @@ namespace SpriteAnimator
 			if (disposing && (components != null))
 			{
 				components.Dispose();
+                // Make sure timers are gone.
+                if (scheduleRedraw != null)
+                    scheduleRedraw.Dispose();
+                // Make sure loaded image is gone.
+                if (loadedImageDescriptor != null)
+                    loadedImageDescriptor.Dispose();
 			}
 			base.Dispose(disposing);
 		}

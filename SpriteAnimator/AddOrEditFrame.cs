@@ -28,7 +28,7 @@ namespace SpriteAnimator
 		public int loadedImageSlot = -1;
 		private Bitmap loadedImageDescriptor;
 		private BitmapData loadedImageData;
-		public IntPtr rawFilePointer;
+		private IntPtr rawFilePointer;
 		private byte[] ali;
 		public int rawW = 0, rawH = 0, rawStride = 0;
 		private string loadedImageFileName = "";
